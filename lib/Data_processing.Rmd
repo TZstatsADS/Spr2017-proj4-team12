@@ -24,7 +24,7 @@ sep=">", quote = "",quiet=TRUE)
 data2<-data.frame(Coauthor=c(),Paper=c(), Journal=c())
 #colnames(data2)<-c("Coauthor","Paper", "Journal")
 for (i in 1:14){
-  data2<-merge(data2, data.frame(data[[i]], stringsAsFactors=FALSE), all=TRUE)
+  data2<-rbind(data2, data.frame(data[[i]], stringsAsFactors=FALSE))
 }
 ```
 
@@ -49,4 +49,16 @@ data2$Paper <- gsub("<","",data2$Paper)
 # add PaperID for furthur use, you may want to combine all the nameset files and
 # then assign the unique ID for all the citations
 data2$PaperID <- rownames(data2)
+```
+```{r}
+author<-c()
+for (i in 1:14){
+  author<-c(author, rep(names[i],nrow(as.data.frame(data[[i]]))))
+}
+```
+```{r}
+data2$Author<-author
+```
+```{r}
+write.csv(data2, file="C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/data2.csv")
 ```
