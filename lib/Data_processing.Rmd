@@ -1,0 +1,52 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+my.dir<-"C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/data/nameset"
+files<-list.files(my.dir)
+files
+```
+```{r}
+path<-file.path(my.dir, files)
+n<-length(path)
+names<-gsub(".txt", "", files)
+names
+```
+
+```{r}  
+data<-lapply(file.path(my.dir, files), scan,what = list(Coauthor = "", Paper = "", Journal = ""),
+sep=">", quote = "",quiet=TRUE)
+```
+
+```{r}
+data2<-data.frame(Coauthor=c(),Paper=c(), Journal=c())
+#colnames(data2)<-c("Coauthor","Paper", "Journal")
+for (i in 1:14){
+  data2<-merge(data2, data.frame(data[[i]], stringsAsFactors=FALSE), all=TRUE)
+}
+```
+
+```{r}
+# extract canonical author id befor "_"
+data2$AuthorID <- sub("_.*","",data2$Coauthor)
+```
+```{r}
+# extract paper number under same author between "_" and first whitespace
+data2$PaperNO <- sub(".*_(\\w*)\\s.*", "\\1", data2$Coauthor)
+```
+```{r}
+# delete "<" in AKumar$Coauthor, you may need to further process the coauthor
+# term depending on the method you are using
+data2$Coauthor <- gsub("<","",sub("^.*?\\s","", data2$Coauthor))
+```
+```{r}
+# delete "<" in AKumar$Paper
+data2$Paper <- gsub("<","",data2$Paper)
+```
+```{r}
+# add PaperID for furthur use, you may want to combine all the nameset files and
+# then assign the unique ID for all the citations
+data2$PaperID <- rownames(data2)
+```
