@@ -52,7 +52,8 @@ no_error <- function(T_label, Test_label){
 
 ### When we have the label, we need compute the features for each cluster
 compute_cluster_feature <- function(features, label, interest_label){
-  ## Since other correct features will not have an impact when we care about the difference, 
+  ## dui mou yi ge cluster qiu ping jun  
+  n_features <- ncol(features)
   result_cluster <- colMeans(matrix(features[interest_label == label, ], ncol = n_features))
   return(result_cluster)
 }
@@ -72,6 +73,7 @@ update_para <- function(Recom_label, Est_label, paras, features){
     compute_all_feature(features, Recom_label) -
     compute_all_feature(features, Est_label)
   # Here I guess the difference of two features
+  paras_new <- paras_new / sum(paras_new)
   return(paras_new)
 }
 
@@ -167,4 +169,4 @@ A2 <- c(0,2,0,0,0,0,2,2,0)
 A3 <- c(0,0,3,3,0,3,0,0,0)
 True_labels <- c(1,2,3,3,1,3,2,2,1)
 Feat <- cbind(A1,A2,A3)
-algorithm1(Feat, T_label,max.iter = 10000)
+algorithm1(Feat, True_labels,max.iter = 10000)
