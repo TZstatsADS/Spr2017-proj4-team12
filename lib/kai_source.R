@@ -17,7 +17,7 @@ compute_distance <- function(x,y){
 # Compute Score for cluster
 compute_cluster_score <- function(features, paras, which_label, label){
   ## X is subset of data, whose column is the values of features
-  X1 <- colMeans(matrix(features[which_label == label,]))
+  X1 <- colMeans(matrix(features[which_label == label,], ncol = n_features))
   return(t(X1) %*% paras)
 }
 
@@ -127,7 +127,7 @@ one_step_cluster <- function(features, paras, label){
 
 
 
-algorithm1 <- function(features, True_labels, max.iter = 2000, epi = 0.0001, 
+algorithm1 <- function(features, True_labels, max.iter = 2000, epi = 0.000001, 
                        step.size = 0.1, show.history = F){
   
   n_obs <- nrow(features)
@@ -147,7 +147,6 @@ algorithm1 <- function(features, True_labels, max.iter = 2000, epi = 0.0001,
         better_labels <- Give_you_better(True_labels, old_labels)
         # Update our paras 
         paras0 <- update_para(better_labels, new_labels, paras[t+1], features) 
-        # 中间那个判错了，所以需要让它更加重要
         paras <- rbind(paras, paras0)
         t <- t + 1
         break
@@ -164,9 +163,9 @@ algorithm1 <- function(features, True_labels, max.iter = 2000, epi = 0.0001,
   
 
 ## let's test
-A1 <- c(1,0,0,0,1,0,0,0,1)
-A2 <- c(0,2,0,0,0,0,2,2,0)
-A3 <- c(0,0,3,3,0,3,0,0,0)
-True_labels <- c(1,2,3,3,1,3,2,2,1)
+A1 <- c(1,0,0,1,0,0,0)
+A2 <- c(0,1,0,0,1,0,0)
+A3 <- c(0,0,1,0,0,1,1)
+True_labels <- c(1,2,3,1,2,3,3)
 Feat <- cbind(A1,A2,A3)
-algorithm1(Feat, True_labels,max.iter = 10000)
+algorithm1(Feat, True_labels, max.iter = 10000)
