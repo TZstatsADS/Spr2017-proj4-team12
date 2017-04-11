@@ -8,7 +8,6 @@ AKumar.feature <- feature_paper5_coauthor(AKumar)
 
 # dim(AKumar.feature) 
 
-
 find_max_in_the_matrix <- function(A, epi = 0.0001){
   dim_A <- dim(A)[1]
   A[A > 1-epi] = 0
@@ -80,18 +79,36 @@ compute_3_feature <- function(MERGE, features3list){
 }
 
 ### Upate parameters 
-update_para <- function(Recom_merge, Est_merge, threebigmatrix){
+update_para <- function(Recom_merge, Est_merge, paras, threebigmatrix){
   # Recom_merge, Est_merge are both in (i,j) form
   # feature3 is a list with 3 matrix
   paras_new <- paras + 
-    compute_3_feature(Recom_merge, feature3) -
-    compute_3_feature(Est_merge, feature3)
+    compute_3_feature(Recom_merge, threebigmatrix) -
+    compute_3_feature(Est_merge, threebigmatrix)
   paras_new <- paras_new / sum(paras_new)
   return(paras_new)
 }
 
 ### Find an alternative one which is better
 Give_you_better <- function(T_label, Test_label_previous){
+  # We only need to give advice on which 2 clusters should be merged. 
+  
+  unique_label <- unique(Test_label_previous)
+  n_label <- length(unique_label)
+  for (i in unique_label){
+    
+    Test_cluster <- which(Test_label_previous == i) # which records are grouped by S
+    T_cluster <- which(T_label == T_label[Test_cluster[1]])
+    new_point_tf <- !(T_cluster %in% Test_cluster)
+    if (sum(new_point_tf) > 0){
+      merge <- c(i,(T_cluster[new_point_tf])[1])
+      return(merge)
+    }
+  }  
+  return(F)
+}
+
+Give_you_better2 <- function(T_label, Test_label_previous){
   # We only need to give advice on which 2 clusters should be merged. 
   
   unique_label <- unique(Test_label_previous)
@@ -122,18 +139,23 @@ change_label <- function(label,order){
 
 
 # Compute Each Step in Cluster
-one_step_cluster <- function(raw_data, paras, label){
+one_step_cluster <- function(pf5, paras, label){
+  # paras should be a vector
   
-  pf5 <- paper_feature5(raw_data, label) 
-  cluster_2id <- pf[[1]] 
-  threebigmatrix <- pf[[2]]
+ 
+  
+  cluster_2id <- pf5[[1]] #cluster.id
+  threebigmatrix <- pf5[[2]] # list of 3 Ms
+  
   n_features <- length(paras)
   score_matrix <- 0
   for (sumi in 1:n_features){
     score_matrix <- score_matrix + paras[sumi] * threebigmatrix[[sumi]]
   }
-  position <- find_max_in_the_matrix(score_matrix)
-  recommended_cluster <- cluster_2id[position]
+  position <- find_max_in_the_matrix(score_matrix)$LOCATION # find our est_label of cluster
+  recommended_cluster <- cluster_2id[position] 
+  # a length-2 vector, indicating which 2 clusters should be merged.
+  
   return(recommended_cluster)
   # label := current label, which can determine the dim of each feature
   # raw_data := record1, record2 ...
@@ -161,16 +183,18 @@ one_step_cluster <- function(raw_data, paras, label){
 
 
 
-algorithm_paper_5 <- function(raw_data, True_labels, max.iter = 2000, epi = 0.0001, 
-                       step.size = 0.1, show.history = F){
+algorithm_paper_5 <- function(raw_data, True_labels, 
+                              max.iter = 2000, epi = 0.0001, 
+                              step.size = 0.1, show.history = F){
   
+  # True_labels should be author.id
   # raw data := list of 3 matices
   n_obs <- nrow(raw_data)
-  n_features <- ncol(raw_data)
+  n_features <- ncol(raw_data) # xyz chinese: xuyao gai
   
   # Initial assignment
   paras <- rep(0, n_features)
-  paras <- rbind(paras,rep(1, n_features))
+  paras <- rbind(paras,rep(1/3, n_features))
   t <- 1
   
   # iteration
@@ -180,14 +204,21 @@ algorithm_paper_5 <- function(raw_data, True_labels, max.iter = 2000, epi = 0.00
     old_labels <- 1:n_obs
     for (i.ter in 1:n_obs){
       
+      pf5 <- paper_feature5(raw_data, True_labels) # contributed by chenyun  
+      ## list1 = cluster.id coresponding to each row of matrix, list2 = 3matrix
+      
       # for each step, we merge only two clusters
-      new_labels <- one_step_cluster(features, paras[t+1,], old_labels)
+      m_labels <- one_step_cluster(features, paras[t+1,], old_labels) #vector %in% R2
+      
+      new_labels <- change_label(label = True_labels, order = m_labels[1])
       
       if (!no_error(True_labels, new_labels)){ ## if error exists 
+        
         # Find a better one
-        better_labels <- Give_you_better(True_labels, old_labels)
+        better_labels <- Give_you_better2(True_labels, old_labels)
+        
         # Update our paras 
-        paras0 <- update_para(better_labels, new_labels, paras[t+1], features) 
+        paras0 <- update_para(better_labels, m_labels, paras[t+1], pf5[[2]]) 
         paras <- rbind(paras, paras0)
         t <- t + 1
         break
