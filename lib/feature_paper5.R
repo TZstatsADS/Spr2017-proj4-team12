@@ -56,10 +56,10 @@ cosine_similarity <- function(data){
   return(list(CLUSTER.ID = data$matrix_label, MATRIX = feature))
 }
 
-AKumar <- read.csv("AKumar.csv", as.is = T)
-CChen <- read.csv("CChen.csv", as.is = T)
+#AKumar <- read.csv("AKumar.csv", as.is = T)
+#CChen <- read.csv("CChen.csv", as.is = T)
 # # # "as.is" is important here.
-test <- cosine_similarity(cluster_merge(CChen, rep(1:4,61)))
+#test <- cosine_similarity(cluster_merge(CChen, rep(1:4,61)))
 
 
 
