@@ -73,42 +73,37 @@ compute_cluster_feature <- function(features, label, interest_label){
   return(result_cluster)
 }
 
-# For all, We just average on each cluster's features
-compute_all_feature <- function(features, label){
-  unique_label <- unique(label)
-  each_cluster <- sapply(unique_label, compute_cluster_feature, features = features, label = label)
-  mean_cluster <- rowMeans(each_cluster)
-  return(mean_cluster)
+# merge, 3 matrices --> three features 
+compute_3_feature <- function(MERGE, features3list){
+  # find the correspoding entry in a certain position, which is the merge point MERGE. 
+  sapply(features3list, function(matrix){matrix[MERGE[1], MERGE[2]]})
 }
 
 ### Upate parameters 
-update_para <- function(Recom_label, Est_label, paras, features){
-  # Recom, Estimate are features of recommended partition and estimated model partition
+update_para <- function(Recom_merge, Est_merge, threebigmatrix){
+  # Recom_merge, Est_merge are both in (i,j) form
+  # feature3 is a list with 3 matrix
   paras_new <- paras + 
-    compute_all_feature(features, Recom_label) -
-    compute_all_feature(features, Est_label)
-  # Here I guess the difference of two features
+    compute_3_feature(Recom_merge, feature3) -
+    compute_3_feature(Est_merge, feature3)
   paras_new <- paras_new / sum(paras_new)
   return(paras_new)
 }
 
 ### Find an alternative one which is better
 Give_you_better <- function(T_label, Test_label_previous){
-  # Please give me the labels [before] making an error
-  # My strategy is return one that's at least correct till now
-  # We use this function to update my 
+  # We only need to give advice on which 2 clusters should be merged. 
   
-#  number <- 1:length(T_label)
   unique_label <- unique(Test_label_previous)
   n_label <- length(unique_label)
   for (i in unique_label){
+    
     Test_cluster <- which(Test_label_previous == i) # which records are grouped by S
     T_cluster <- which(T_label == T_label[Test_cluster[1]])
     new_point_tf <- !(T_cluster %in% Test_cluster)
     if (sum(new_point_tf) > 0){
-      new_point <- T_cluster[new_point_tf][1]
-      Test_label_previous[new_point] <- i
-      return(Test_label_previous)
+      merge <- c(i,(T_cluster[new_point_tf])[1])
+      return(merge)
     }
   }  
   return(F)
@@ -124,42 +119,70 @@ change_label <- function(label,order){
   return(label)
 }
 
+
+
 # Compute Each Step in Cluster
-one_step_cluster <- function(features, paras, label){
-  # We choose an cluster and change the label to the existing label(i.e. Merge)
-  unique_label <- unique(label)
-  a1 <- rep(unique_label, length(unique_label))
-  a2 <- rep(unique_label, each = length(unique_label))
-  delete <- (a1 >= a2)
-  a1 <- a1[!delete]
-  a2 <- a2[!delete]
-  order1 <- cbind(a1,a2)
-  matrix_labels <- apply(order1, 1, change_label, label = label)
-  # column: labels
-  scores <- apply(matrix_labels, 2, compute_all_score, features = features, paras = paras)
-  best_est_label <- change_label(label, order1[which.max(scores),])
-  return(best_est_label)
+one_step_cluster <- function(raw_data, paras, label){
+  
+  pf5 <- paper_feature5(raw_data, label) 
+  cluster_2id <- pf[[1]] 
+  threebigmatrix <- pf[[2]]
+  n_features <- length(paras)
+  score_matrix <- 0
+  for (sumi in 1:n_features){
+    score_matrix <- score_matrix + paras[sumi] * threebigmatrix[[sumi]]
+  }
+  position <- find_max_in_the_matrix(score_matrix)
+  recommended_cluster <- cluster_2id[position]
+  return(recommended_cluster)
+  # label := current label, which can determine the dim of each feature
+  # raw_data := record1, record2 ...
+  # label = (1,2,1,2,2,3) 
+  # features <- sapply(raw_data, chenyunfunction, merge = label) # we get three matrix
+  # result_matrix <- 0
+  # for (j in 1:length(paras)){
+  #   result_matrix <- result_matrix + raw_data[[j]] * paras[j]
+  # }
+  # Choice <- find_max_in_the_matrix(result_matrix)$LOCATION
+  # return(Choice)
+  # unique_label <- unique(label)
+  # a1 <- rep(unique_label, length(unique_label))
+  # a2 <- rep(unique_label, each = length(unique_label))
+  # delete <- (a1 >= a2)
+  # a1 <- a1[!delete]
+  # a2 <- a2[!delete]
+  # order1 <- cbind(a1,a2)
+  # matrix_labels <- apply(order1, 1, change_label, label = label)
+  # # column: labels
+  # scores <- apply(matrix_labels, 2, compute_all_score, features = features, paras = paras)
+  # best_est_label <- change_label(label, order1[which.max(scores),])
+#  return(best_est_label)
 }
 
 
 
 algorithm_paper_5 <- function(raw_data, True_labels, max.iter = 2000, epi = 0.0001, 
                        step.size = 0.1, show.history = F){
-  # features := row data
   
-  
+  # raw data := list of 3 matices
   n_obs <- nrow(raw_data)
-  n_features <- ncol(features)
+  n_features <- ncol(raw_data)
   
   # Initial assignment
   paras <- rep(0, n_features)
   paras <- rbind(paras,rep(1, n_features))
-  
   t <- 1
+  
+  # iteration
   while((t <= max.iter) & (compute_distance(paras[t+1,], paras[t,])> epi)){
+    
+    # initial assignment
     old_labels <- 1:n_obs
     for (i.ter in 1:n_obs){
+      
+      # for each step, we merge only two clusters
       new_labels <- one_step_cluster(features, paras[t+1,], old_labels)
+      
       if (!no_error(True_labels, new_labels)){ ## if error exists 
         # Find a better one
         better_labels <- Give_you_better(True_labels, old_labels)
@@ -178,7 +201,6 @@ algorithm_paper_5 <- function(raw_data, True_labels, max.iter = 2000, epi = 0.00
   return(result)
   
 }
-  
 
 ## let's test
 A1 <- c(1,0,0,1,0,0,0)
@@ -187,3 +209,4 @@ A3 <- c(0,0,1,0,0,1,1)
 True_labels <- c(1,2,3,1,2,3,3)
 Feat <- cbind(A1,A2,A3)
 algorithm_paper_5(Feat, True_labels, max.iter = 10000)
+
