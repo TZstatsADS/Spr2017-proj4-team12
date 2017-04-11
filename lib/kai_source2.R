@@ -1,12 +1,14 @@
 
 ### Author: Kai Chen
 ### Time: April 8, 2017
-
+setwd("~/Desktop/5243 ADS/Spr2017-proj4-team12/doc")
 source("../lib/feature_paper5.R")
-AKumar <- read.csv("../output/AKumar.csv", as.is = T)
-AKumar.feature <- feature_paper5_coauthor(AKumar)
+Sys.setlocale("LC_ALL", "C")
+################### Function part ############################
+load_data <- function(data){
+  
+}
 
-# dim(AKumar.feature) 
 
 find_max_in_the_matrix <- function(A, epi = 0.0001){
   dim_A <- dim(A)[1]
@@ -142,8 +144,6 @@ change_label <- function(label,order){
 one_step_cluster <- function(pf5, paras, label){
   # paras should be a vector
   
- 
-  
   cluster_2id <- pf5[[1]] #cluster.id
   threebigmatrix <- pf5[[2]] # list of 3 Ms
   
@@ -181,6 +181,7 @@ one_step_cluster <- function(pf5, paras, label){
 #  return(best_est_label)
 }
 
+################### Function part ############################
 
 
 algorithm_paper_5 <- function(raw_data, True_labels, 
@@ -196,7 +197,7 @@ algorithm_paper_5 <- function(raw_data, True_labels,
   paras <- rep(0, n_features)
   paras <- rbind(paras,rep(1/3, n_features))
   t <- 1
-  
+
   # iteration
   while((t <= max.iter) & (compute_distance(paras[t+1,], paras[t,])> epi)){
     
@@ -204,11 +205,11 @@ algorithm_paper_5 <- function(raw_data, True_labels,
     old_labels <- 1:n_obs
     for (i.ter in 1:n_obs){
       
-      pf5 <- paper_feature5(raw_data, True_labels) # contributed by chenyun  
+      pf5 <- cosine_similarity(cluster_merge(raw_data, old_labels)) # contributed by chenyun  
       ## list1 = cluster.id coresponding to each row of matrix, list2 = 3matrix
       
       # for each step, we merge only two clusters
-      m_labels <- one_step_cluster(features, paras[t+1,], old_labels) #vector %in% R2
+      m_labels <- one_step_cluster(pf5, paras[t+1,], old_labels) #vector %in% R2
       
       new_labels <- change_label(label = True_labels, order = m_labels[1])
       
@@ -230,14 +231,16 @@ algorithm_paper_5 <- function(raw_data, True_labels,
 
   result <- list(best = paras[nrow(paras),], iter = t-1)
   return(result)
-  
 }
 
-## let's test
-A1 <- c(1,0,0,1,0,0,0)
-A2 <- c(0,1,0,0,1,0,0)
-A3 <- c(0,0,1,0,0,1,1)
-True_labels <- c(1,2,3,1,2,3,3)
-Feat <- cbind(A1,A2,A3)
-algorithm_paper_5(Feat, True_labels, max.iter = 10000)
 
+
+## let's test
+
+
+AKumar <- read.csv("../output/AKumar.csv")
+AKumar_raw <- AKumar[,2:4]
+True_labels <- AKumar[,5]
+
+
+algorithm_paper_5(AKumar_raw, True_labels)
