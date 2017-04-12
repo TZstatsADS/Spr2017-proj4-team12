@@ -1,0 +1,104 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(text2vec, dplyr, qlcMatrix, kernlab, knitr)
+```
+```{r}
+library(e1071)
+```
+```{r}
+setwd("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output")
+```
+
+```{r}
+AKumar<-read.csv("Akumar.csv", header = T, stringsAsFactors = FALSE)
+AGupta<-read.csv("AGupta.csv", header = T, stringsAsFactors = FALSE)
+CChen<-read.csv("CChen.csv", header = T, stringsAsFactors = FALSE)
+DJohnson<-read.csv("DJohnson.csv", header = T, stringsAsFactors = FALSE)
+JLee<-read.csv("JLee.csv", header = T, stringsAsFactors = FALSE)
+JMartin<-read.csv("JMartin.csv", header = T, stringsAsFactors = FALSE)
+JRobinson<-read.csv("JRobinson.csv", header = T, stringsAsFactors = FALSE)
+JSmith<-read.csv("JSmith.csv", header = T, stringsAsFactors = FALSE)
+KTanaka<-read.csv("KTanaka.csv", header = T, stringsAsFactors = FALSE)
+MBrown<-read.csv("MBrown.csv", header = T, stringsAsFactors = FALSE)
+MJones<-read.csv("MJones.csv", header = T, stringsAsFactors = FALSE)
+MMiller<-read.csv("MMiller.csv", header = T, stringsAsFactors = FALSE)
+SLee<-read.csv("SLee.csv", header = T, stringsAsFactors = FALSE)
+YChen<-read.csv("YChen.csv", header = T, stringsAsFactors = FALSE)
+```
+```{r}
+my.dir<-"C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/data/nameset"
+files<-list.files(my.dir)
+path<-file.path(my.dir, files)
+n<-length(path)
+names<-gsub(".txt", "", files)
+names
+```
+```{r}
+source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/feature.R")
+```
+```{r}
+source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/svm.R")
+```
+
+```{r}
+feature_Akumar<-get_feature_paper(AKumar)
+feature_AGupta<-get_feature_paper(AGupta)
+feature_CChen<-get_feature_paper(CChen)
+feature_DJohnson<-get_feature_paper(DJohnson)
+feature_JLee<-get_feature_paper(JLee)
+feature_JMartin<-get_feature_paper(JMartin)
+feature_JRobinson<-get_feature_paper(JRobinson)
+feature_JSmith<-get_feature_paper(JSmith)
+feature_KTanaka<-get_feature_paper(KTanaka)
+feature_MBrown<-get_feature_paper(MBrown)
+feature_MJones<-get_feature_paper(MJones)
+feature_MMiller<-get_feature_paper(MMiller)
+feature_SLee<-get_feature_paper(SLee)
+feature_YChen<-get_feature_paper(YChen)
+```
+
+
+```{r}
+Akumar_result<-get_svm_result(feature_Akumar)
+```
+```{r}
+AGupta_result<-get_svm_result(feature_AGupta)
+```
+```{r}
+CChen_result<-get_svm_result(feature_CChen)
+DJohnson_result<-get_svm_result(feature_DJohnson)
+JLee_result<-get_svm_result(feature_JLee)
+JMartin_result<-get_svm_result(feature_JMartin)
+JRobinson_result<-get_svm_result(feature_JRobinson)
+JSmith_result<-get_svm_result(feature_JSmith)
+KTanaka_result<-get_svm_result(feature_KTanaka)
+MBrown_result<-get_svm_result(feature_MBrown)
+MJones_result<-get_svm_result(feature_MJones)
+MMiller_result<-get_svm_result(feature_MMiller)
+SLee_result<-get_svm_result(feature_SLee)
+YChen_result<-get_svm_result(feature_YChen)
+```
+```{r}
+Akumar_result$TestError
+AGupta_result$TestError
+CChen_result$TestError
+DJohnson_result$TestError
+JLee_result$TestError
+JMartin_result$TestError
+JRobinson_result$TestError
+JSmith_result$TestError
+KTanaka_result$TestError
+MBrown_result$TestError
+MJones_result$TestError
+MMiller_result$TestError
+SLee_result$TestError
+YChen_result$TestError
+```
+
+
+

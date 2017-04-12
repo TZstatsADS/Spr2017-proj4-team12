@@ -1,5 +1,7 @@
 #input is dataframe
 get_feature_paper<-function(data){
+  if (!require("pacman")) install.packages("pacman")
+  pacman::p_load(text2vec, dplyr, qlcMatrix, kernlab, knitr)
   it_train <- itoken(data$Paper,
                      preprocessor = tolower,
                      tokenizer = word_tokenizer,
