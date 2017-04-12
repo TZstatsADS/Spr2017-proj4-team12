@@ -88,10 +88,9 @@ compute_cluster_feature <- function(features, label, interest_label){
 }
 
 # merge, 3 matrices --> three features 
-compute_3_feature <- function(MERGE, features3list){
+compute_3_feature <- function(MERGE, threebigmatrix){
   # input your cluster
- 
-  sapply(features3list, function(matrix){matrix[xi, yi]})
+  sapply(threebigmatrix, function(matrix){matrix[MERGE[1], MERGE[2]]})
 }
 
 ### Upate parameters 
@@ -101,7 +100,7 @@ update_para <- function(Recom_merge, Est_merge, paras1, threebigmatrix, stepsize
   paras_new <- paras1 + 
     stepsize * (compute_3_feature(Recom_merge, threebigmatrix) -
     compute_3_feature(Est_merge, threebigmatrix))
-  paras_new <- paras_new / sum(paras_new)
+ #? paras_new <- paras_new / sum(paras_new)
   return(paras_new)
 }
 
@@ -169,7 +168,7 @@ Give_you_better3 <- function(True_labels, Test_label_previous, bigmatrices_id){
       ##(i, mer_cluster) 
       xi <- which(i == bigmatrices_id) ## position in the matrix
       yi <- which(merge_cluster == bigmatrices_id)
-      return(list(position = c(xi, yi), changed_labels = c(i, merge_cluster) ))
+      return(c(xi, yi))
       # merge <- c(i,(T_cluster[new_point_tf])[1])
       # 
       # # find the cluster merge belong to
@@ -275,11 +274,11 @@ algorithm_paper_5 <- function(raw_data, True_labels,
       cat('\n new_labels', new_labels)
       if (!no_error(True_labels, new_labels)){ ##  deny
         # Find a better [position] in the matrix
-        better_labels <- Give_you_better3(True_labels, old_labels, pf5$CLUSTER.ID)
+        better_labels <- Give_you_better3(True_labels, old_labels, pf5$CLUSTER.ID) # 19 10
         if (sum(better_labels)==0)
           return(paras[t+1,])
         # Update our paras 
-        paras0 <- update_para(Recom_merge = better_labels, Est_merge = m_labels, 
+        paras0 <- update_para(Recom_merge = better_labels, Est_merge = m_position, 
                               paras1 = paras[t+1,], threebigmatrix = pf5[[2]],
                               stepsize = stepsize) 
         paras <- rbind(paras, paras0)
@@ -305,8 +304,8 @@ algorithm_paper_5 <- function(raw_data, True_labels,
 
 
 AKumar <- read.csv("../output/AKumar.csv")
-AKumar_raw <- AKumar[1:10,2:4]
-True_labels <- AKumar[1:10,5]
+AKumar_raw <- AKumar[1:40,2:4]
+True_labels <- AKumar[1:40,5]
 
 raw_data <- AKumar_raw
 ag5_akumar <- algorithm_paper_5(AKumar_raw, True_labels)
