@@ -196,7 +196,8 @@ change_label <- function(label, CLUSTER.ID){
 
 # Compute Each Step in Cluster
 one_step_cluster <- function(pf5, paras1, label){
-  # paras1 should be a vector
+  # paras1 should be a vector 
+  ## wo men zhi shi fan hui le yi ge  zai ju zhen li mian de wei zhi !!!! qing zhuan huan!!!
   
   cluster_2id <- pf5[[1]] #cluster.id
   threebigmatrix <- pf5[[2]] # list of 3 Ms
@@ -309,11 +310,45 @@ algorithm_paper_5 <- function(raw_data, True_labels,
 ## let's test
 
 
-AKumar <- read.csv("../output/AKumar.csv")
-AKumar_raw <- AKumar[,2:4]
-True_labels <- AKumar[,5]
+#AKumar <- read.csv("../output/AKumar.csv")
+AKumar <- read.csv("../lib/AKumar_test.csv", as.is = T)
+
+AKumar_raw <- data.frame(Coauthor = AKumar$Coauthor,Paper = AKumar$Paper, Journal = AKumar$Journal)
+# colnames(AKumar_raw) <- c("Coauthor","Paper","Journal")
+True_labels <- AKumar$AuthorID
 
 raw_data <- AKumar_raw
-ag5_akumar <- algorithm_paper_5(AKumar_raw, True_labels)
+
+setmember <- nrow(AKumar)
+
+### training
+trainingnumber <- ceiling(setmember * 0.8)
+train.id <- sample(1:setmember, trainingnumber)
+training_akumar <- raw_data[train.id,]
+test_akumar <- raw_data[-train.id,]
+dim(training_akumar)
+dim(test_akumar)
+
+ag5_akumar <- algorithm_paper_5(training_akumar, True_labels[train.id])
 
 # sb <- NULL
+
+
+# test_comemon_iamlazy(raw_data, paras, K)
+test_comeon_iamlazy <- function(raw_data2, paras2, K){
+  n_cluster <- nrow(raw_data2)
+  labels <- 1:n_cluster
+  while (length(unique(labels)) > K ){
+    # iter is the number of cluster
+    pf53 <- cosine_similarity(cluster_merge(raw_data2, labels))
+    new_position <- one_step_cluster(pf53, paras2, labels)
+    labels <- change_label(labels, pf53$CLUSTER.ID[new_position])
+    cat("\n", labels)
+  }
+  return(labels)
+}
+
+test_true_label <- True_labels[-train.id]
+test_our_label <- test_comeon_iamlazy(test_akumar, ag5_akumar$best, 10)
+
+
