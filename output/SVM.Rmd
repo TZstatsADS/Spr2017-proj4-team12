@@ -39,7 +39,9 @@ names<-gsub(".txt", "", files)
 names
 ```
 ```{r}
-source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/feature.R")
+source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/feature_Paper.R")
+source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/feature_Coauthor.R")
+source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/feature_Journal.R")
 ```
 ```{r}
 source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/svm.R")
@@ -47,6 +49,8 @@ source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr201
 
 ```{r}
 feature_Akumar<-get_feature_paper(AKumar)
+```
+```{r}
 feature_AGupta<-get_feature_paper(AGupta)
 feature_CChen<-get_feature_paper(CChen)
 feature_DJohnson<-get_feature_paper(DJohnson)
@@ -83,22 +87,7 @@ MMiller_result<-get_svm_result(feature_MMiller)
 SLee_result<-get_svm_result(feature_SLee)
 YChen_result<-get_svm_result(feature_YChen)
 ```
-```{r}
-Akumar_result$TestError
-AGupta_result$TestError
-CChen_result$TestError
-DJohnson_result$TestError
-JLee_result$TestError
-JMartin_result$TestError
-JRobinson_result$TestError
-JSmith_result$TestError
-KTanaka_result$TestError
-MBrown_result$TestError
-MJones_result$TestError
-MMiller_result$TestError
-SLee_result$TestError
-YChen_result$TestError
-```
+
 
 
 
