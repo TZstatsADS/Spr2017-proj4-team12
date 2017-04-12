@@ -6,21 +6,32 @@ mergesomerows  <- function(cluster.id, mergevector, label_hat){
   paste(mergevector[cluster.id == label_hat], collapse = " ")
 }
 
+mergecolumns <- function(column){
+  sapply(unique_label_hat, 
+         mergesomerows, 
+         mergevector = raw_data[,column], label_hat = label_hat)
+}
+
+
+
 cluster_merge <- function(raw_data, label_hat){
   unique_label_hat <- unique(label_hat)
+  merged_matrix <- sapply(1:3, mergecolumns)
   
-  Coauthor <- sapply(unique_label_hat, 
-               mergesomerows, 
-               mergevector = raw_data$Coauthor, label_hat = label_hat)
   
-  Paper <- sapply(unique_label_hat, 
-                     mergesomerows, 
-                     mergevector = raw_data$Paper, label_hat = label_hat)
-  
-  Journal <- sapply(unique_label_hat, 
-                     mergesomerows, 
-                     mergevector = raw_data$Journal, label_hat = label_hat)
-  merged_matrix <- cbind(Coauthor, Paper, Journal)
+  # 
+  # Coauthor <- sapply(unique_label_hat, 
+  #              mergesomerows, 
+  #              mergevector = raw_data$Coauthor, label_hat = label_hat)
+  # 
+  # Paper <- sapply(unique_label_hat, 
+  #                    mergesomerows, 
+  #                    mergevector = raw_data$Paper, label_hat = label_hat)
+  # 
+  # Journal <- sapply(unique_label_hat, 
+  #                    mergesomerows, 
+  #                    mergevector = raw_data$Journal, label_hat = label_hat)
+  # merged_matrix <- cbind(Coauthor, Paper, Journal)
   return(list(Clustered = merged_matrix, matrix_label = unique_label_hat))
 }
 
