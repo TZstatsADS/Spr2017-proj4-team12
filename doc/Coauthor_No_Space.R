@@ -17,4 +17,8 @@ coauthor_no_space <- function(data){
 }
 
 
+# 
+# Ychen <- coauthor_no_space(Ychen.csv)
+# write.csv(Ychen, "Ychen.csv")
+
 
