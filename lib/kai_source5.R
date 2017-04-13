@@ -246,21 +246,22 @@ algorithm_paper_5 <- function(raw_data, True_labels,
   # True_labels should be author.id
   # raw data := list of 3 matices
   n_obs <- nrow(raw_data)
-  n_features <- ncol(raw_data) # xyz chinese: xuyao gai
+  n_features <- 12 # This number is decided by our selection of features
   
   # Initial assignment
   paras <- rep(0, n_features)
   paras_t0 <- (paras)
-  paras <- rbind(paras,rep(1/3, n_features))
+  paras <- rbind(paras,rep(1/n_features, n_features))
   paras_t1 <- colMeans(paras)
   
-  t <- 1
+  t <- 1  # iter control
   
   # iteration
   while((t <= max.iter) & (compute_distance(paras_t0, paras_t1) > epi)){
     
     # initial assignment
     old_labels <- 1:n_obs
+    # length(unique(old_labels))
     
     for (i.ter in 1:n_obs){
 
@@ -322,7 +323,7 @@ raw_data <- AKumar_raw
 setmember <- nrow(AKumar)
 
 ### training
-trainingnumber <- ceiling(setmember * 0.8)
+trainingnumber <- ceiling(setmember * 0.5)
 train.id <- sample(1:setmember, trainingnumber)
 training_akumar <- raw_data[train.id,]
 test_akumar <- raw_data[-train.id,]
