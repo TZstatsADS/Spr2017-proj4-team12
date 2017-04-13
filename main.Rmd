@@ -1,0 +1,237 @@
+---
+title: "ADS Project 4 Team12"
+author: "Kexin Nie, Kai Chen, Senyao Han, Yini Zhang, Chenyun Zhu"
+date: "April 13, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+In this entity resolution project. We studied two papers (No.2 and No.5) about entity resolution and tried to understand their algorism. We also compared the two methods. We believe that our work is significant for people who want to have a better understand of these two papers. The following are the details of our works.
+
+## Part I Simple Linear Support Vector Machine
+SVM is one of the most popular tools of classification. In paper 2, the author introduced the use of simple linear svm for a multi-classification. They first divided the data set into test and training set by seperating data with same label into two groups with same size. Then they calculate the test prediction errors. The accuracy rate is simply the porpotion of right match in the test set.
+For the features selection, since the author of paper doesn't point out a specific way to choose features, we decide to use the sample code on Github. Also, at the end we caculated the mean and standard deviation of accuracy of all our data set and compared the performance of variable Coauthor, Paper and Journal.
+# 1.0 Packages Install
+```{r}
+install.packages("pacman")
+pacman::p_load(text2vec, dplyr, qlcMatrix, kernlab, knitr)
+install.packages("e1071")
+```
+# 1.1 Input data and feature selection
+
+```{r}
+library(pacman)
+#Our feature fuction
+get_feature<-function(data, condition="combine"){
+ install.packages("pacman")
+  pacman::p_load(text2vec, dplyr, qlcMatrix, kernlab, knitr)
+  if (condition=="coauthor"){
+    it_train <- itoken(data$Coauthor,
+                       preprocessor = tolower,
+                       tokenizer = word_tokenizer,
+                       ids = data$PaperID,
+                       # turn off progressbar because it won't look nice in rmd
+                       progressbar = FALSE)
+  }else if(condition=="paper"){
+    it_train <- itoken(data$Paper,
+                       preprocessor = tolower,
+                       tokenizer = word_tokenizer,
+                       ids = data$PaperID,
+                       # turn off progressbar because it won't look nice in rmd
+                       progressbar = FALSE)
+  } else if(condition=="journal"){
+    it_train <- itoken(data$Journal,
+                       preprocessor = tolower,
+                       tokenizer = word_tokenizer,
+                       ids = data$PaperID,
+                       # turn off progressbar because it won't look nice in rmd
+                       progressbar = FALSE)
+  } else{
+    combine<-rbind(data$Paper, data$Coauthor, data$Journal)
+    it_train <- itoken(combine,
+                       preprocessor = tolower,
+                       tokenizer = word_tokenizer,
+                       ids = data$PaperID,
+                       # turn off progressbar because it won't look nice in rmd
+                       progressbar = FALSE)
+  }
+  
+  vocab <- create_vocabulary(it_train, stopwords = c("a", "an", "the", "in", "on",
+                                                     "at", "of", "above", "under"))
+  #vocab
+  vectorizer <- vocab_vectorizer(vocab)
+  dtm_train <- create_dtm(it_train, vectorizer)
+  tfidf <- TfIdf$new()
+  dtm_train_tfidf <- fit_transform(dtm_train, tfidf)
+  docsdissim <- cosSparse(t(dtm_train_tfidf))
+  y<-as.data.frame(as.matrix(docsdissim))
+  y$label<-as.factor(data$AuthorID)
+  return(y)
+  
+}
+#Make sure to set your directory in our data folder
+AKumar<-read.csv("Akumar.csv", header = T, stringsAsFactors = FALSE)
+AGupta<-read.csv("AGupta.csv", header = T, stringsAsFactors = FALSE)
+CChen<-read.csv("CChen.csv", header = T, stringsAsFactors = FALSE)
+DJohnson<-read.csv("DJohnson.csv", header = T, stringsAsFactors = FALSE)
+JLee<-read.csv("JLee.csv", header = T, stringsAsFactors = FALSE)
+JMartin<-read.csv("JMartin.csv", header = T, stringsAsFactors = FALSE)
+JRobinson<-read.csv("JRobinson.csv", header = T, stringsAsFactors = FALSE)
+JSmith<-read.csv("JSmith.csv", header = T, stringsAsFactors = FALSE)
+KTanaka<-read.csv("KTanaka.csv", header = T, stringsAsFactors = FALSE)
+MBrown<-read.csv("MBrown.csv", header = T, stringsAsFactors = FALSE)
+MJones<-read.csv("MJones.csv", header = T, stringsAsFactors = FALSE)
+MMiller<-read.csv("MMiller.csv", header = T, stringsAsFactors = FALSE)
+SLee<-read.csv("SLee.csv", header = T, stringsAsFactors = FALSE)
+YChen<-read.csv("YChen.csv", header = T, stringsAsFactors = FALSE)
+
+
+#Features:Paper
+feature_AKumar.p<-get_feature(AKumar,condition="paper")
+feature_AGupta.p<-get_feature(AGupta,condition="paper")
+feature_CChen.p<-get_feature_paper(CChen,condition="paper")
+feature_DJohnson.p<-get_feature_paper(DJohnson,condition="paper")
+feature_JLee.p<-get_feature_paper(JLee,condition="paper")
+feature_JMartin.p<-get_feature_paper(JMartin,condition="paper")
+feature_JRobinson.p<-get_feature_paper(JRobinson,condition="paper")
+feature_JSmith.p<-get_feature_paper(JSmith,condition="paper")
+feature_KTanaka.p<-get_feature_paper(KTanaka,condition="paper")
+feature_MBrown.p<-get_feature_paper(MBrown,condition="paper")
+feature_MJones.p<-get_feature_paper(MJones,condition="paper")
+feature_MMiller.p<-get_feature_paper(MMiller,condition="paper")
+feature_SLee.p<-get_feature_paper(SLee,condition="paper")
+feature_YChen.p<-get_feature_paper(YChen,condition="paper")
+
+#Feature:Coauther
+feature_AKumar.c<-get_feature(AKumar,condition="coauthor")
+feature_AGupta.c<-get_feature(AGupta,condition="coauthor")
+feature_CChen.c<-get_feature(CChen,condition="coauthor")
+feature_DJohnson.c<-get_feature(DJohnson,condition="coauthor")
+feature_JLee.c<-get_feature(JLee,condition="coauthor")
+feature_JMartin.c<-get_feature(JMartin,condition="coauthor")
+feature_JRobinson.c<-get_feature(JRobinson,condition="coauthor")
+feature_JSmith.c<-get_feature(JSmith,condition="coauthor")
+feature_KTanaka.c<-get_feature(KTanaka,condition="coauthor")
+feature_MBrown.c<-get_feature(MBrown,condition="coauthor")
+feature_MJones.c<-get_feature(MJones,condition="coauthor")
+feature_MMiller.c<-get_feature(MMiller,condition="coauthor")
+feature_SLee.c<-get_feature(SLee,condition="coauthor")
+feature_YChen.c<-get_feature(YChen,condition="coauthor")
+
+#Feature:Journal Title
+feature_AKumar.j<-get_feature(AKumar,condition="journal")
+feature_AGupta.j<-get_feature(AGupta,condition="journal")
+feature_CChen.j<-get_feature(CChen,condition="journal")
+feature_DJohnson.j<-get_feature(DJohnson,condition="journal")
+feature_JLee.j<-get_feature(JLee,condition="journal")
+feature_JMartin.j<-get_feature(JMartin,condition="journal")
+feature_JRobinson.j<-get_feature(JRobinson,condition="journal")
+feature_JSmith.j<-get_feature(JSmith,condition="journal")
+feature_KTanaka.j<-get_feature(KTanaka,condition="journal")
+feature_MBrown.j<-get_feature(MBrown,condition="journal")
+feature_MJones.j<-get_feature(MJones,condition="journal")
+feature_MMiller.j<-get_feature(MMiller,condition="journal")
+feature_SLee.j<-get_feature(SLee,condition="journal")
+feature_YChen.j<-get_feature(YChen,condition="journal")
+```
+
+# 1.2 Linear SVM
+To understand the basic idea of svm, please visit:
+http://www.cs.columbia.edu/~kathy/cs4701/documents/jason_svm_tutorial.pdf
+
+```{r}
+#svm fuction
+library(e1071)
+get_svm_result<-function(data){
+#Define test and train
+train<-c()
+test<-c()
+author<-unique(data$label)
+for (i in author){
+  d<-data[data$label==i,]
+  n<-nrow(d)
+  c<-0.5*n
+  sample<-sample(1:n,c)
+  test<-rbind(test, d[sample,])
+  train<-rbind(train, d[-sample,])
+}
+
+model1<-svm(label~.,data=train,kernel="linear")
+svm.pre<-predict(model1,test)
+test.error<-sum(svm.pre!=test$label)/nrow(test)
+Accuracy=1-test.error
+
+return(Accuracy)
+
+}
+Accuracy<-matrix(NA,nrow=14,ncol=3)
+colnames(Accuracy)<-c("Paper","Coauthor","Journal")
+Accuracy<-data.frame(Accuracy)
+Accuracy$Coauthor[1]<-get_svm_result(feature_Akumar.c)
+Accuracy$Coauthor[2]<-get_svm_result(feature_AGupta.c)
+Accuracy$Coauthor[3]<-get_svm_result(feature_CChen.c)
+Accuracy$Coauthor[4]<-get_svm_result(feature_DJohnson.c)
+Accuracy$Coauthor[5]<-get_svm_result(feature_JLee.c)
+Accuracy$Coauthor[6]<-get_svm_result(feature_JMartin.c)
+Accuracy$Coauthor[7]<-get_svm_result(feature_JRobinson.c)
+Accuracy$Coauthor[8]<-get_svm_result(feature_JSmith.c)
+Accuracy$Coauthor[9]<-get_svm_result(feature_KTanaka.c)
+Accuracy$Coauthor[10]<-get_svm_result(feature_MBrown.c)
+Accuracy$Coauthor[11]<-get_svm_result(feature_MJones.c)
+Accuracy$Coauthor[12]<-get_svm_result(feature_MMiller.c)
+Accuracy$Coauthor[13]<-get_svm_result(feature_SLee.c)
+Accuracy$Coauthor[14]<-get_svm_result(feature_YChen.c)
+
+Accuracy$Paper[1]<-get_svm_result(feature_Akumar.p)
+Accuracy$Paper[2]<-get_svm_result(feature_AGupta.p)
+Accuracy$Paper[3]<-get_svm_result(feature_CChen.p)
+Accuracy$Paper[4]<-get_svm_result(feature_DJohnson.p)
+Accuracy$Paper[5]<-get_svm_result(feature_JLee.p)
+Accuracy$Paper[6]<-get_svm_result(feature_JMartin.p)
+Accuracy$Paper[7]<-get_svm_result(feature_JRobinson.p)
+Accuracy$Paper[8]<-get_svm_result(feature_JSmith.p)
+Accuracy$Paper[9]<-get_svm_result(feature_KTanaka.p)
+Accuracy$Paper[10]<-get_svm_result(feature_MBrown.p)
+Accuracy$Paper[11]<-get_svm_result(feature_MJones.p)
+Accuracy$Paper[12]<-get_svm_result(feature_MMiller.p)
+Accuracy$Paper[13]<-get_svm_result(feature_SLee.p)
+Accuracy$Paper[14]<-get_svm_result(feature_YChen.p)
+
+Accuracy$Journal[1]<-get_svm_result(feature_Akumar.j)
+Accuracy$Journal[2]<-get_svm_result(feature_AGupta.j)
+Accuracy$Journal[3]<-get_svm_result(feature_CChen.j)
+Accuracy$Journal[4]<-get_svm_result(feature_DJohnson.j)
+Accuracy$Journal[5]<-get_svm_result(feature_JLee.j)
+Accuracy$Journal[6]<-get_svm_result(feature_JMartin.j)
+Accuracy$Journal[7]<-get_svm_result(feature_JRobinson.j)
+Accuracy$Journal[8]<-get_svm_result(feature_JSmith.j)
+Accuracy$Journal[9]<-get_svm_result(feature_KTanaka.j)
+Accuracy$Journal[10]<-get_svm_result(feature_MBrown.j)
+Accuracy$Journal[11]<-get_svm_result(feature_MJones.j)
+Accuracy$Journal[12]<-get_svm_result(feature_MMiller.j)
+Accuracy$Journal[13]<-get_svm_result(feature_SLee.j)
+Accuracy$Journal[14]<-get_svm_result(feature_YChen.j)
+
+```
+
+# 1.3 Results and Evaluation
+As the results shown below, we can see column XXXXX has the best performance among the three columns.
+```{r}
+result<-matrix(NA,nrow=2,ncol=3)
+colnames(result)<-c("Paper","Coauthor","Journal Title")
+rownames(result)<-c("Average Accuracy","Standard Deviation of Accuracy")
+result[1,1]<-mean(Accuracy$Paper)
+result[1,2]<-mean(Accuracy$Coauthor)
+result[1,3]<-mean(Accuracy$Journal)
+result[2,1]<-sd(Accuracy$Paper)
+result[2,2]<-sd(Accuracy$Coauthor)
+result[2,3]<-sd(Accuracy$Journal)
+print(result)
+```
+
+## Part II (Please insert Title)
+## Camparism and Conclusion
