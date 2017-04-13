@@ -13,42 +13,33 @@ library(e1071)
 ```{r}
 setwd("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output")
 ```
-
 ```{r}
-AKumar<-read.csv("Akumar.csv", header = T, stringsAsFactors = FALSE)
-AGupta<-read.csv("AGupta.csv", header = T, stringsAsFactors = FALSE)
-CChen<-read.csv("CChen.csv", header = T, stringsAsFactors = FALSE)
-DJohnson<-read.csv("DJohnson.csv", header = T, stringsAsFactors = FALSE)
-JLee<-read.csv("JLee.csv", header = T, stringsAsFactors = FALSE)
-JMartin<-read.csv("JMartin.csv", header = T, stringsAsFactors = FALSE)
-JRobinson<-read.csv("JRobinson.csv", header = T, stringsAsFactors = FALSE)
-JSmith<-read.csv("JSmith.csv", header = T, stringsAsFactors = FALSE)
-KTanaka<-read.csv("KTanaka.csv", header = T, stringsAsFactors = FALSE)
-MBrown<-read.csv("MBrown.csv", header = T, stringsAsFactors = FALSE)
-MJones<-read.csv("MJones.csv", header = T, stringsAsFactors = FALSE)
-MMiller<-read.csv("MMiller.csv", header = T, stringsAsFactors = FALSE)
-SLee<-read.csv("SLee.csv", header = T, stringsAsFactors = FALSE)
-YChen<-read.csv("YChen.csv", header = T, stringsAsFactors = FALSE)
-```
-```{r}
-my.dir<-"C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/data/nameset"
+my.dir<-"C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/data/data"
 files<-list.files(my.dir)
 path<-file.path(my.dir, files)
 n<-length(path)
 names<-gsub(".txt", "", files)
-names
 ```
 ```{r}
-source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/feature_Paper.R")
-source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/feature_Coauthor.R")
-source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/feature_Journal.R")
+Data<-list()
+n<-1
+for (i in path){
+  Data[[n]]<-read.csv(i, header = T, stringsAsFactors = FALSE)
+  n<-n+1
+}
+```
+
+
+
+```{r}
+source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/feature.R")
 ```
 ```{r}
 source("C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/svm.R")
 ```
 
 ```{r}
-feature_Akumar<-get_feature_paper(AKumar)
+feature_Akumar<-get_feature(AKumar)
 ```
 ```{r}
 feature_AGupta<-get_feature_paper(AGupta)
@@ -65,15 +56,26 @@ feature_MMiller<-get_feature_paper(MMiller)
 feature_SLee<-get_feature_paper(SLee)
 feature_YChen<-get_feature_paper(YChen)
 ```
-
+```{r}
+feature_Akumar_c<-get_feature_coauthor(AKumar)
+feature_AGupta_c<-get_feature_coauthor(AGupta)
+feature_CChen_c<-get_feature_coauthor(CChen)
+feature_DJohnson_c<-get_feature_coauthor(DJohnson)
+feature_JLee_c<-get_feature_coauthor(JLee)
+feature_JMartin_c<-get_feature_coauthor(JMartin)
+feature_JRobinson_c<-get_feature_coauthor(JRobinson)
+feature_JSmith_c<-get_feature_coauthor(JSmith)
+feature_KTanaka_c<-get_feature_coauthor(KTanaka)
+feature_MBrown_c<-get_feature_coauthor(MBrown)
+feature_MJones_c<-get_feature_coauthor(MJones)
+feature_MMiller_c<-get_feature_coauthor(MMiller)
+feature_SLee_c<-get_feature_coauthor(SLee)
+feature_YChen_c<-get_feature_coauthor(YChen)
+```
 
 ```{r}
 Akumar_result<-get_svm_result(feature_Akumar)
-```
-```{r}
 AGupta_result<-get_svm_result(feature_AGupta)
-```
-```{r}
 CChen_result<-get_svm_result(feature_CChen)
 DJohnson_result<-get_svm_result(feature_DJohnson)
 JLee_result<-get_svm_result(feature_JLee)
@@ -87,7 +89,39 @@ MMiller_result<-get_svm_result(feature_MMiller)
 SLee_result<-get_svm_result(feature_SLee)
 YChen_result<-get_svm_result(feature_YChen)
 ```
-
-
+```{r}
+Akumar_result_c<-get_svm_result(feature_Akumar_c)
+```
+```{r}
+AGupta_result_c<-get_svm_result(feature_AGupta_c)
+CChen_result_c<-get_svm_result(feature_CChen_c)
+DJohnson_result_c<-get_svm_result(feature_DJohnson_c)
+JLee_result_c<-get_svm_result(feature_JLee_c)
+JMartin_result_c<-get_svm_result(feature_JMartin_c)
+JRobinson_result_c<-get_svm_result(feature_JRobinson_c)
+JSmith_result_c<-get_svm_result(feature_JSmith_c)
+KTanaka_result_c<-get_svm_result(feature_KTanaka_c)
+MBrown_result_c<-get_svm_result(feature_MBrown_c)
+MJones_result_c<-get_svm_result(feature_MJones_c)
+MMiller_result_c<-get_svm_result(feature_MMiller_c)
+SLee_result_c<-get_svm_result(feature_SLee_c)
+YChen_result_c<-get_svm_result(feature_YChen_c)
+```
+```{r}
+AKumar<-read.csv("Akumar.csv", header = T, stringsAsFactors = FALSE)
+AGupta<-read.csv("AGupta.csv", header = T, stringsAsFactors = FALSE)
+CChen<-read.csv("CChen.csv", header = T, stringsAsFactors = FALSE)
+DJohnson<-read.csv("DJohnson.csv", header = T, stringsAsFactors = FALSE)
+JLee<-read.csv("JLee.csv", header = T, stringsAsFactors = FALSE)
+JMartin<-read.csv("JMartin.csv", header = T, stringsAsFactors = FALSE)
+JRobinson<-read.csv("JRobinson.csv", header = T, stringsAsFactors = FALSE)
+JSmith<-read.csv("JSmith.csv", header = T, stringsAsFactors = FALSE)
+KTanaka<-read.csv("KTanaka.csv", header = T, stringsAsFactors = FALSE)
+MBrown<-read.csv("MBrown.csv", header = T, stringsAsFactors = FALSE)
+MJones<-read.csv("MJones.csv", header = T, stringsAsFactors = FALSE)
+MMiller<-read.csv("MMiller.csv", header = T, stringsAsFactors = FALSE)
+SLee<-read.csv("SLee.csv", header = T, stringsAsFactors = FALSE)
+YChen<-read.csv("YChen.csv", header = T, stringsAsFactors = FALSE)
+```
 
 
