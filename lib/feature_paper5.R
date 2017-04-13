@@ -1,4 +1,5 @@
 Sys.setlocale("LC_ALL", "C")
+source("../lib/text_vectorize.R")
 library(text2vec)
 library(qlcMatrix)
 
@@ -50,10 +51,27 @@ cosine_similarity <- function(data){
   return(list(CLUSTER.ID = data$matrix_label, MATRIX = feature))
 }
 
-#AKumar <- read.csv("AKumar.csv", as.is = T)
+
+text_feature <- function(data){
+  distance <- list()
+  distance1 <- list()
+  for (i in 1:3){
+    for (j in 1:3){
+      distance1[[j]] <- as.matrix(dist(data.frame(data$TEXTMATRIX[[i]][j])))
+    }
+    names(distance1) <- c("MIN", "MAX", "MEAN")
+    distance[i] <- list(distance1)
+  }
+  return(list(CLUSTER.ID = data$CLUSTER.ID, DISTANCE = distance))
+}
+
+
+
+
+# AKumar <- read.csv("AKumar.csv", as.is = T)
 #CChen <- read.csv("CChen.csv", as.is = T)
 # # # "as.is" is important here.
-#test <- cosine_similarity(cluster_merge(CChen, rep(1:4,61)))
+# test <- cosine_similarity(cluster_merge(CChen, rep(1:4,61)))
 
 
 
