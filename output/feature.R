@@ -24,7 +24,7 @@ get_feature<-function(data, condition="combine"){
                        # turn off progressbar because it won't look nice in rmd
                        progressbar = FALSE)
   } else{
-    combine<-rbind(data$Paper, data$Coauthor, data$Journal)
+    combine<-paste(data$Paper, data$Coauthor, data$Journal)
     it_train <- itoken(combine,
                        preprocessor = tolower,
                        tokenizer = word_tokenizer,

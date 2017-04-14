@@ -14,13 +14,13 @@ for (i in author){
   train<-rbind(train, d[-sample,])
 }
 #Tune 
-tuneResult <- tune(svm, label ~ .,  data = train,
+tuneResult <- tune(svm, label ~ .,  data = train, kernel="linear",
                      ranges = list(gamma = 10^(-6:-1), cost = 10^(-1:1)))
 bestmodel <- tuneResult$best.model
 g<-bestmodel$gamma
 c<-bestmodel$cost
 #svm.pre<-predict(bestmodel,test)
-model1<-svm(label~.,data=train,gamma=g,cost=c)
+model1<-svm(label~.,data=train,gamma=g,cost=c, kernel="linear")
 svm.pre<-predict(model1,test)
 test.error<-sum(svm.pre!=test$label)/nrow(test)
 Accuracy=1-test.error
