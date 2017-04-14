@@ -3,10 +3,14 @@ source("../lib/text_vectorize.R")
 library(text2vec)
 library(qlcMatrix)
 
+# The function used to merge the multiple columns descriptions for the same label_hat
 mergesomerows  <- function(cluster.id, mergevector, label_hat){
   paste(mergevector[cluster.id == label_hat], collapse = " ")
 }
 
+# Input: raw_data and label_hat
+# Output: merged_matrix and unique_label_hat
+# The function merged Coauthor, Paper and Journal for the same label_hat
 cluster_merge <- function(raw_data, label_hat){
   unique_label_hat <- unique(label_hat)
   
@@ -27,6 +31,9 @@ cluster_merge <- function(raw_data, label_hat){
 
 ## data = cluster_merge(AKumar, rep(1:4,61))
 ## cluster_merge(CChen, rep(1:3,267))
+
+# We calculated the cosine_similarity between different clusters
+# and ouput the list of cluster id and cosine similarity matrix
 cosine_similarity <- function(data){
  
   feature <- list()
@@ -51,7 +58,8 @@ cosine_similarity <- function(data){
   return(list(CLUSTER.ID = data$matrix_label, MATRIX = feature))
 }
 
-
+# After we map a text to vector of 50 dimensions, we calculate the Euclidean distance
+# for MIN, MAX and MEAN respectively and output a list with cluster.id and 9 distance matrix
 text_feature <- function(data){
   distance <- list()
   distance1 <- list()
