@@ -3,6 +3,7 @@ title: "R Notebook"
 output:
   html_document: default
   html_notebook: default
+  pdf_document: default
 ---
 
 ---
@@ -107,4 +108,21 @@ Precision | Recall | F1 score  | Accuracy
 Cos_Coauthor | Cos_Paper | Cos_Journal | dist_coauthor | dist_paper | dist_journal
 ------------- | ------------- | -------------  | ------------- | -------------  | ------------- 
   0.6423  |      0.5835  |-0.1141 |     -0.2480   |      0.1969     |  -0.0605
+
+
+
+###Model Comparison
+
+![](figs/precision.png)
+
+![](figs/recall.png)
+
+
+![](figs/f1.png)
+
+
+![](figs/accuracy.png)
+
+
+
 
