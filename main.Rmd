@@ -20,6 +20,7 @@ For the features selection, since the author of paper doesn't point out a specif
 install.packages("pacman")
 pacman::p_load(text2vec, dplyr, qlcMatrix, kernlab, knitr)
 install.packages("e1071")
+library(e1071)
 ```
 # 1.1 Input data and feature selection
 
@@ -27,7 +28,7 @@ install.packages("e1071")
 library(pacman)
 #Our feature fuction
 get_feature<-function(data, condition="combine"){
- install.packages("pacman")
+  if (!require("pacman")) install.packages("pacman")
   pacman::p_load(text2vec, dplyr, qlcMatrix, kernlab, knitr)
   if (condition=="coauthor"){
     it_train <- itoken(data$Coauthor,
@@ -51,7 +52,7 @@ get_feature<-function(data, condition="combine"){
                        # turn off progressbar because it won't look nice in rmd
                        progressbar = FALSE)
   } else{
-    combine<-rbind(data$Paper, data$Coauthor, data$Journal)
+    combine<-paste(data$Paper, data$Coauthor, data$Journal)
     it_train <- itoken(combine,
                        preprocessor = tolower,
                        tokenizer = word_tokenizer,
@@ -71,83 +72,53 @@ get_feature<-function(data, condition="combine"){
   y<-as.data.frame(as.matrix(docsdissim))
   y$label<-as.factor(data$AuthorID)
   return(y)
+  #result_sclust <- specc(as.matrix(dtm_train_tfidf),
+  # centers=length(unique(data$AuthorID)))
+  #return(result_sclust)
   
 }
-#Make sure to set your directory in our data folder
-AKumar<-read.csv("Akumar.csv", header = T, stringsAsFactors = FALSE)
-AGupta<-read.csv("AGupta.csv", header = T, stringsAsFactors = FALSE)
-CChen<-read.csv("CChen.csv", header = T, stringsAsFactors = FALSE)
-DJohnson<-read.csv("DJohnson.csv", header = T, stringsAsFactors = FALSE)
-JLee<-read.csv("JLee.csv", header = T, stringsAsFactors = FALSE)
-JMartin<-read.csv("JMartin.csv", header = T, stringsAsFactors = FALSE)
-JRobinson<-read.csv("JRobinson.csv", header = T, stringsAsFactors = FALSE)
-JSmith<-read.csv("JSmith.csv", header = T, stringsAsFactors = FALSE)
-KTanaka<-read.csv("KTanaka.csv", header = T, stringsAsFactors = FALSE)
-MBrown<-read.csv("MBrown.csv", header = T, stringsAsFactors = FALSE)
-MJones<-read.csv("MJones.csv", header = T, stringsAsFactors = FALSE)
-MMiller<-read.csv("MMiller.csv", header = T, stringsAsFactors = FALSE)
-SLee<-read.csv("SLee.csv", header = T, stringsAsFactors = FALSE)
-YChen<-read.csv("YChen.csv", header = T, stringsAsFactors = FALSE)
 
+my.dir<-"C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/Coauthor_No_Space_Author"
+files<-list.files(my.dir)
+path<-file.path(my.dir, files)
+n<-length(path)
+names<-gsub(".csv", "", files)
 
-#Features:Paper
-feature_AKumar.p<-get_feature(AKumar,condition="paper")
-feature_AGupta.p<-get_feature(AGupta,condition="paper")
-feature_CChen.p<-get_feature_paper(CChen,condition="paper")
-feature_DJohnson.p<-get_feature_paper(DJohnson,condition="paper")
-feature_JLee.p<-get_feature_paper(JLee,condition="paper")
-feature_JMartin.p<-get_feature_paper(JMartin,condition="paper")
-feature_JRobinson.p<-get_feature_paper(JRobinson,condition="paper")
-feature_JSmith.p<-get_feature_paper(JSmith,condition="paper")
-feature_KTanaka.p<-get_feature_paper(KTanaka,condition="paper")
-feature_MBrown.p<-get_feature_paper(MBrown,condition="paper")
-feature_MJones.p<-get_feature_paper(MJones,condition="paper")
-feature_MMiller.p<-get_feature_paper(MMiller,condition="paper")
-feature_SLee.p<-get_feature_paper(SLee,condition="paper")
-feature_YChen.p<-get_feature_paper(YChen,condition="paper")
+Data<-list()
+n<-1
+for (i in path){
+  Data[[n]]<-read.csv(i, header = T, stringsAsFactors = FALSE)
+  n<-n+1
+}
 
-#Feature:Coauther
-feature_AKumar.c<-get_feature(AKumar,condition="coauthor")
-feature_AGupta.c<-get_feature(AGupta,condition="coauthor")
-feature_CChen.c<-get_feature(CChen,condition="coauthor")
-feature_DJohnson.c<-get_feature(DJohnson,condition="coauthor")
-feature_JLee.c<-get_feature(JLee,condition="coauthor")
-feature_JMartin.c<-get_feature(JMartin,condition="coauthor")
-feature_JRobinson.c<-get_feature(JRobinson,condition="coauthor")
-feature_JSmith.c<-get_feature(JSmith,condition="coauthor")
-feature_KTanaka.c<-get_feature(KTanaka,condition="coauthor")
-feature_MBrown.c<-get_feature(MBrown,condition="coauthor")
-feature_MJones.c<-get_feature(MJones,condition="coauthor")
-feature_MMiller.c<-get_feature(MMiller,condition="coauthor")
-feature_SLee.c<-get_feature(SLee,condition="coauthor")
-feature_YChen.c<-get_feature(YChen,condition="coauthor")
+feature_paper<-list()
+feature_coauthor<-list()
+feature_journal<-list()
+feature_combine<-list()
+feature_paper<-lapply(Data, get_feature, condition="paper")
+feature_coauthor<-lapply(Data, get_feature, condition="coauthor")
+feature_journal<-lapply(Data, get_feature, condition="journal")
+feature_combine<-lapply(Data, get_feature)
 
-#Feature:Journal Title
-feature_AKumar.j<-get_feature(AKumar,condition="journal")
-feature_AGupta.j<-get_feature(AGupta,condition="journal")
-feature_CChen.j<-get_feature(CChen,condition="journal")
-feature_DJohnson.j<-get_feature(DJohnson,condition="journal")
-feature_JLee.j<-get_feature(JLee,condition="journal")
-feature_JMartin.j<-get_feature(JMartin,condition="journal")
-feature_JRobinson.j<-get_feature(JRobinson,condition="journal")
-feature_JSmith.j<-get_feature(JSmith,condition="journal")
-feature_KTanaka.j<-get_feature(KTanaka,condition="journal")
-feature_MBrown.j<-get_feature(MBrown,condition="journal")
-feature_MJones.j<-get_feature(MJones,condition="journal")
-feature_MMiller.j<-get_feature(MMiller,condition="journal")
-feature_SLee.j<-get_feature(SLee,condition="journal")
-feature_YChen.j<-get_feature(YChen,condition="journal")
+feature_coauthor[is.na(feature_coauthor)]<-0
+feature_combine[is.na(feature_combine)]<-0
 ```
-
+```{r}
+entity<-function(data){
+  en<-nrow(data)/length(unique(data$AuthorID))
+  return(en)
+}
+```
+```{r}
+mean_entity<-lapply(Data, entity)
+```
 # 1.2 Linear SVM
 To understand the basic idea of svm, please visit:
 http://www.cs.columbia.edu/~kathy/cs4701/documents/jason_svm_tutorial.pdf
 
 ```{r}
-#svm fuction
-library(e1071)
 get_svm_result<-function(data){
-#Define test and train
+library(e1071)
 train<-c()
 test<-c()
 author<-unique(data$label)
@@ -159,78 +130,79 @@ for (i in author){
   test<-rbind(test, d[sample,])
   train<-rbind(train, d[-sample,])
 }
-
-model1<-svm(label~.,data=train,kernel="linear")
+#Tune 
+tuneResult <- tune(svm, label ~ .,  data = train, kernel="linear",
+                     ranges = list(gamma = 10^(-6:-1), cost = 10^(-1:1)))
+bestmodel <- tuneResult$best.model
+g<-bestmodel$gamma
+c<-bestmodel$cost
+#svm.pre<-predict(bestmodel,test)
+model1<-svm(label~.,data=train,gamma=g,cost=c, kernel="linear")
 svm.pre<-predict(model1,test)
 test.error<-sum(svm.pre!=test$label)/nrow(test)
 Accuracy=1-test.error
+#CV Errors
+#model<-svm(label~.,data=train,gamma=g,cost=c, cross=5)
+#Ave.acc<-model$tot.accuracy
+#SD.acc<-sd(model$accuracies)
 
 return(Accuracy)
 
 }
-Accuracy<-matrix(NA,nrow=14,ncol=3)
-colnames(Accuracy)<-c("Paper","Coauthor","Journal")
-Accuracy<-data.frame(Accuracy)
-Accuracy$Coauthor[1]<-get_svm_result(feature_Akumar.c)
-Accuracy$Coauthor[2]<-get_svm_result(feature_AGupta.c)
-Accuracy$Coauthor[3]<-get_svm_result(feature_CChen.c)
-Accuracy$Coauthor[4]<-get_svm_result(feature_DJohnson.c)
-Accuracy$Coauthor[5]<-get_svm_result(feature_JLee.c)
-Accuracy$Coauthor[6]<-get_svm_result(feature_JMartin.c)
-Accuracy$Coauthor[7]<-get_svm_result(feature_JRobinson.c)
-Accuracy$Coauthor[8]<-get_svm_result(feature_JSmith.c)
-Accuracy$Coauthor[9]<-get_svm_result(feature_KTanaka.c)
-Accuracy$Coauthor[10]<-get_svm_result(feature_MBrown.c)
-Accuracy$Coauthor[11]<-get_svm_result(feature_MJones.c)
-Accuracy$Coauthor[12]<-get_svm_result(feature_MMiller.c)
-Accuracy$Coauthor[13]<-get_svm_result(feature_SLee.c)
-Accuracy$Coauthor[14]<-get_svm_result(feature_YChen.c)
-
-Accuracy$Paper[1]<-get_svm_result(feature_Akumar.p)
-Accuracy$Paper[2]<-get_svm_result(feature_AGupta.p)
-Accuracy$Paper[3]<-get_svm_result(feature_CChen.p)
-Accuracy$Paper[4]<-get_svm_result(feature_DJohnson.p)
-Accuracy$Paper[5]<-get_svm_result(feature_JLee.p)
-Accuracy$Paper[6]<-get_svm_result(feature_JMartin.p)
-Accuracy$Paper[7]<-get_svm_result(feature_JRobinson.p)
-Accuracy$Paper[8]<-get_svm_result(feature_JSmith.p)
-Accuracy$Paper[9]<-get_svm_result(feature_KTanaka.p)
-Accuracy$Paper[10]<-get_svm_result(feature_MBrown.p)
-Accuracy$Paper[11]<-get_svm_result(feature_MJones.p)
-Accuracy$Paper[12]<-get_svm_result(feature_MMiller.p)
-Accuracy$Paper[13]<-get_svm_result(feature_SLee.p)
-Accuracy$Paper[14]<-get_svm_result(feature_YChen.p)
-
-Accuracy$Journal[1]<-get_svm_result(feature_Akumar.j)
-Accuracy$Journal[2]<-get_svm_result(feature_AGupta.j)
-Accuracy$Journal[3]<-get_svm_result(feature_CChen.j)
-Accuracy$Journal[4]<-get_svm_result(feature_DJohnson.j)
-Accuracy$Journal[5]<-get_svm_result(feature_JLee.j)
-Accuracy$Journal[6]<-get_svm_result(feature_JMartin.j)
-Accuracy$Journal[7]<-get_svm_result(feature_JRobinson.j)
-Accuracy$Journal[8]<-get_svm_result(feature_JSmith.j)
-Accuracy$Journal[9]<-get_svm_result(feature_KTanaka.j)
-Accuracy$Journal[10]<-get_svm_result(feature_MBrown.j)
-Accuracy$Journal[11]<-get_svm_result(feature_MJones.j)
-Accuracy$Journal[12]<-get_svm_result(feature_MMiller.j)
-Accuracy$Journal[13]<-get_svm_result(feature_SLee.j)
-Accuracy$Journal[14]<-get_svm_result(feature_YChen.j)
-
 ```
+
+```{r}
+start.time <- Sys.time()
+result_paper<-lapply(feature_paper, get_svm_result)
+end.time <- Sys.time()
+time_svm_paper<- end.time - start.time
+```
+```{r}
+start.time <- Sys.time()
+result_coauthor<-lapply(feature_coauthor, get_svm_result)
+end.time <- Sys.time()
+time_svm_coauthor<- end.time - start.time
+```
+```{r}
+start.time <- Sys.time()
+result_journal<-lapply(feature_journal, get_svm_result)
+end.time <- Sys.time()
+time_svm_journal<- end.time - start.time
+```
+```{r}
+start.time <- Sys.time()
+result_combine<-lapply(feature_combine, get_svm_result)
+end.time <- Sys.time()
+time_svm_combine<- end.time - start.time
+```
+
 
 # 1.3 Results and Evaluation
 As the results shown below, we can see column XXXXX has the best performance among the three columns.
 ```{r}
-result<-matrix(NA,nrow=2,ncol=3)
-colnames(result)<-c("Paper","Coauthor","Journal Title")
-rownames(result)<-c("Average Accuracy","Standard Deviation of Accuracy")
-result[1,1]<-mean(Accuracy$Paper)
-result[1,2]<-mean(Accuracy$Coauthor)
-result[1,3]<-mean(Accuracy$Journal)
-result[2,1]<-sd(Accuracy$Paper)
-result[2,2]<-sd(Accuracy$Coauthor)
-result[2,3]<-sd(Accuracy$Journal)
-print(result)
+result_p<-unlist(result_paper)
+mean_paper<-mean(result_p)
+sd_paper<-sd(result_p)
+mean_time<-time_svm_journal/14
+```
+```{r}
+result_j<-unlist(result_journal)
+mean_journal<-mean(result_j)
+sd_journal<-sd(result_j)
+mean_time<-time_svm_journal/14
+```
+```{r}
+result_coauthor<-unlist(result_coauthor)
+mean_coauthor<-mean(result_coauthor)
+sd_coauthor<-sd(result_coauthor)
+mean_time<-time_svm_coauthor/14
+```
+
+```{r}
+result_combine<-unlist(result_combine)
+mean_combine<-mean(result_combine)
+sd_combine<-sd(result_combine)
+mean_time<-time_svm_combine/14
 ```
 
 ## Part II (Please insert Title)

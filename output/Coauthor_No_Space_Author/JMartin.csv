@@ -1,0 +1,113 @@
+,X,Coauthor,Paper,Journal,AuthorID,PaperNO,PaperID,Author
+1,1,JamesLCrowley,An Appearance-Based Approach to Gesture-Recognition ,ICIAP,10,1,1,JMartin
+2,2,AugustinLux ChristopheLeGal JamesLCrowley,Smart Office: Design of an Intelligent Environment ,IEEE Intelligent Systems,10,2,2,JMartin
+3,3,DanielaHall JamesLCrowley,Statistical Gesture Recognition Through Modelling of Parameter Trajectories ,Gesture Workshop,10,3,3,JMartin
+4,4,JamesLCrowley OlivierChomat,A Probabilistic Sensor for the Perception and Recognition of Activities ,ECCV European Conference Computer Vision,10,4,4,JMartin
+5,5,Ram oacute nPuigjaner,Extending UML Deployment Diagrams form a Performance Engineering Perspective ,Software Engineering Research and Practice,11,1,5,JMartin
+6,6,CarlosJuiz NunzioNicol oacute SavinoV aacute zquez,Unified system builder through interacting blocks USBIB for soft real-time systems ,Workshop Software and Performance,11,2,6,JMartin
+7,7,DidierBoudigue GeorgesGardarin Jos eacute AntonioCorbacho NunzioNicol oacute SavinoV aacute zquez Ram oacute nPuigjaner SophieDumas,Predicting the behaviour of three-tiered applications: dealing with distributed-object technology and databases ,Perform Eval,11,3,7,JMartin
+8,8,Jos eacute AntonioCorbacho NunzioNicol oacute SavinoV aacute zquez Ram oacute nPuigjaner,Extending SMART to Predict the Behaviour of PL/SQL Applications ,Computer Performance Evaluation Tools,11,4,8,JMartin
+9,9,ChrisLankester,Ask Me Tomorrow: The NRC and University of Ottawa Question Answering System ,TREC Text REtrieval Conference,12,1,9,JMartin
+10,10,AlainD eacute silets BerrydeBruijn,Extracting Keyphrases from Spoken Audio Documents ,SIGIR Research and Development Information Retrieval Workshop Information Retrieval Techniques for Speech Applications,12,2,10,JMartin
+11,11,,Focusing Attention for Observational Learning: The Importance of Context ,IJCAI International Joint Conference Artificial Intelligence,12,3,11,JMartin
+12,12,DominiqueB eacute roule RVeldman,Developing Multimodal Interfaces: A Theoretical Framework and Guided Propagation Networks ,Multimodal Human Computer Communication,13,1,12,JMartin
+13,13,DominiqueB eacute roule,Temporal Codes within a Typology of Cooperation Between Modalities ,Artif Intell Rev,13,2,13,JMartin
+14,14,AdamCheyer LucJulia,A Unified Framework for Constructing Multimodal Experiments and Applications ,Cooperative Multimodal Communication,13,3,14,JMartin
+15,15,PeterHWelch,A CSP Model for Java Multithreading ,PDSE,14,1,15,JMartin
+16,16,,A Tool for Checking the CSP sat Property ,Comput J,14,2,16,JMartin
+17,17,DanielMDias DavidCSadler JamshedHMirza MarcSnir TilakAgerwala,SP System Architecture ,IBM Systems Journal,15,1,17,JMartin
+18,18,DanielMDias DavidCSadler JamshedHMirza MarcSnir TilakAgerwala,SP System Architecture ,IBM Systems Journal,15,2,18,JMartin
+19,19,FerencAJolesz GuidoGerig MarthaElizabethShenton OlafK uuml bler RonKikinis,Automating Segmentation of Dual-Echo MR Head Data ,IPMI Information Processing Medical Imaging,16,1,19,JMartin
+20,20,AlexPentland RonKikinis StanSclaroff,Characterization of Neuropathological Shape Deformations ,IEEE Transactions Pattern Analysis and Machine Intelligence,16,2,20,JMartin
+21,21,CourtSansom DebbieDurant HenryMoeller JimOsborn VirginiaRedmond,Slowing Down the Revolving Door: Motivating and Retaining Student Employees ,SIGUCCS Special Interest Group University and Computing Services,1,16,21,JMartin
+22,22,,"Help desk training: art, science, or prayer ",SIGUCCS Special Interest Group University and Computing Services,1,9,22,JMartin
+23,23,,What does faculty really want from information technology?,SIGUCCS Special Interest Group University and Computing Services,1,1,23,JMartin
+24,24,,Managing the network ,SIGUCCS Special Interest Group University and Computing Services,1,2,24,JMartin
+25,25,,Seamless Integration of Client Server Applications - Conclusion or How Many SIGUCCS Papers Can You Get From One Project?,SIGUCCS Special Interest Group University and Computing Services,1,10,25,JMartin
+26,26,,There's gold in them thar networks! or searching for treasure in all wrong places ,SIGUCCS Special Interest Group University and Computing Services,1,3,26,JMartin
+27,27,,Training Help Desk Students: The Never Ending Task ,SIGUCCS Special Interest Group University and Computing Services,1,11,27,JMartin
+28,28,,There's gold in them thar networks!: or searching for treasure in all the wrong places ,SIGUCCS Special Interest Group University and Computing Services,1,4,28,JMartin
+29,29,JanEveleth LindaJHutchison PriscillaHuston SusanCalcari,Network information centers NICs : is there one on your horizon?,SIGUCCS Special Interest Group University and Computing Services,1,12,29,JMartin
+30,30,,There's gold in them thar networks! or searching for treasure in all the wrong places ,SIGUCCS Special Interest Group University and Computing Services,1,5,30,JMartin
+31,31,,Network client server applications on the network ,SIGUCCS Special Interest Group University and Computing Services,1,13,31,JMartin
+32,32,,A solution to the campus parking problem ,SIGUCCS Special Interest Group University and Computing Services,1,6,32,JMartin
+33,33,,Moving to a total client server operation ,SIGUCCS Special Interest Group University and Computing Services,1,14,33,JMartin
+34,34,,Seamless integration of client server applications ,SIGUCCS Special Interest Group University and Computing Services,1,7,34,JMartin
+35,35,,Are we ready for distance education?,SIGUCCS Special Interest Group University and Computing Services,1,15,35,JMartin
+36,36,,Desktop videoconferencing - first steps ,SIGUCCS Special Interest Group University and Computing Services,1,8,36,JMartin
+37,37,,Computer Understanding of Conventional Metaphoric Language ,Cognitive Science,2,12,37,JMartin
+38,38,,MetaBank: A Knowledge-Base of Metaphoric Language Conventions ,Computational Intelligence,2,6,38,JMartin
+39,39,BenjaminGZorn BradCalder DirkGrunwald DonaldCLindsay MichaelMozer,Corpus-Based Static Branch Prediction ,PLDI Special Interest Group Programming Language Design and Implementation,2,13,39,JMartin
+40,40,,Representing UNIX Domain Metaphors ,Artif Intell Rev,2,7,40,JMartin
+41,41,BenjaminGZorn BradCalder DirkGrunwald DonaldCLindsay MichaelJones MichaelMozer,Evidence-Based Static Branch Prediction Using Machine Learning ,ACM Trans Program Lang Syst,2,14,41,JMartin
+42,42,DavidNChin DekaiWu JamesMayfield MarcLuria RobertWilensky,The Berkeley UNIX Consultant Project ,Artif Intell Rev,2,8,42,JMartin
+43,43,CarlHBlock DavidEMonarchi MeganRMacMillan,A Prototype System for Extracting Objects from Software Specifications ,ACM SIGBDP Special Interest Group Business Data Processing Conference Trends and Directions Expert Systems,2,15,43,JMartin
+44,44,KeithVanderLinden,Expressing Rhetorical Relations in Instructional Text: A Case Study of the Purposes Relation ,Computational Linguistics,2,9,44,JMartin
+45,45,,Understanding New Metaphors ,IJCAI International Joint Conference Artificial Intelligence,2,1,45,JMartin
+46,46,,Representing regularities in the metaphoric lexicon ,COLING Conference Computational Linguistics,2,2,46,JMartin
+47,47,,Conventional Metaphor and the Lexicon ,SIGLEX Special Interest Group the Lexicon of the Association for Computational Linguistics Workshop,2,3,47,JMartin
+48,48,DavidNChin DekaiWu JamesMayfield MarcLuria RobertWilensky,The Berkeley UNIX Consultant Project ,Computational Linguistics,2,10,48,JMartin
+49,49,,Norvig's Paradigms of Artificial Intelligence Programming: An Instructor's Perspective ,Artif Intell,2,4,49,JMartin
+50,50,KeithVanderLinden SusannaCumming,Using System Networks to Build Rhetorical Structures ,NLG Natural Language Generation,2,11,50,JMartin
+51,51,DanFass ElizabethAHinkelman,Introduction to the Special Issue on Non-Literal Language ,Computational Intelligence,2,5,51,JMartin
+52,52,BruceKwan MarioGerla PrasasthPalnati RajiveBagrodia SimonWalton Yu anChen,Parallel Simulation of a High-Speed Wormhole Routing Network ,Workshop Parallel and Distributed Simulation,3,3,52,JMartin
+53,53,RajiveBagrodia SoniaFurman,A Comparative Study on the Effects of Spatial Diversity in Ad Hoc Networks Using On-Demand Routing Protocols ,ICPP International Conference Parallel Processing Workshops,3,4,53,JMartin
+54,54,AifengRen MineoTakai RajiveBagrodia,Directional virtual carrier sensing for directional antennas in mobile ad hoc networks ,MobiHoc,3,5,54,JMartin
+55,55,MineoTakai RajiveBagrodia,Effects of wireless physical layer modeling in mobile ad hoc networks ,MobiHoc,3,6,55,JMartin
+56,56,HaYoonSong MineoTakai RajiveBagrodia RichardAMeyer XiangZeng Yu anChen,Parssec: A Parallel Simulation Environment for Complex Systems ,IEEE Computer,3,7,56,JMartin
+57,57,RajiveBagrodia,Compose: An Object-Oriented Environment for Parallel Discrete-Event Simulations ,Winter Simulation Conference,3,8,57,JMartin
+58,58,RajiveBagrodia RichardAMeyer,Slow memory: the rising cost of optimism ,PADS Workshop Parallel and Distributed Simulation,3,1,58,JMartin
+59,59,KaixinXu MineoTakai RajiveBagrodia,Looking ahead of real time in Hybrid component networks ,Workshop Parallel and Distributed Simulation,3,2,59,JMartin
+60,60,AndreaLMox JohnMajor MarleneRPratto MartieSkinner RobertMinato,Personal networks: why both and how to get started ,SIGUCCS Special Interest Group University and Computing Services,4,1,60,JMartin
+61,61,JonathanThyer MarleneRPratto MartieSkinner,"Global Greensboro, the Guilford Country Schools and UNCG ",SIGUCCS Special Interest Group University and Computing Services,4,2,61,JMartin
+62,62,AndreaLMox JohnMajor MarleneRPratto MartieSkinner RobertMinato,Personal networks: how does your support garden grow?,SIGUCCS Special Interest Group University and Computing Services,4,3,62,JMartin
+63,63,AndreaLMox JohnMajor MarleneRPratto MartieSkinner RobertMinato,A year in the life of a personal network ,SIGUCCS Special Interest Group University and Computing Services,4,4,63,JMartin
+64,64,AndreaMox JohnMajor MarlenePratto MartieSkinner RobertMinato,Keeping it going: a progress report on the nd year of coast-to-coast consulting ,SIGUCCS Special Interest Group University and Computing Services,4,5,64,JMartin
+65,65,MartieSkinner,Managing chaos: being available without driving the consultants crazy ,SIGUCCS Special Interest Group University and Computing Services,4,6,65,JMartin
+66,66,LorenzoAlvisi MichaelDahlin,Minimal Byzantine Storage ,DISC International Symposium Distributed Computing,5,1,66,JMartin
+67,67,LorenzoAlvisi MichaelDahlin,Small Byzantine Quorum Systems ,DSN The International Conference Dependable Systems and Networks,5,2,67,JMartin
+68,68,DonSBatory RobertoELopez Herrejon,Generating Product-Lines of Product-Families ,ASE Automated Software Engineering,5,3,68,JMartin
+69,69,J PMartin LAlvisi MDahlin,Minimal Byzantine Quorum Systems extended technical report ,NOTE This paper is superseded by Minimal Byzantine Storage above,5,4,69,JMartin
+70,70,J PMartin LAlvisi MDahlin,Minimal Byzantine Storage,Proceedings of the th International Symposium Distributed Computing DISC International Symposium Distributed Computing Toulouse LNCS ISBN,5,5,70,JMartin
+71,71,J PMartin LAlvisi MDahlin,Minimal Byzantine Storage extended technical report ,Technical Report TR updated version Published DISC International Symposium Distributed Computing,5,6,71,JMartin
+72,72,ArunVenkataramani JianYin LorenzoAlvisi MichaelDahlin,Separating agreement from execution for byzantine fault tolerant services ,SOSP Symposium Operating Systems Principles,5,10,72,JMartin
+73,73,J PMartin LAlvisi MDahlin,Small Byzantine Quorum Systems,Proceedings of the International Conference Dependable Systems Networks DSN The International Conference Dependable Systems and Networks pages,5,7,73,JMartin
+74,74,ArunVenkataramani JianYin LorenzoAlvisi MichaelDahlin,Towards a Practical Approach to Confidential Byzantine Fault Tolerance ,Future Directions Distributed Computing,5,11,74,JMartin
+75,75,J PMartin LAlvisi MDahlin,Small Byzantine Quorum Systems extended technical report ,Technical Report TR,5,8,75,JMartin
+76,76,JYin J PMartin AVenkataramani LAlvisi MDahlin,Byzantine Fault-Tolerant Confidentiality updated ,Future Directions Distributed Computing Workshop,5,12,76,JMartin
+77,77,J PMartin,On Checking Temporal Properties of Software with Boolean Programs,,5,9,77,JMartin
+78,78,JYin AVenkataramani J PMartin LAlvisi MDahlin,Fault-Tolerance and Security when opposites attract ,slides from,5,13,78,JMartin
+79,79,JianYin Jean PhilippeMartin ArunVenkataramani LorenzoAlvisi MikeDahlin,Separating Agreement from Execution for Byzantine Fault Tolerant Services ,Proceedings of the th Symposium Operating Systems Principles SOSP Symposium Operating Systems Principles,5,14,79,JMartin
+80,80,JohannesMartin HausiMü¾˜¶˜¼llerD,Discovering Implicit Inheritance Relations in Non Object-Oriented Code ,Advances Software Engineering Comprehension Evaluation and Evolution Edited by Erdogmus Tanir e Springer Verlag New ISBN,6,10,80,JMartin
+81,81,LudgerMartin AnkeGiesl JohannesMartin,Dynamic Component Program Visualisation ,Proceedings of the th Working Conference for Reverse Engineering,6,11,81,JMartin
+82,82,JohannesMartin,Tool Adoption: A Software Developer's Perspective ,Proceedings of the rd International Workshop Adoption Centric Software Engineering,6,20,82,JMartin
+83,83,LudgerMartin AnkeGiesl JohannesMartin,Dynamische Komponenten-Programm-Visualisierung , Workshop Software Reengineering Bad Honnef,6,12,83,JMartin
+84,84,BruceWinter HausiAM uuml ller KennyWong,Analyzing xfig Using the Rigi Tool Suite ,WCRE Working Conference Reverse Engineering,6,21,84,JMartin
+85,85,JohannesMartin LudgerMartin,Web Site Maintenance With Software Enginerring Tools ,Proceedings of the rd International Workshop Web Site Evolution ISBN,6,13,85,JMartin
+86,86,JohannesMartin KennyWong BruceWinter HausiMü¾˜¶˜¼ller,Analyzing xfig Using the Rigi Tool Suite ,Proceedings of the th Working Conference for Reverse Engineering Brisbane ISBN,6,14,86,JMartin
+87,87,JohannesMartin LudgerMartin,Reengineering-Werkzeuge für Webseiten , Workshop Software Reengineering Bad Honnef,6,15,87,JMartin
+88,88,JohannesMartin HausiMü¾˜¶˜¼ller,Strategies for Migration from C to Java ,Proceedings of the th European Conference for Software Maintenance and Reengineering Lisbon ISBN,6,16,88,JMartin
+89,89,JohannesMartin,"Ovid - Technologien zum automatisierten Software-Reengineering technologies for automated software-reengineering, in German ",Research Magazine of Johannes Gutenberg Universit t Mainz Special edition trade fairs,6,17,89,JMartin
+90,90,JohannesMartin,Leveraging IBM VisualAge for C++ for Reverse Engineering Tasks ,Proceedings of CASCON Toronto,6,18,90,JMartin
+91,91,JohannesMartin,Ephedra - A C to Java Migration Environment ,Ph D Dissertation University of Kanada,6,19,91,JMartin
+92,92,PDevanbu Y FChen EGansner HMü¾˜¶˜¼ller JMartin,CHIME: Customizable Hyperlink Insertion and Maintenance Engine for Software Engineering Environments ,Proceedings of the International Conference Software Engineering Los Angeles Computer Animation,6,1,92,JMartin
+93,93,EmdenRGansner HausiAM uuml ller PremkumarTDevanbu Yih FarnChen,CHIME: Customizable Hyperlink Insertion and Maintenance Engine for Software Engineering Environments ,ICSE International Conference Software Engineering,6,2,93,JMartin
+94,94,AnkeGiesl LudgerMartin,Dynamic Component Program Visualization ,WCRE Working Conference Reverse Engineering,6,3,94,JMartin
+95,95,HolgerMKienle AnkeWeber JohannesMartin  HausiAMü¾˜¶˜¼ller,Development and Maintenance of a Web Site for a Bachelor Program ,Proceedings of the th International Workshop Website Evolution,6,4,95,JMartin
+96,96,KostasKontogiannis JohannesMartin KennyWong RichardGregory HausiMü¾˜¶˜¼ller JohnMylopoulos,Code Migration Through Transformations: An Experience Report ,Proceedings of CASCON Toronto,6,5,96,JMartin
+97,97,HausiAM uuml ller,C to Java Migration Experiences ,CSMR Conference Software Maintenance and Reengineering,6,6,97,JMartin
+98,98,HausiAM uuml ller,Strategies for Migration from C to Java ,CSMR Conference Software Maintenance and Reengineering,6,7,98,JMartin
+99,99,JohannesMartin HausiMü¾˜¶˜¼ller,Considerations on the Syntax of a Standard Exchange Format ,Proceedings of the Workshop Standard Exchange Format at the International Conference Software Engineering Limmerick Irland,6,8,99,JMartin
+100,100,JohannesMartin HausiMü¾˜¶˜¼ller,C to Java Migration Experiences ,Proceedings of the th European Conference for Software Maintenance and Reengineering Budapest,6,9,100,JMartin
+101,101,AAlzaga,A Design Process Model to Support Concurrent Project Development in Networks of SMES ,PRO VE,7,1,101,JMartin
+102,102,GMayor JoanTorrens,On locally internal monotonic operations ,Fuzzy Sets and Systems,7,2,102,JMartin
+103,103,GMayor,Locally Internal Aggregation Functions ,International Journal of Uncertainty Fuzziness and Knowledge Based Systems,7,3,103,JMartin
+104,104,GMayor JoanTorrens TomasaCalvo,Balanced Discrete Fuzzy Measures ,International Journal of Uncertainty Fuzziness and Knowledge Based Systems,7,4,104,JMartin
+105,105,DorritOBillman,Acquiring and Combining Overlapping Concepts ,Machine Learning,8,4,105,JMartin
+106,106,,DP : Supervised and Unsupervised Clustering ,ECML European Conference Machine Learning,8,1,106,JMartin
+107,107,,Reducing Redundant Learning ,ML,8,2,107,JMartin
+108,108,DorritOBillman,Variability Bias and Category Learning ,ML,8,3,108,JMartin
+109,109,ArneANilsson InjongRhee,The incremental deployability of RTT-based congestion avoidance for high speed TCP Internet connections ,SIGMETRICS Measurement and Modeling of Computer Systems,9,1,109,JMartin
+110,110,ArneANilsson,On Service Level Agreements for IP Networks ,INFOCOM The Conference Computer Communications,9,2,110,JMartin
+111,111,ArneANilsson InjongRhee,Delay-based congestion avoidance for TCP ,IEEE ACM Trans Netw,9,3,111,JMartin
+112,112,ArneANilsson,On End-to-End Congestion Avoidance for TCP/IP ,HPN High Performance Networking,9,4,112,JMartin

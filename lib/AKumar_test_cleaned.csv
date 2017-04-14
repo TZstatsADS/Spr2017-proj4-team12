@@ -1,0 +1,245 @@
+,X,Coauthor,Paper,Journal,AuthorID,PaperNO,PaperID,Author
+1,1,AKumar AhmedHemani Johnny Ouml berg,Grammar-Based Hardware Synthesis of Data Communication Protocols ,ISSS International Symposium Systems Synthesis,10,1,1,AKumar
+2,2,AKumar AhmedHemani Johnny Ouml berg,Specification of Exception Handling in Grammar-Based Hardware Synthesis ,EUROMICRO,10,2,2,AKumar
+3,3,AKumar AhmedHemani Johnny Ouml berg,Scheduling of Outputs in Grammar-based Hardware Synthesis of Data Communication Protocols ,DATE Design Automation and Test Europe,10,3,3,AKumar
+4,4,AKumar Kei HoiCheung MichaelSnyder NickPTosches PerryMiller PeterMasiar YangLiu,The TRIPLES database: a community resource for yeast molecular biology ,Nucleic Acids Research,11,1,4,AKumar
+5,5,AKumar Kei HoiCheung MichaelSnyder PauloSRCoelho PerryMiller PetraRoss Macdonald,TRIPLES: a database of gene function in Saccharomyces cerevisiae ,Nucleic Acids Research,11,2,5,AKumar
+6,6,AKumar Kei HoiCheung MarkGerstein MichaelSnyder PerryLMiller YangLiu,An XML Application For Genomic Data Interoperation ,BIBE IEEE International Conference Bioinformatics and Bioengineering,11,3,6,AKumar
+7,7,AKumar VishvMMalhotra,A Look-Ahead Interpreter for Sequential Prolog and Its Implementation ,FSTTCS Foundations of Software Technology and Theoretical Computer Science,12,1,7,AKumar
+8,8,AKumar ,A New Computation Rule for Prolog ,Inf Process Lett,12,2,8,AKumar
+9,9,AKumar ManishKumarShukla PCMishra SKMishra,An ab initio study of excited states of guanine in the gas phase and aqueous media: Electronic transitions and mechanism of spectral oscillations ,Journal of Computational Chemistry,13,1,9,AKumar
+10,10,AKumar DavidJCraik GeorgeCLevy,MOLDYN: a generalized program for the evaluation of molecular dynamics models using nuclear magnetic resonance spin-relaxation data ,Journal of Chemical Information and Computer Sciences,13,2,10,AKumar
+11,11,AKumar AbhayChrungoo JoharaShahabuddin SandeepJuneja SanjivKapoor VishuGupta,Stream-Packing: Resource Allocation in Web Server Farms with a QoS Guarantee ,HiPC,14,1,11,AKumar
+12,12,AKumar NeeranMKarnik VikasAgarwal,Metering and Accounting for Composite e-Services ,CEC,14,2,12,AKumar
+13,13,NAdly AKumar ,"HPP: A Hierarchical Propagation Protocol for Large Scale Replication in Wide Area Networks,",Seventh International Conference Computing and Information Peterborough,1,16,13,AKumar
+14,14,AKumar NohaAdly,HPP: A Reliable Causal Broadcast Protocol for Large-Scale Replication ,Comput J,1,17,14,AKumar
+15,15,AKumar TCamp,"A New Matching Algorithm for Managing Location Information in Mobile Computing,",Proceedings of the th IEEE International Conference Performance Computing and Communications IPCCC International Performance Computing and Communications Conference,1,50,15,AKumar
+16,16,ABasu AKumar,"Research Commentary: Workflow Management Systems in e-Business,",Information Systems Research,1,18,16,AKumar
+17,17,AKumar,"A New Approach for Conflict Resolution and Rule Processing in a Knowledge-Based System,",Proceedings of the Eleventh International Conference Information Systems Copenhagen,1,51,17,AKumar
+18,18,AKumar ShunYanCheung,Efficient Quorumcast Routing Algorithms ,INFOCOM The Conference Computer Communications,1,19,18,AKumar
+19,19,AKumar ,"New Techniques for data reduction in database systems for knowledge discovery applications,",Journal of Intelligent Information Systems,1,52,19,AKumar
+20,20,AKumar LZhao,"Workflow Support for Electronic Commerce Applications,",Decision Support Systems,1,53,20,AKumar
+21,21,AKumar,"Zigzag Path-Based Matching Algorithms for High Availability and Load Balancing,", manuscript,1,54,21,AKumar
+22,22,AKumar MStonebraker,"Performance Considerations for an Operating System Transaction Manager,",IEEE Transactions Software Engineering,1,55,22,AKumar
+23,23,AKumar MStonebraker,"Performance Evaluation of an Operating System Transaction Manager,",Proceedings of the Thirteenth International VLDB Very Large Data Bases Very Large Databases Conference U K,1,56,23,AKumar
+24,24,AKumar,"Performance Analysis of a Hierarchical Quorum Consensus Algorithm for Replicated Objects,",Proceedings of the Tenth IEEE International Conference Distributed Computing Systems,1,57,24,AKumar
+25,25,AKumar JLeonZhao,"Data Management Issues for Large Scale, Distributed Workflow Systems on the Internet ",DATA BASE,1,90,25,AKumar
+26,26,AKumar MRabinovich RSinha,"A Performance Study of General Grid Structures for Replicated Data,",IEEE International Conference Distributed Computing Systems,1,58,26,AKumar
+27,27,LZhao AKumar EStohr,"A Dynamic Grouping Technique for Distributing Codified- Knowledge in Large Organizations,",Workshop Information Technology and Systems WITS Workshop Information Technologies and Systems Sydney,1,91,27,AKumar
+28,28,AKumar MStonebraker,"Operating System Support for Data Management,",IEEE Data Engineering,1,59,28,AKumar
+29,29,AKumar JLeonZhao,A Framework for Dynamic Routing and Operational Integrity Controls in a Workflow Management System ,HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES,1,92,29,AKumar
+30,30,LZhao AKumar EAStohr,"Workflow-centric Information Distribution through Email,",Journal of Management Information Systems Winter,1,93,30,AKumar
+31,31,LZhao AKumar EStohr,"A Workflow-centric Study of Organizational Knowledge Distribution,", rd International Conference Systems Sciences,1,94,31,AKumar
+32,32,AKumar JLeonZhao,EROICA: A Rule-Based Approach to Organizational Policy Management in Workflow Systems ,WAIM Web Age Information Management,1,95,32,AKumar
+33,33,SYCheung AKumar,"Efficient Solution Techniques for the Quorumcast Problem,",Proceedings of IEEE Infocom Toronto,1,20,33,AKumar
+34,34,AKumar ShunYanCheung,A High Availability \sqrt{N} Hierarchical Grid Algorithm for Replicated Data ,Inf Process Lett,1,21,34,AKumar
+35,35,VChristophides RHull GKarvounarakis AKumar GTong MXiong,Beyond Discrete E-Services,Composing Session-Oriented Services in Telecommunications,1,22,35,AKumar
+36,36,VChristophides RHull AKumar,"Querying and Splicing of Workflows,",Sixth International Conference Cooperative Information Systems CoopIS Cooperation with VLDB Very Large Data Bases Trento,1,23,36,AKumar
+37,37,VChristophides RHull AKumar JSimeon,"Workflow mediation using VorteXML,",IEEE Data Engineering Bulletin,1,24,37,AKumar
+38,38,AKumar RichardHull VassilisChristophides,Querying and Splicing of XML Workflows ,CoopIS,1,25,38,AKumar
+39,39,RHull AKumar JSimeon,"Smart Supply Web: An application of Web-based data and workflow mediation, Workshop on Technologies for E-Services VLDB-TES Workshop , Cairo, September ",,1,26,39,AKumar
+40,40,AKumar J eacute r ocirc meSim eacute on RichardHull VassilisChristophides,Workflow Mediation using VorteXML ,IEEE Data Eng Bull,1,27,40,AKumar
+41,41,AKumar ASegev,"Optimizing Voting-Type Algorithms for Replicated Data,",Lecture Notes Computer Science J W Schmidt S Ceri and M Misekoff eds Springer Verlag Proceedings of the First International Conference Extending Database Technology,1,60,41,AKumar
+42,42,AKumar J eacute r ocirc meSim eacute on RichardHull,Smart supply web: an application of web-based data and workflow mediation ,TES Technologies for E Services,1,28,42,AKumar
+43,43,AKumar ASegev,"Optimizing and Evaluating Algorithms for Replicated Data Concurrency Control,",Proceedings of the Ninth IEEE International Conference Distributed Computing Systems Beach Computer Animation,1,61,43,AKumar
+44,44,AKumar,"A Crash Recovery Algorithm Based on Multiple Logs that Exploits Parallelism,",Proceedings of the Second IEEE Symposium Parallel and Distributed Processing,1,29,44,AKumar
+45,45,AKumar KMalik,"Optimizing the Costs of Hierarchical Quorum Consensus,",Acta Informatica,1,62,45,AKumar
+46,46,AKumar LZhao,"Architectures and Techniques for Large-Scale, Distributed Workflow Management on the Internet,",Workshop Information Technology and Systems,1,63,46,AKumar
+47,47,AKumar Kumar A Zhao L,"EROICA: A Rule-based Approach to Organizational Policy Management in Workflow Systems,",WAIM Web Age Information Management Conference Beijing,1,64,47,AKumar
+48,48,AKumar,"Organizing an Optimal Hierarchy of Web Pages Based on Access Frequency,",Workshop Information Technology and Systems WITS Workshop Information Technologies and Systems Barcelona,1,65,48,AKumar
+49,49,AKumar,"A Randomized Voting Algorithm,",Proceedings of the Eleventh IEEE International Conference Distributed Systems,1,66,49,AKumar
+50,50,AKumar,"A randomized algorithm for distributed consensus,",IEEE Symposium Reliable Distributed Systems Purdue University W,1,67,50,AKumar
+51,51,AKumar MStonebraker,"Semantics Based Transaction Management Techniques for Replicated Data,",Proceedings ACM SIGMOD International Conference Management of Data Special Interest Group Management of Data Conference,1,68,51,AKumar
+52,52,AKumar IOlmeda ,"A Study of Composite classifiers for knowledge discovery,",INFORMS Journal Computing Volume Summer,1,69,52,AKumar
+53,53,AKumar ASegev ,"Cost and Availability Tradeoffs in Replicated Data Concurrency Control,",ACM Transactions Database Systems,1,30,53,AKumar
+54,54,AKumar WMPvanderAalst HMWVerbeek,Dynamic Work Distribution in Workflow Management Systems: How to balance quality and performance?,Journal of MIS Workshop Multimedia Information Systems Winter,1,31,54,AKumar
+55,55,AKumar LZhao,"Dynamic Routing and Operational Controls in a Workflow Management System,",Management Science Volume,1,32,55,AKumar
+56,56,AKumar LZhao,"A Framework for Dynamic Routing and Operational Integrity Controls in a Workflow Management System,", th International Conference Systems Sciences,1,33,56,AKumar
+57,57,AKumar Kumar A,"A Framework for handling delegation in Workflow Management Systems,",Workshop Information Technology and Systems WITS Workshop Information Technologies and Systems,1,34,57,AKumar
+58,58,AKumar,"Global Coordination through Local Exchanges and Randomization,", manuscript,1,35,58,AKumar
+59,59,AKumar,"G-Tree: A New Data Structure for Organizing Multi-dimensional Data,",IEEE Transactions Knowledge and Data Engineering,1,36,59,AKumar
+60,60,AKumar SYCheung,"A High Availability Sqrt N Hierarchical Grid Algorithm for Replicated Data,",Information Processing Letters,1,37,60,AKumar
+61,61,AKumar ,"A Study of Spatial Clustering Techniques,",Lecture notes Computer Science Springer Verlag Proceedings of the Fifth International DEXA Database and Expert Systems Applications conference,1,70,61,AKumar
+62,62,AKumar NAdly,"HPP: A Reliable Causal Broadcast Protocol for Large Scale Replication in Wide Area Networks,",Computer Journal Volume,1,38,62,AKumar
+63,63,AKumar,"Techniques for Indexing Large Numbers of Rules and Constraints in a Database System,",Proceedings of the Fourth International Conference Database and Expert System Applications DEXA Database and Expert Systems Applications Valencia Springer Verlag Publishers,1,71,63,AKumar
+64,64,AKumar ,"Hierarchical Quorum Consensus: A New Algorithm for Managing Replicated Data,",IEEE Transaction Computers,1,39,64,AKumar
+65,65,AKumar MStonebraker,"The Effect of Join Selectivity on Optimal Nesting Order,",ACM SIGMOD International Conference Management of Data Special Interest Group Management of Data Record,1,72,65,AKumar
+66,66,AKumar ,G-Tree: A New Data Structure for Organizing Multidimensional Data ,IEEE Trans Knowl Data Eng,1,1,66,AKumar
+67,67,REmilyLiu AKumar,"Leveraging Information Sharing to Increase Supply Chain Configurability,",Proceedings of the Twenty Fourth International Conference Information Systems forthcoming,1,73,67,AKumar
+68,68,AKumar ,Hierarchical Quorum Consensus: A New Algorithm for Managing Replicated Data ,IEEE Trans Computers,1,2,68,AKumar
+69,69,AKumar KavindraMalik,Optimizing the Costs of Hierarchical Quorum Consensus ,Acta Inf,1,74,69,AKumar
+70,70,AKumar ,An efficient algorithm for solving the partial sum query problem ,Inf Sci,1,3,70,AKumar
+71,71,AKumar MichaelRabinovich RakeshKSinha,A Performance Study of General Grid Structures for Replicated Data ,ICDCS International Conference Distributed Computing Systems,1,75,71,AKumar
+72,72,AKumar ,An Efficient SuperGrid Protocol for High Availability and Load Balancing ,IEEE Trans Computers,1,4,72,AKumar
+73,73,AKumar ArieSegev,Cost and Availability Tradeoffs in Replicated Data Concurrency Control ,ACM Trans Database Syst,1,76,73,AKumar
+74,74,AKumar ,An Analysis of Borrowing Policies for Escrow Transactions in a Replicated Data Environment ,ICDE International Conference Data Engineering,1,5,74,AKumar
+75,75,AKumar ArieSegev,Optimizing Voting-Type Algorithms for Replicated Data ,EDBT Extending Database Technology,1,77,75,AKumar
+76,76,AKumar ,New Techniques for Data Reduction in a Database System for Knowledge Discovery Applications ,J Intell Inf Syst,1,6,76,AKumar
+77,77,AKumar ArieSegev,Optimization And Evaluating Algorithms for Replicated Data Concurrency Control ,ICDCS International Conference Distributed Computing Systems,1,78,77,AKumar
+78,78,AKumar ,Performance Analysis of Hierarchical Quorum Consensus Algorithm for Replicated Objects ,ICDCS International Conference Distributed Computing Systems,1,7,78,AKumar
+79,79,AKumar ,A Randomized Algorithm for Distributed Consensus ,Symposium Reliable Distributed Systems,1,8,79,AKumar
+80,80,AKumar EdwardAStohr JLeonZhao,A Workflow-Centric Study of Organizational Knowledge Distribution ,HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES,1,79,80,AKumar
+81,81,AKumar ,A Study of Spatial Clustering techniques ,DEXA Database and Expert Systems Applications,1,9,81,AKumar
+82,82,AKumar IOlmeda,"Hybrid Classifiers for Knowledge Discovery,",Proceedings INFORMS Conference Information Systems and Technology San Diego,1,40,82,AKumar
+83,83,AKumar KMalik,"Voting Mechanisms in Distributed Systems,",IEEE Transactions Reliability,1,41,83,AKumar
+84,84,AKumar WMuhanna RPatterson,"Mean-Variance Analysis of the Performance of Spatial Clustering Methods,",International Journal of Geographical Information Sciences,1,42,84,AKumar
+85,85,AKumar LZhao,"XRL: An Extensible Routing Language for Electronic Commerce Applications,",International Conference Telecommunications and Electronic ICTEC Nashville,1,43,85,AKumar
+86,86,AKumar JWainer ZZhang,"Meta-workflows and ESP: A Framework for Coordination, Exception Handling, and Adaptability in Workflow Systems,",CAiSE Workshop Web Services e Business and the Semantic Web WES Web Services E Business and the Semantic Web Proceedings to be published by Springer Verlag publishers,1,44,86,AKumar
+87,87,AKumar,"An Efficient Algorithm for Solving the Partial Sum Query Problem,",Information Sciences,1,45,87,AKumar
+88,88,AKumar,An Efficient SuperGrid Protocol for High Availability and Load Balancing,IEEE Transactions Computers Volume,1,46,88,AKumar
+89,89,AKumar VRao HSoni,"An Empirical Comparison of Neural Networks and Logistic Regression Methods,",Marketing Letters,1,47,89,AKumar
+90,90,AKumar MichaelStonebraker,Performance Considerations for an Operating System Transaction Manager ,IEEE Trans Software Eng,1,80,90,AKumar
+91,91,AKumar ,"A New algorithm for Distributed Consensus,",Distributed and Parallel Databases,1,48,91,AKumar
+92,92,AKumar MichaelStonebraker,Performance Evaluation of an Operating System Transaction Manager ,VLDB Very Large Data Bases,1,81,92,AKumar
+93,93,AKumar,"An Analysis of Borrowing Policies for Escrow Transactions in a Replicated Data Environment,",Proceedings of the Sixth IEEE International Conference Data Engineering Los Angeles Computer Animation,1,49,93,AKumar
+94,94,AKumar MichaelStonebraker,Operating System Support for Data Management ,IEEE Database Eng Bull,1,82,94,AKumar
+95,95,AKumar MichaelStonebraker,Semantics Based Transaction Management Techniques for Replicated Data ,SIGMOD International Conference Management of Data Conference,1,83,95,AKumar
+96,96,AKumar MichaelStonebraker,The Effect of Join Selectivities on Optimal Nesting Order ,SIGMOD International Conference Management of Data Record,1,84,96,AKumar
+97,97,AKumar GeliangTong GregoryKarvounarakis MingXiong RichardHull VassilisChristophides,Beyond Discrete E-Services: Composing Session-Oriented Services in Telecommunications ,TES Technologies for E Services,1,85,97,AKumar
+98,98,HMWVerbeek WMPvanderAalst AKumar XRL Woflan,"Verification and Extensibility of an XML/Petri-net-based language for inter-organizational workflows,",Information Technology and Management,1,86,98,AKumar
+99,99,AKumar HMWErikVerbeek WilMPvanderAalst,Organizational Modeling in UML and XML in the Context of Workflow Systems ,SAC Selected Areas Cryptography,1,87,99,AKumar
+100,100,JWainer PBarthelmess AKumar,"W-RBAC - A workflow security model incorporating controlled overriding of constraints,",International Journal Cooperative Information Systems forthcoming,1,88,100,AKumar
+101,101,JWainer PBarthelmess AKumar,"Security Management in the presence of delegation and revocation in workflow system,", for publication,1,89,101,AKumar
+102,102,AKumar ,Techniques for Indexing Large Numbers of Constraints and Rules in a Database System ,DEXA Database and Expert Systems Applications,1,10,102,AKumar
+103,103,WMPvanderAalst HMWVerbeek AKumar,"Verification of XRL: An XML-based Workflow Language,",Proceedings of the Sixth International Conference Computer Supported Cooperative Work Design,1,11,103,AKumar
+104,104,WMPvanderAalst AKumar,"XML Based Schema Definition for Support of Inter-organizational Workflow,",Information Systems Research,1,12,104,AKumar
+105,105,WMPvanderAalst HMWVerbeek AKumar,"XRL/Woflan: Verification and extensibility of an XML/Petri-net based language for inter-organizational workflows,",Proceedings of the th Informs Conference Information Systems and Technology CIST Beach This paper received the best paper award at the conference Full version of this paper is also available,1,13,105,AKumar
+106,106,WMPvanderAalst AKumar,"A Reference Model for Team-Enabled Workflow Management Systems,",Data and Knowledge Engineering,1,14,106,AKumar
+107,107,WMPvanderAalst AKumar HMWVerbeek,"Organizational Modeling in UML and XML in the context of Workflow Systems,",ACM Symposium Applied Computing,1,15,107,AKumar
+108,108,AKumar ,Intelligent Traffic Engineering of Internets: Towards a Model-Based Approach ,HiPC,2,1,108,AKumar
+109,109,AKumar FlavioBonomi,Adaptive Load Balancing in a Multi-Processor System with a Central Job Scheduler ,Computer Performance and Reliability,2,2,109,AKumar
+110,110,AKumar FlavioBonomi,Adaptive Optimal Load Balancing in a Heterogeneous Multiserver System with a Central Job Scheduler ,ICDCS International Conference Distributed Computing Systems,2,3,110,AKumar
+111,111,AKumar FlavioBonomi,Adaptive Optimal Load Balancing in a Nonhomogeneous Multiserver System with a Central Job Scheduler ,IEEE Trans Computers,2,4,111,AKumar
+112,112,AKumar ,Adaptive Load Control of the Central Processor in a Distributed System with a Star Topology ,IEEE Trans Computers,2,5,112,AKumar
+113,113,AKumar BTDoshi FlavioBonomi JSKaufman TPLee,A Case Study of an Adaptive Load Balancing Algorithm ,Queueing Syst,2,6,113,AKumar
+114,114,AKumar ManishGupta RajeevShorey,Queueing Models and Stability of Message Flows in Distributed Simulators of Open Queueing Networks ,Workshop Parallel and Distributed Simulation,2,7,114,AKumar
+115,115,AKumar ManishGupta,A Nonblocking Algorithm for the Distributed Simulation of FCFS Queueing Networks with Irreducible Markovian Routing ,Workshop Parallel and Distributed Simulation,2,8,115,AKumar
+116,116,AKumar RajeevShorey,Performance Analysis and Scheduling of Stochastic Fork-Join Jobs in a Multicomputer System ,IEEE Trans Parallel Distrib Syst,2,9,116,AKumar
+117,117,AKumar KiranMRege RajeevShorey,Instability and Performance Limits of Distributed Simulators of Feedforward Queueing Networks ,ACM Trans Model Comput Simul,2,10,117,AKumar
+118,118,AKumar SrikrishnaKurapati,Optimal Scheduling of a Processor Executing a Communication Protocol Stack ,NETWORKS,2,11,118,AKumar
+119,119,AKumar SVRAnand TVJGaneshBabu,Comparative Performance of Queueing Strategies for LAN - WAN Routers in Packet Data Networks ,NETWORKS,2,12,119,AKumar
+120,120,AKumar NatwarModani ParijatDube,Measurement Based Optimal Source Shaping with a Shaping+Multiplexing Delay Constraint ,INFOCOM The Conference Computer Communications,2,13,120,AKumar
+121,121,AKumar SantoshPaulAbraham,A Stochastic Approximation Approach for Max-Min Fair Adaptive Rate Control of ABR Sessions with MCRs ,INFOCOM The Conference Computer Communications,2,14,121,AKumar
+122,122,AKumar ArzadKherani,Stochastic Models for Throughput Analysis of Randomly Arriving Elastic Flows in the Internet ,INFOCOM The Conference Computer Communications,2,15,122,AKumar
+123,123,AKumar ArzadKherani,Closed Loop Analysis of the Bottleneck Buffer under Adaptive Window Controlled Transfer of HTTP-Like Traffic ,INFOCOM The Conference Computer Communications,2,16,123,AKumar
+124,124,AKumar MunishGoyal VinodSharma,Power Constrained and Delay Optimal Policies for Scheduling Transmission over a Fading Channel ,INFOCOM The Conference Computer Communications,2,17,124,AKumar
+125,125,AKumar RobertGCole,Comparative Performance of Interleaved and Non-Interleaved Pipelining in LAPD Terminal Adaptors ,INFOCOM The Conference Computer Communications,2,18,125,AKumar
+126,126,AKumar LillykuttyJacob,Comparative Performance of Scheduling Strategies for Switching and Multiplexing in a Hub Based ATM Network: A Simulation Study ,Computer Networks,2,19,126,AKumar
+127,127,AKumar RobertGCole,Comparative Performance of Interleaved and Non-Interleaved Pipelining in ATM Terminal Adapters ,Computer Networks and ISDN Systems,2,20,127,AKumar
+128,128,AKumar SantoshPaulAbraham,A new approach for asynchronous distributed rate control of elastic sessions in integrated packet networks ,IEEE ACM Trans Netw,2,21,128,AKumar
+129,129,AKumar LillykuttyJacob,Delay performance of some scheduling strategies in an input queuing ATM switch with multiclass bursty traffic ,IEEE ACM Trans Netw,2,22,129,AKumar
+130,130,AKumar CatherineRosenberg SridharRamesh,Revenue maximization in ATM networks using the CLP capability and buffer priority management ,IEEE ACM Trans Netw,2,23,130,AKumar
+131,131,AKumar ,Comparative performance analysis of versions of TCP in a local network with a lossy link ,IEEE ACM Trans Netw,2,24,131,AKumar
+132,132,AKumar AdityaKarnik AjitAnvekar SanjayShakkottai,TCP performance over end-to-end rate control and stochastic available capacity ,IEEE ACM Trans Netw,2,25,132,AKumar
+133,133,AKumar DeepakPatil,Stability and throughput analysis of unslotted CDMA-ALOHA with finite number of users and code sharing ,Telecommunication Systems,2,26,133,AKumar
+134,134,AKumar AGupta TRoughgarden,A Constant Factor Approximation Algorithm for the Multicommodity Rent-or-Buy Problem , FOCS IEEE Symposium Foundations of Computer Science,3,10,134,AKumar
+135,135,AKumar AnupamGupta RajeevRastogi,Exploring the trade-off between label size and stack depth in MPLS Routing ,INFOCOM The Conference Computer Communications,3,11,135,AKumar
+136,136,AKumar AnupamGupta MartinP aacute l TimRoughgarden,Approximation Via Cost-Sharing: A Simple Approximation Algorithm for the Multicommodity Rent-or-Buy Problem ,FOCS IEEE Symposium Foundations of Computer Science,3,12,136,AKumar
+137,137,AKumar AGupta JKleinberg RRastogi BYener,Provisioning a virtual private network : A network design problem for multicommodity flow , Proc rd ACM Symposium Thoery of Computing,3,13,137,AKumar
+138,138,AKumar AGupta RRastogi,"Routing Issues in MPLS Or, How to Travel with a Pez Dispenser ", Proc IEEE Symposium Foundations of Computer Science,3,14,138,AKumar
+139,139,AKumar AnupamGupta TimRoughgarden,Simpler and better approximation algorithms for network design ,STOC ACM Symposium Theory of Computing,3,15,139,AKumar
+140,140,AKumar AGupta,Sorting and Selection with Structured Costs , Proc IEEE Symposium Foundations of Computer Science,3,16,140,AKumar
+141,141,AKumar AnupamGupta MikkelThorup,Tree based MPLS routing ,SPAA ACM Symposium Parallel Algorithms and Architectures,3,17,141,AKumar
+142,142,AKumar AnupamGupta RajeevRastogi,"Traveling with a Pez Dispenser Or, Routing Issues in MPLS ",FOCS IEEE Symposium Foundations of Computer Science,3,18,142,AKumar
+143,143,AKumar DKempe JKleinberg,Connectivity and inference problems for temporal networks , Proc ACM Symposium Thoery of Computing,3,19,143,AKumar
+144,144,AKumar YBreitbart MGarofalakis AGupta RRastogi,On configuring BGP route reflectors , preparation,3,1,144,AKumar
+145,145,AKumar YBreitbart MGarofalakis RRastogi,Optimal configuration of OSPF aggregates , Proc st IEEE INFOCOM The Conference Computer Communications,3,2,145,AKumar
+146,146,AKumar AmitChakrabarti AnupamGupta ChandraChekuri,Approximation Algorithms for the Unsplittable Flow Problem ,APPROX,3,3,146,AKumar
+147,147,AKumar CChekuri AGupta SNaor DRaz,Building edge-failure resilient networks , Proc th International Conference IPCO Integer Programming Combinatorial Optimization,3,4,147,AKumar
+148,148,AKumar MinosNGarofalakis,Correlating XML data streams using tree-edit distance embeddings ,PODS Symposium Principles of Database Systems,3,5,148,AKumar
+149,149,AKumar MinosNGarofalakis RajeevRastogi YuriBreitbart,Optimal Configuration of OSPF Aggregates ,INFOCOM The Conference Computer Communications,3,6,149,AKumar
+150,150,AKumar MinosNGarofalakis RajeevRastogi YuriBreitbart,Optimal configuration of OSPF aggregates ,IEEE ACM Trans Netw,3,7,150,AKumar
+151,151,AKumar AnupamGupta ChandraChekuri DannyRaz JosephNaor,Building Edge-Failure Resilient Networks ,IPCO Integer Programming Combinatorial Optimization,3,8,151,AKumar
+152,152,AKumar AnupamGupta TimRoughgarden,A Constant-Factor Approximation Algorithm for the Multicommodity ,FOCS IEEE Symposium Foundations of Computer Science,3,9,152,AKumar
+153,153,AKumar DavidKempe JonMKleinberg,Connectivity and Inference Problems for Temporal Networks ,J Comput Syst Sci,3,20,153,AKumar
+154,154,AKumar JKleinberg,Fairness measures for resource allocation , Proc st IEEE Symposium Foundations of Computer Science,3,21,154,AKumar
+155,155,AKumar JKleinberg,Wavelength Conversion in optical networks , Proc th ACM SIAM Society for Industrial and Applied Mathematics Symposium Discrete Algorithms,3,22,155,AKumar
+156,156,AKumar JonMKleinberg,Wavelength Conversion in Optical Networks ,J Algorithms,3,23,156,AKumar
+157,157,AKumar RRastogi ASilberschatz BYener,Algorithms for provisioning VPNs in the hose model , Proc ACM SIGCOMM Special Interest Group Data Communications,3,24,157,AKumar
+158,158,AKumar AbrahamSilberschatz B uuml lentYener RajeevRastogi,Algorithms for provisioning virtual private networks in the hose model ,SIGCOMM Special Interest Group Data Communications,3,25,158,AKumar
+159,159,AKumar AbrahamSilberschatz B uuml lentYener RajeevRastogi,Algorithms for provisioning virtual private networks in the hose model ,IEEE ACM Trans Netw,3,26,159,AKumar
+160,160,AKumar ChaitanyaSwamy,Primal-Dual Algorithms for Connected Facility Location Problems ,APPROX,3,27,160,AKumar
+161,161,AKumar CSwamy,Primal-dual Algorithms for Connected Facility Location Prolems , APPROX,3,28,161,AKumar
+162,162,AKumar JamesELewis RammohanKRagade,A Multiple Copy Distributed Genetic Algorithm for Bin-Packing ,PDPTA Parallel and Distributed Processing Techniques and Applications,4,10,162,AKumar
+163,163,AKumar MattWurth RammohanKRagade,Design and Implementation of Wireless Medical Charts System ,PDPTA Parallel and Distributed Processing Techniques and Applications,4,11,163,AKumar
+164,164,AKumar DharmaPAgrawal,On System Effectiveness Evaluation of Real-Time Parallel and Distributed Computing Systems ,ICPP International Conference Parallel Processing,4,12,164,AKumar
+165,165,AKumar Chien InHenryChen,Comments on Area-Time Optimal Adder Design ,IEEE Trans Computers,4,13,165,AKumar
+166,166,AKumar DharmaPAgrawal,Parameters for System Effectiveness Evaluation of Distributed Systems ,IEEE Trans Computers,4,14,166,AKumar
+167,167,AKumar AdelSaidElmaghraby,Simulation TC: Active and Vibrant ,IEEE Computer,4,15,167,AKumar
+168,168,AKumar MehmedKantardzic,Toward Autonomic Distributed Data Mining with Intelligent Web Services ,IKE Innovation Knowledge and Economic dynamics,4,16,168,AKumar
+169,169,AKumar AlokSrivastava RakeshMPathak,Distributed Approach for Implementing Genetic Algorithms ,ICPP International Conference Parallel Processing,4,1,169,AKumar
+170,170,AKumar ChinarDeshpande LarryADunning SubRamakrishnan,Performance Comparison of Two Algorithms for Task Assignment ,ICPP International Conference Parallel Processing,4,2,170,AKumar
+171,171,AKumar VenkataKonda,A Framework for Dependence Based Optimization and Parallelization of Practical DO Loops ,ICPP International Conference Parallel Processing,4,3,171,AKumar
+172,172,AKumar MaheshCGupta YashPGupta,Genetic Algorithm Application in a Machine Scheduling Problem ,ACM Conference Computer Science,4,4,172,AKumar
+173,173,AKumar MCGupta RakeshMPathak,Genetic Algorithm Based Approach for Designing Computer Network Topology ,ACM Conference Computer Science,4,5,173,AKumar
+174,174,AKumar AditiSingru AlokSrivastava KhaledAKamel,Object-Oriented Simulation of Multimedia-On-Demand Services over ATM Network ,MASCOTS INTERNATIONAL SYMPOSIUM MODELING ANALYSIS AND SIMULATION OF COMPUTER AND TELECOMMUNICATION SYSTEMS,4,6,174,AKumar
+175,175,AKumar AditiSingru AlokSrivastava,Design and Analysis of a Video-on-Demand Server ,Multimedia Syst,4,7,175,AKumar
+176,176,AKumar VenkataKonda,A Systematic Framework for the Dependence Cycle Removal in Practical Loops ,J Parallel Distrib Comput,4,8,176,AKumar
+177,177,AKumar IlkkaIkonen JohnCWissel RammohanKRagade WilliamEBiles,A Genetic Algorithm for Packing Three-Dimensional Non-Convex Objects Having Cavities and Holes ,ICGA International Computer Games Association,4,9,177,AKumar
+178,178,AKumar ,Model-Based Reasoning for Domain Modeling in a Web-Based Intelligent Tutoring System to Help Students Learn to Debug C++ Programs ,Intelligent Tutoring Systems,5,10,178,AKumar
+179,179,AKumar ,Incorporating Environmental Issues into the Computer Science Curriculum,Proceedings of the Eastern Small Computing Conference ESCCC The Richard of New,5,11,179,AKumar
+180,180,AKumar ,An Algorithm to Design Loops,The Journal of Computing Small Colleges K,5,12,180,AKumar
+181,181,AKumar ,Announcements ,Intelligence,5,13,181,AKumar
+182,182,AKumar ,AAAI- Workshop on Reasoning About Function,SIGART Bulletin,5,14,182,AKumar
+183,183,AKumar ,AAAI- Workshop Reports: Reasoning About Function,AI Artificial Intelligence Magazine,5,15,183,AKumar
+184,184,AKumar ,Problem Generation: Evaluation of Two Domains in Operating Systems ,FLAIRS The AI Research Society Conference Conference,5,16,184,AKumar
+185,185,AKumar ,Recent Dissertations: Component Ontological Representation of Function for Candidate Discrimination in Model Based Diagnosis,SIGART Bulletin,5,17,185,AKumar
+186,186,AKumar ,A Reified Interface for a Tutor on Program Debugging ,ICALT IEEE International Conference Advanced Learning Technologies,5,18,186,AKumar
+187,187,AKumar ,Representation and Diagnosis Using Function in Classes,Working Notes of the International Joint Conference Artificial Intelligence IJCAI International Joint Conference Artificial Intelligence Workshop Representing and Reasoning with Device Function Montreal Computer Animation,5,19,187,AKumar
+188,188,AKumar ,Using Classes to Reason About Devices,Working Notes of the American Association for Artificial Intelligence AAAI National Conference Artificial Intelligence Workshop Representing and Reasoning About Function,5,20,188,AKumar
+189,189,AKumar ,Using Patterns to Teach Recursion in LISP,Proceedings of the Eastern Small Computing Conference ESCCC Marywood K,5,21,189,AKumar
+190,190,AKumar EllisZsoldosprimaryauthor,Developing Courseware for Precedence and Associativity of Operators in C, Proceedings of the Eastern Small Computing Conference ESCCC The Richard of New,5,22,190,AKumar
+191,191,AKumar AndrewMorrisseyprimaryauthor,Multimedia Courseware for Counter-Controlled Loops in Java, The Journal of Computing Small Colleges,5,23,191,AKumar
+192,192,AKumar JChen JChoi JGeller MRTaie SCShapiro SNSrihari SJUpadhyaya,VMES: A Versatile Maintenance Expert System,Department of Computer Science State University of New at Number,5,24,192,AKumar
+193,193,AKumar LucaChittaro ,Modeling and Reasoning with Function,Working Notes of the American Association for Artificial Intelligence AAAI National Conference Artificial Intelligence Workshop Representing Reasoning About Function,5,25,193,AKumar
+194,194,AKumar LChittaro,Reasoning about Function and its applications to engineering, Artificial Intelligence Engineering,5,26,194,AKumar
+195,195,AKumar LawrenceDAntonio ClaireLichack ,Implementing a Windows Based Courseware Authoring System,The Journal of Computing Small Colleges,5,27,195,AKumar
+196,196,AKumar PAVHall ESAdams LCarswell AEllis JMeyer JMotil,Interactive Multimedia Pedagogies - Report of the Working Group on Interactive Multimedia Pedagogy,Proceedings of The First Association for Computing Machinery ACM SIGCSE SIGCUE Special Interest Group Computer Science Education Computers Undergraduate Education Conference Integrating Technology into Computer Science Education Barcelona,5,28,196,AKumar
+197,197,AKumar ElliotBKoffman JuanAlvarez JurisReinfelds MariaLuciaBLisboa PeterVanRoy RaulSidneiWazlawick TorstenBrinda,Teaching Programming and Problem Solving ,Informatics Curricula and Teaching Methods,5,29,197,AKumar
+198,198,AKumar ClairePLichack,Acharya: Multimedia Courseware, Proceedings of the Eleventh Annual Eastern Small Computing Conference ESCCC Iona New Rochelle,5,30,198,AKumar
+199,199,AKumar ClaireLichack,Pedagogical Evaluation of Multimedia Courseware for Computer Science,Proceedings of the Frontiers Education Conference Teaching and Learning an Era of Change,5,31,199,AKumar
+200,200,AKumar ClaireLichack,Pedagogical Evaluation of Multimedia Courseware for Science, The Journal of Computing Small Colleges,5,32,200,AKumar
+201,201,AKumar NParameswaran,Metalevel Programming in Robotics, at the Workshop Space Telerobotics Jet Propulsion Laboratory,5,33,201,AKumar
+202,202,AKumar SJUpadhyaya ,Abstraction and Approximation in Diagnostic Reasoning,Working Notes of the American Association for Artificial Intelligence AAAI National Conference Artificial Intelligence Workshop Approximation Abstraction of Computational Theories San Jose Computer Animation,5,34,202,AKumar
+203,203,AKumar SJUpadhyaya,Component Ontological Representation of Function for Diagnosis, Proceedings of The Tenth IEEE Conference Artificial Intelligence for Applications CAIA San Antonio Acceptance rate,5,35,203,AKumar
+204,204,AKumar SJUpadhyaya,Component Ontological Representation of Function for Model Based Diagnosis, Working Notes of the American Association for Artificial Intelligence AAAI National Conference Artificial Intelligence Workshop Reasoning About Function D C,5,36,204,AKumar
+205,205,AKumar ,Accounting for Context-Sensitivity of Function,Working Notes of the International Joint Conference Artificial Intelligence IJCAI International Joint Conference Artificial Intelligence Workshop Modeling Context Knowledge Representation and Reasoning Montreal Computer Animation,5,1,205,AKumar
+206,206,AKumar SJUpadhyaya,Component Ontological Representation of Function for Reasoning About Devices, for publication Artificial Intelligence Engineering,5,37,206,AKumar
+207,207,AKumar ,Component Ontological Representation of Function for Candidate Discrimination in Model Based Diagnosis,Department of Computer Science State University of New at Number Dissertation,5,2,207,AKumar
+208,208,AKumar SJUpadhyaya,Focusing Candidate Generation, Artificial Intelligence Engineering,5,38,208,AKumar
+209,209,AKumar ,Function Based Reasoning,The Knowledge Engineering Review,5,3,209,AKumar
+210,210,AKumar ,Function-based reasoning: An introduction ,Applied Artificial Intelligence,5,4,210,AKumar
+211,211,AKumar ShambhuJUpadhyaya,Function-based candidate discrimination during model-based diagnosis ,Applied Artificial Intelligence,5,39,211,AKumar
+212,212,AKumar ,Fork Diagrams for Teaching Selection in CS I,Proceedings of The Twenty Seventh SIGCSE Special Interest Group Computer Science Education Technical Symposium Computer Science Education,5,5,212,AKumar
+213,213,AKumar ,Generating challenging problems for first-fit storage placement algorithm,Proceedings of the Artificial Intelligence Research Symposium FLAIRS The AI Research Society Conference Special Track Intelligent Tutoring Systems Daytona Beach K,5,6,213,AKumar
+214,214,AKumar ,Generating Challenging Problems in Intelligent Tutoring Systems: A Case Study of Storage Placement Algorithms,Proceedings of the Eighth International PEG Conference Sozopol K,5,7,214,AKumar
+215,215,AKumar ,Links ,Intelligence,5,8,215,AKumar
+216,216,AKumar ,Learning Programming by Solving Problems ,Informatics Curricula and Teaching Methods,5,9,216,AKumar
+217,217,AKumar SJUpadhyaya,Framework for Function Based Diagnosis, Department of Computer Science State University of New at Number,5,40,217,AKumar
+218,218,AKumar SJUpadhyaya,A Theory of Function Based Diagnosis, Proceedings of the West International Conference Intelligent Systems,5,41,218,AKumar
+219,219,AKumar SJUpadhyaya,Teleological Reasoning in Model Based Diagnosis, for poster presentation at IEEE Conference Tools with Artificial Intelligence TAI New Orleans,5,42,219,AKumar
+220,220,AKumar SJUpadhyaya ,Teleological Reasoning in Model Based Diagnosis,Working Notes of the American Association for Artificial Intelligence AAAI National Conference Artificial Intelligence Workshop Representing Reasoning About Device Function,5,43,220,AKumar
+221,221,AKumar SJUpadhyaya,Teleology in Model Based Diagnosis, Working Notes of the Fifth International Workshop Principles of Diagnosis DX New Paltz,5,44,221,AKumar
+222,222,AKumar SJUpadhyaya,Automating Representation, Working Notes of the American Association for Artificial Intelligence AAAI National Conference Artificial Intelligence Workshop Model Based Reasoning,5,45,222,AKumar
+223,223,AKumar ARNaseer CSAjay DHarikrishna MBalakrishnan MKarunakaran ShashiKumar VMudgil,High Level Design Experiences with IDEAS ,VLSI Very Large Scale Integration Design,6,1,223,AKumar
+224,224,AKumar MBalakrishnan MVRao,DESSERT: Design Space Exploration of RT Level Components ,VLSI Very Large Scale Integration Design,6,2,224,AKumar
+225,225,AKumar MBalakrishnan VishalPBhatt,Exploring the Number of Register Windows in ASIP Synthesis ,VLSI Very Large Scale Integration Design,6,3,225,AKumar
+226,226,AKumar MBalakrishnan MuraliMohan RohiniKrishnan,A New Divide and Conquer Method for Achieving High Speed Division in Hardware ,VLSI Very Large Scale Integration Design,6,4,226,AKumar
+227,227,AKumar ARNaseer MBalakrishnan,FAST: FPGA Targeted RTL Structure Synthesis Technique ,VLSI Very Large Scale Integration Design,6,5,227,AKumar
+228,228,AKumar ShashiKumar SushilChandraJain,Efficient Embedding of Partitioned Circuits onto Multi-FPGA Boards ,FPL Field Programmable Logic and Applications,6,6,228,AKumar
+229,229,AKumar ARNaseer MBalakrishnan,An Efficient Technique for Mapping RTL Structures onto FPGAs ,FPL Field Programmable Logic and Applications,6,7,229,AKumar
+230,230,AKumar ARNaseer MBalakrishnan,Delay Minimal Mapping of RTL Structures onto LUT Based FPGAs ,FPL Field Programmable Logic and Applications,6,8,230,AKumar
+231,231,AKumar LaxmiNBhuyan,Parallel FFT Algorithms for Cache Based Shared Memory Multiprocessors ,ICPP International Conference Parallel Processing,7,1,231,AKumar
+232,232,LaxmiNBhuyanHMWVerbeek WMPvanderAalstandAKumar YeimkuanChang,A Distributed Cache Coherence Protocol for Hypercube Multiprocessors ,ICPP International Conference Parallel Processing,7,2,232,AKumar
+233,233,AKumar LaxmiNBhuyan PhanindraKMannava,Efficient and scalable cache coherence schemes for shared memory hypercube multiprocessors ,Supercomputing,7,3,233,AKumar
+234,234,AKumar Hu JunWang LaxmiNBhuyan RaviRIyer,Impact of CC-NUMA Memory Management Policies on the Application Performance of Multistage Switching Networks ,IEEE Trans Parallel Distrib Syst,7,4,234,AKumar
+235,235,AKumar LaxmiNBhuyan,Evaluating Virtual Channels for Cache-Coherent Shared-Memory Multiprocessors ,International Conference Supercomputing,7,5,235,AKumar
+236,236,AKumar RabiNMahapatra,Vector Hartley Transform Employing Multiprocessors ,IPPS International Parallel Processing Symposium,7,6,236,AKumar
+237,237,AKumar ChristosFaloutsos VassilisJTsotras,Access Methods for Bi-Temporal Databases,Temporal Databases,8,4,237,AKumar
+238,238,AKumar TonyTLee VassilisJTsotras,A Load-Balanced Parallel Sorting Algorithm for Shared-Nothing Architectures ,Distributed and Parallel Databases,8,1,238,AKumar
+239,239,AKumar ChristosFaloutsos VassilisJTsotras,Designing Access Methods for Bitemporal Databases ,IEEE Trans Knowl Data Eng,8,2,239,AKumar
+240,240,AKumar VassilisJTsotras,Temporal Database Bibliography Update ,SIGMOD International Conference Management of Data Record,8,3,240,AKumar
+241,241,AKumar AndrewYCNee FMervyn SHBok,Development of an Internet-enabled interactive fixture design system ,Computer Aided Design,9,1,241,AKumar
+242,242,AKumar TanBookTeck VSubramanian,A CAD integrated analysis of flatness in a form tolerance zone ,Computer Aided Design,9,2,242,AKumar
+243,243,AKumar JerryYHFuh TSKow,An automated design and assembly of interference-free modular fixture setup ,Computer Aided Design,9,3,243,AKumar
+244,244,AKumar AYCNee SPrombanpong,Expert fixture-design system for an automated manufacturing environment ,Computer Aided Design,9,4,244,AKumar

@@ -1,0 +1,413 @@
+,X,Coauthor,Paper,Journal,AuthorID,PaperNO,PaperID,Author
+1,1,LisaHBerg,Bringing electronic mail to the masses phase I: Eudora ,SIGUCCS Special Interest Group University and Computing Services,10,1,1,MMiller
+2,2,,World Wide Web development at Notre Dame: it's easier to ask forgiveness than permission ,SIGUCCS Special Interest Group University and Computing Services,10,2,2,MMiller
+3,3,,Managing Macs made painless: leveraging the right tools for the job ,SIGUCCS Special Interest Group University and Computing Services,10,3,3,MMiller
+4,4,BerndHamann CarolLHunter CharlesDHansen MichaelCox RogerCrawfis,"Terascale visualization: approaches, pitfalls and issues panel ",IEEE Visualization,11,1,4,MMiller
+5,5,BerndHamann JFritzBarnes WilliamCWynn,"Multiresolution and Adaptive Rendering Techniques for Structured, Curvilinear Data ",Scientific Visualization,11,2,5,MMiller
+6,6,LJayWantz,Educational Metadata in Use ,Computer Networks,12,1,6,MMiller
+7,7,LJayWantz,COOL Links: Ride the Wave ,Computer Networks,12,2,7,MMiller
+8,8,JRyan XSlamin,"Integral sum numbers of cocktail party graphs and symmetric complete bipartite graphs,",Bulletin of ICA,1,103,8,MMiller
+9,9,MBaca JAMacDougall XSlamin WDWallis,"A survey of certain valuations of graphs,",Discussiones Mathematicae Graph Theory,1,16,9,MMiller
+10,10,XSlamin,"On the monotonicity of minimum diameter with respect to order and maximum out-degree,",Proceedings of COCOON Computing and Combinatorics Sydney Lecture Notes Computer Science D Z Du P Eades V Estivill Castro X Lin eds,1,104,10,MMiller
+11,11,ETBaskoro JSiran MSutton,"Complete characterisation of almost Moore digraphs of degree three,",Journal of Graph Theory,1,17,11,MMiller
+12,12,MBaca,"Antimagic valuations of generalized Petersen graphs,",Australasian Journal of Combinatorics,1,105,12,MMiller
+13,13,LBrankovic PHorak GWrightson,"Usability of compromise-free statistical databases,",Proceedings of the Ninth International Conference Scientific and Statistical Database Management,1,50,13,MMiller
+14,14,ETBaskoro JPlesnik SZnam,"Digraphs of degree close to Moore bound,",J Graph Theory,1,18,14,MMiller
+15,15,MBaca YLin,"On two conjectures concerning a,d -antimagic labeling of antiprisms,",JCMCC,1,106,15,MMiller
+16,16,LBrankovic JSiran,"Usability of k-commpromise-free statistical databases,",Proceedings of AWOCA Hunter Valley,1,51,16,MMiller
+17,17,ETBaskoro JPlesnik,"Further results on almost Moore digraphs,",Ars Combinatoria,1,19,17,MMiller
+18,18,MMiller,"Open problems in graph theory: Labelings and extremal graphs, Plenary Address in Combinatorics, Prosiding Komperensi Nasional X Matematika,",ITB Bandung Jurnal MIHMI,1,107,18,MMiller
+19,19,LBrankovic MMiller,"Spectrum of premature partial latin squares,",Proceedings of AWOCA Perth,1,52,19,MMiller
+20,20,MSutton MMiller,"On the sum number of wheels,",Discrete Mathematics,1,140,20,MMiller
+21,21,JRyan XSlamin KSugeng MTuga,"Open problems in exclusive sum graph labeling,",Proceedings of the Fourteenth Australasian Workshop Combinatorial Algorithms Seoul Korea,1,108,21,MMiller
+22,22,LBrankovic JCooper,"Utilising secret sharing for access to medical databases,",HICS Conference Adelaide,1,53,22,MMiller
+23,23,MSutton JRyan XSlamin,"Open problems in mod sum graphs,",Proceedings of AWOCA,1,141,23,MMiller
+24,24,IRoberts JSimpson,"Application of symmetric chains to an optimization problem in the security of statistical databases,",Bulletin of ICA Volume,1,109,24,MMiller
+25,25,LBrankovic JSiran,"Towards a practical auditing method for the prevention of statistical database compromise,",Seventh Australasian Database Conference Proceedings Australian Computer Science Communications,1,54,25,MMiller
+26,26,MSutton MMiller,"Using graph labellings to store linkages in relational databases,",Proceedings of AWOCA Hunter Valley,1,142,26,MMiller
+27,27,EChang CColman WEe MMiller,"Comparison of Industry-Sited Projects and University-Sited Projects for Final Year Students,", International Conference Software Engineering Research and Practice SERP Las Vegas,1,55,27,MMiller
+28,28,WDWallis ETBaskoro XSlamin,"Edge-magic total labelings,",Australasian Journal of Combinatorics,1,143,28,MMiller
+29,29,CatherineColman ElizabethChang WanEe,Comparison of Industry-Sited Projects and University-Sited Projects for Final Year Students ,Software Engineering Research and Practice,1,56,29,MMiller
+30,30,GrahamWrightson LjiljanaBrankovic PeterNorak,Usability of Compromise-Free Statistical Databases,SSDBM Statistical and Scientific Database Management,1,144,30,MMiller
+31,31,EDahlhaus PManuel MMiller,"A characterisation of strongly chordal graphs,",Discrete Mathematics,1,57,31,MMiller
+32,32,JAMacDougall XSlamin WDWallis,"Vertex-magic total labelings of graphs,",Utilitas Math,1,90,32,MMiller
+33,33,EDahlhaus JRyan,"Komplexitat von Eisenbahnrangierproblemen,",Kolloquium uber Kombinatorik Braunschweig,1,58,33,MMiller
+34,34,JAMacDougall WWallis,"Vertex-magic total labelings of wheels and related graphs,",Utilitas Math,1,91,34,MMiller
+35,35,EDahlhaus FManne JRyan,"Algorithms for combinatorial problems related to train marshalling,",Proceedings of AWOCA Hunter Valley,1,59,35,MMiller
+36,36,BDMcKay JSiran,"A note on large graphs of diameter two and given maximum degree,",J Combinatorial Theory,1,92,36,MMiller
+37,37,KedsPark,,Proceedings of the Fourteenth Australasian Workshop Combinatorial Algorithms Seoul Korea,1,93,37,MMiller
+38,38,HMNguyen XSlamin,"Construction techniques for diregular and non-diregular large directed networks,",Proceedings of AWOCA Frazer Island,1,94,38,MMiller
+39,39,JSiran,"Digraphs of degree two which miss the Moore bound by two,",Discrete Mathematics,1,95,39,MMiller
+40,40,CARodger RSimanjuntak,"Distance magic labelings of graphs,",Australasian J Combin,1,96,40,MMiller
+41,41,JRyan XSlamin WFSmyth,"Labelling wheels for minimum sum number,",JCMCC,1,97,41,MMiller
+42,42,JGimbert JSiran XSlamin,"Almost Moore digraphs are diregular,",Discrete Mathematics,1,98,42,MMiller
+43,43,MMiller,"A model of statistical database compromise incorporating supplementary knowledge, in Databases in the 's - , ",,1,99,43,MMiller
+44,44,ETBaskoro PManuel JRyan MSutton,"Generalized clique covering in circular arc graphs,",Proceedings of AWOCA Darwin,1,20,44,MMiller
+45,45,ETBaskoro LBrankovic JPlesnik JRyan JSiran,"Large digraphs with small diameter: A voltage assignment approach,",JCMCC,1,21,45,MMiller
+46,46,EBaskoro XSurahmat SMNababan MMiller,"On Ramsey numbers for trees versus wheels of five or six vertices,",Graphs and Combinatorics,1,22,46,MMiller
+47,47,JAMacDougall XSlamin WDWallis,"Problems in magic total labellings,",Proceedings of AWOCA Perth,1,110,47,MMiller
+48,48,ETBaskoro MMiller,"On the construction of networks with minimum diameter,",Proceedings of the th Australian Computer Science Conference,1,23,48,MMiller
+49,49,IRoberts JSimpson,"Prevention of relative compromise using Audit Expert,",Bulletin of ICA,1,111,49,MMiller
+50,50,ETBaskoro JPlesnik,"On the structure of digraphs with order close to the Moore bound,",Graphs and Combinatorics,1,24,50,MMiller
+51,51,JCooper,"Security considerations for present and future medical databases,",re printed by the IMIA Yearbook of Medical Informatics,1,112,51,MMiller
+52,52,ETBaskoro JSiran,"A note on almost Moore digraphs of degree three,",Acta Mathematica Universitatis Comenianae LXVI,1,25,52,MMiller
+53,53,JCooper,"Security considerations for present and future medical databases,",International Journal of Bio Medical Computing,1,113,53,MMiller
+54,54,ETBaskoro MMiller,"Open problems in constructing digraphs with minimal diameter,",Proceedings of the th AWOCA Ubud,1,26,54,MMiller
+55,55,MMiller,"Security issues in medical databases,",HIANSW Third Annual Conference Hunter Valley,1,114,55,MMiller
+56,56,ETBaskoro MMiller,"A procedure for constructing a minimum-diameter digraph,",Bulletin of ICA,1,27,56,MMiller
+57,57,MMiller,"Some open problems in optimal digraphs,",Tatra Mountains Mathematical Publications,1,115,57,MMiller
+58,58,EDahlhaus PManuel MMiller,"Maximum h-colorable subgraph problem in balanced graphs,",Information Processing Letters,1,60,58,MMiller
+59,59,ETBaskoro JPlesnik SZnam,"Regular digraphs of diameter and maximum order,",Australasian Journal of Combinatorics,1,28,59,MMiller
+60,60,JRyan WFSmyth,"The sum number of a disjoint union of graphs,",Proceedings of the Fourteenth Australasian Workshop Combinatorial Algorithms Seoul Korea,1,116,60,MMiller
+61,61,EDahlhaus PManuel MMiller,"Parallel algorithms for generalised clique transversal problems,",Ars Combinatoria,1,61,61,MMiller
+62,62,FBertault MMiller,"Extended graph model for software visualization,",Proceedings of SoftVis Sydney,1,29,62,MMiller
+63,63,JRyan WSmyth,"The sum number of the cocktail party graph,",Bulletin of ICA,1,117,63,MMiller
+64,64,EliasDahlhaus JosephFRyan PeterHorak,The train marshalling problem ,Discrete Applied Mathematics,1,62,64,MMiller
+65,65,JGimbert FRuskey JRyan,"Iterations of eccentric digraphs,",Proceedings of AWOCA Frazer Island,1,118,65,MMiller
+66,66,EliasDahlhaus JanKratochv iacute l PaulDManuel,Transversal Partitioning in Balanced Hypergraphs ,Discrete Applied Mathematics,1,63,66,MMiller
+67,67,SMorris JCooper DBomba LBrankovic FPacecho,"Australian healthcare: a smart card for a clever country,",International Journal of Bio Medical Computing,1,119,67,MMiller
+68,68,EDahlhaus JKratochvil PManuel,"Transversal partitioning in balanced hypergraphs,",Proceedings of the Twente Workshop Graphs and Combinatorial Optimization Enschede The,1,64,68,MMiller
+69,69,AnnaDraganova MartinSutton,Mod sum number of wheels ,Ars Comb,1,65,69,MMiller
+70,70,PEades HElGindy MHoules BLenhart DRappaport SWhitesides,"Dominance drawing of bipartite graphs,",Proceedings of the Fifth Conference Computational Geometry,1,66,70,MMiller
+71,71,PEades MKeil PManuel MMiller,"Two dominating sets with minimum intersection in chordal graphs,",Nordic Journal of Computing,1,67,71,MMiller
+72,72,ZFeng MMiller,"Data integrity in relational databases,",Proceedings of th New Zealand Annual Computer Science Conference,1,68,72,MMiller
+73,73,ZFeng YJia MMiller,"Null values in relational DBMS, in Databases in the 's B Srinivasan and J Zeleznikow ed ,",World Scientific,1,69,73,MMiller
+74,74,FBertault MMiller,"An algorithm for drawing compound graphs,",Lecture Notes Computer Science ed Kratochvil,1,30,74,MMiller
+75,75,JBoland MMiller,"Eccentric digraph of a digraph,",Proceedings of AWOCA Bandung Indonesia,1,31,75,MMiller
+76,76,JBoland FBuckley MMiller,"Eccentric Digraphs,",Discrete Mathematics,1,32,76,MMiller
+77,77,HNagamochi XSlamin,"Bounds on the number of isolates in sum graph labeling,",Discrete Mathematics,1,120,77,MMiller
+78,78,DBomba LBrankovic JCooper SMorris FPacecho,"Data Inference in Medical Databases,",Inaugural Conference of the Asia Pacific Association of Medical Informatics,1,33,78,MMiller
+79,79,DavidRappaport HossamAElGindy MichaelEHoule SueWhitesides WilliamLenhart,Dominance Drawings of Bipartite Graphs ,CCCG Canadian Conference Computational Geometry,1,121,79,MMiller
+80,80,DBomba LBrankovic JCooper SMorris FPacecho,"Security Measurement and Medical Databases,",Inaugural Conference of the Asia Pacific Association of Medical Informatics,1,34,80,MMiller
+81,81,AlexanderRosa LjiljanaBrankovic PeterHorak,Premature partial latin squares ,Ars Comb,1,122,81,MMiller
+82,82,DBomba LBrankovic JCooper SMorris FPacecho,"Australian Healthcare: Smart Card for a Clever Country,",Inaugural Conference of the Asia Pacific Association of Medical Informatics,1,35,82,MMiller
+83,83,JenniferSeberry,Relative Compromise of Statistical Databases ,Australian Computer Journal,1,123,83,MMiller
+84,84,LjiljanaBrankovic PeterHorak,A Combinatorial Problem in Database Security ,Discrete Applied Mathematics,1,36,84,MMiller
+85,85,RSimanjuntak MMiller,"Largest planar digraphs of diameter two,",Proceedings of AWOCA Frazer Island,1,124,85,MMiller
+86,86,LBrankovic DBomba JCooper SMorris FPacecho,"Confidentiality of patient records and the data inference problem,",HICS Conference Adelaide,1,37,86,MMiller
+87,87,RSimanjuntak MMiller,"Survey of a,d -antimagic graph labelings, Prosiding Komperensi Nasional X Matematika, ITB Bandung, July ,",Jurnal MIHMI,1,125,87,MMiller
+88,88,ZFeng YJia MMiller,"Nulls in relational DBMS,",Proceedings DBIS Sydney,1,70,88,MMiller
+89,89,LBrankovic PLieby MMiller,"Flattening antichains with respect to the volume,",Electronic Journal of Combinatorics R,1,38,89,MMiller
+90,90,RSimanjuntak FBertault,"Two new a,d antimagic labelings,",Proceedings of AWOCA Hunter Valley,1,126,90,MMiller
+91,91,ZFeng YJia MMiller,"An multivalued approach to relational DBMS,",Proceedings of the Far East Conference Future Databases Kyoto,1,71,91,MMiller
+92,92,LBrankovic JSiran,"Graphs, - matrices and usability of statistical databases,",Congr Numer,1,39,92,MMiller
+93,93,JozefSiran LjiljanaBrankovic,Towards a Practical Auditing Method for the Prevention of Statistical Database Compromise ,Australasian Database Conference,1,127,93,MMiller
+94,94,ZFeng IFris MMiller,"An enhancement of domain integrity in relational database,",Proceedings of International Conference for Young Computer Scientists Beijing,1,72,94,MMiller
+95,95,MBaca YLin MZYoussef,Edge-antimagic graphs,Discrete Mathematics,1,1,95,MMiller
+96,96,XSlamin MBaca YLin RSimanjuntak,"Edge-magic total labelings of wheels, fans and friendship graphs,",Bulletin of ICA,1,128,96,MMiller
+97,97,ZFeng MZhang,"An intelligent database model,",Third International Conference for Young Computer Scientists Beijing,1,73,97,MMiller
+98,98,MBaca MMiller,"d-antimagic labelings of plane graphs,",Proceedings of AWOCA Hunter Valley,1,2,98,MMiller
+99,99,XSlamin MMiller,"Diregularity of digraphs close to Moore bound, Prosiding Komperensi Nasional X Matematika,",ITB Bandung Jurnal MIHMI,1,129,99,MMiller
+100,100,ZFeng HDai MMiller,"A proposal towards data integrity subsystem for relational databases,",Proceedings of Baltic International Conference Database Method Riga,1,74,100,MMiller
+101,101,MBaca MMiller,"Valuations of a certain class of convex polytopes,",JCMCC,1,3,101,MMiller
+102,102,Fran ccedil oisBertault,An Algorithm for Drawing Compound Graphs ,Graph Drawing,1,75,102,MMiller
+103,103,MBaca YLin MMiller,"Valuations of plane quartic graphs,",JCMCC,1,4,103,MMiller
+104,104,IvanFris,Minimum Diameter of Diregular Digraphs of Degree ,Comput J,1,76,104,MMiller
+105,105,MBaca XSlamin,"Vertex-magic total labelings of generalized Petersen graphs,",Int J of Computer Mathematics Issue,1,5,105,MMiller
+106,106,PHorak LBrankovic MMiller,"Combinatorial problem in data security,",Discrete Applied Mathematics,1,77,106,MMiller
+107,107,MBaca FBertault JAMacDougall RSimanjuntak XSlamin,"Vertex-antimagic total labelings of graphs,",Discussiones Mathematicae Graph Theory,1,6,107,MMiller
+108,108,CIliopoulos BedsSmyth,, th Australasian Workshop Combinatorial Algorithms Special Issue Int J of Computer Mathematics Issue,1,78,108,MMiller
+109,109,MBaca XSlamin,"Every generalized Petersen graph has a vertex-magic total labeling,",Proceedings of AWOCA Hunter Valley,1,7,109,MMiller
+110,110,MBaca MMiller,"On d-magic labelings of type , , for prisms,",JCMCC,1,8,110,MMiller
+111,111,YingxianJia ZhuopengFeng,A Multivalued Approach to Handle Nulls in RDB ,Future Databases,1,79,111,MMiller
+112,112,MBaca ETBaskoro MMiller,"On d-antimagic labelings of honeycomb,",Proceedings of AWOCA Bandung Indonesia,1,9,112,MMiller
+113,113,LBrankovic JPlesnik JRyan JSiran,"Large graphs with small diameter: A voltage assignment approach,",Australasian Journal of Combinatorics,1,40,113,MMiller
+114,114,LBrankovic AFurche GWrightson,"NewCash - Anonymous payments with receipts,",Proceedings of SICON,1,41,114,MMiller
+115,115,LBrankovic MMiller,"An application of combinatorics to the security of statistical databases,", th Conference of the Austr Math Society Armidale requested for publication Australian Mathematical Society Gazette,1,42,115,MMiller
+116,116,XSlamin ETBaskoro MMiller,"Diregularity of digraphs of out-degree three and order two less than Moore bound,",Proceedings of AWOCA Bandung Indonesia,1,130,116,MMiller
+117,117,LjiljanaBrankovic PeterHorak,An Optimization Problem in Statistical Databases ,SIAM Society for Industrial and Applied Mathematics J Discrete Math,1,43,117,MMiller
+118,118,Slamin,On the Monotonicity of Minimum Diameter with Respect to Order and Maximum Out-Degree ,COCOON Computing and Combinatorics,1,131,118,MMiller
+119,119,LBrankovic PHorak MMiller,"An optimisation problem in statistical database security,",SIAM Society for Industrial and Applied Mathematics Journal Discrete Mathematics,1,44,119,MMiller
+120,120,XSlamin MMiller,"On two conjectures concerning vertex-magic total labeling of generalized Petersen graphs,",Bulletin of ICA,1,132,120,MMiller
+121,121,LBrankovic JSiran,"On range query usability of statistical databases,",Int J of Computer Mathematics Issue,1,45,121,MMiller
+122,122,XSlamin MMiller,"Open problems in sum and integral sum graph labellings,",Proceedings of AWOCA,1,133,122,MMiller
+123,123,LBrankovic JPlesnik JRyan JSiran,"A note on constructing large Cayley graphs of given degree and diameter by voltage assignment,",Electronic Journal of Combinatorics R,1,46,123,MMiller
+124,124,XSlamin MMiller,"Sum graph labelling and related problems,",Jurnal MIHMI,1,134,124,MMiller
+125,125,LBrankovic MMiller,"Introduction to Statistical Database Security, Special Issue,",Selected Topics of Cryptography and Information Security Communications of the CCISA,1,47,125,MMiller
+126,126,KSugeng MBaca," a,d -edge-antimagic total labeling,",Indonesia Conference Computational Geometry and Graph Theory Bandung Indonesia,1,135,126,MMiller
+127,127,AVKelarev OSokratova,"Directed graphs and closure properties for languages,",Proceedings of AWOCA Bandung Indonesia,1,80,127,MMiller
+128,128,LBrankovic MMiller,"Open problems in the security of statistical databases,",Proceedings of AWOCA,1,48,128,MMiller
+129,129,KASugeng MMiller,"Open problems in secret sharing,",Proceedings of AWOCA Frazer Island,1,136,129,MMiller
+130,130,JanKratochv iacute l PaulDManuel,Generalized Domination in Chordal Graphs ,Nordic Journal of Computing,1,81,130,MMiller
+131,131,LBrankovic PHorak ARosa,"Premature partial latin squares,",Ars Combinatoria,1,49,131,MMiller
+132,132,MSutton JRyan XSlamin,"Connected graphs which are not mod sum graphs,",Discrete Mathematics,1,137,132,MMiller
+133,133,JKratochvil PManuel AProskurowski,"Disjoint and unfolding domination in graphs,",Australasian Journal of Combinatorics,1,82,133,MMiller
+134,134,MSutton MMiller,"Mod sum graph labelling of Hmn and Kn,",Australasian Journal of Combinatorics,1,138,134,MMiller
+135,135,JKratochvil PManuel MMiller,"Generalized domination in chordal graphs,",Nordic Journal of Computing,1,83,135,MMiller
+136,136,MSutton ADraganova MMiller,"Mod sum number of wheels,",Ars Combinatoria,1,139,136,MMiller
+137,137,JKratochvil HNNguyen,"Sum graph labels - an upper bound and related problems,",Proceedings of AWOCA Bandung Indonesia,1,84,137,MMiller
+138,138,YLin CRodger,"Edge connectivity of cages,",Proceedings of AWOCA Bandung Indonesia,1,85,138,MMiller
+139,139,YLin MMiller,"Generalisations of directed Moore graphs,",Proceedings of AWOCA Frazer Island,1,86,139,MMiller
+140,140,YLin MMiller,"Vertex magic total labellings of complete graphs,",Bulletin of ICA,1,87,140,MMiller
+141,141,YLin RSimanjuntak XSlamin,"Magic and antimagic labelings of wheels,",Proceedings of AWOCA Hunter Valley,1,88,141,MMiller
+142,142,YLin XSlamin MBaca MMiller,"On $d$-antimagic labelings of prisms,",Ars Combin,1,89,142,MMiller
+143,143,MBaca JRyan,"On d-antimagic labelings of prisms and antiprisms,",Proceedings of AWOCA Bandung Indonesia,1,10,143,MMiller
+144,144,MBaca YLin RSimanjuntak,"New constructions of magic and antimagic graph labelings,",Utilitas Math,1,11,144,MMiller
+145,145,MBaca SJendrol JRyan,On irregular total labelings,Discrete Mathematics,1,12,145,MMiller
+146,146,IFris,"Maximum order digraphs for diameter or degree , Pullman volume of Graphs and Matrices,",Lecture Notes Pure and Applied Mathematics,1,100,146,MMiller
+147,147,MBaca MMiller,"Antimagic face labeling of convex polytopes based on biprisms,",Journal of Combinatorial Mathematics and Combinatorial Computing,1,13,147,MMiller
+148,148,CRodger RSimanjuntak,"On distance magic graphs,",Proceedings of AWOCA Bandung Indonesia,1,101,148,MMiller
+149,149,MBaca SJendrol JRyan,"Antimagic labelings of generalised Petersen graphs that are plane,",Ars Combinatoria,1,14,149,MMiller
+150,150,BPascoe IRoberts,"An Expert System for security of statistical databases,",IJCAI International Joint Conference Artificial Intelligence Workshop Integrating Artificial Intelligence into Databases Sydney,1,102,150,MMiller
+151,151,MBaca ETBaskoro SJendrol MMiller,"Antimagic labelings of hexagonal plane maps,",Utilitas Math,1,15,151,MMiller
+152,152,GaryChristensen MIMiller YAmit UGrenander,"Global Shape Models for Anatomical Structures,",Poor and Schwartz editors Proceedings of the th Conference Information Sciences and Systems University,2,30,152,MMiller
+153,153,GEChristensen SCJoshi MIMiller,"Volumetric Transformation of Brain Anatomy,",IEEE Transactions Medical Imaging,2,31,153,MMiller
+154,154,GaryChristensen MichaelIMiller MichaelWVannier UlfGrenander,"Individualizing Neuroanatomical Atlases Using a Massively Parallel Computer,",IEEE Computer,2,32,154,MMiller
+155,155,GaryEChristensen MichaelVannier UlfGrenander,Individualizing Neuroanatomic Atlases Using a Massively Parallel Computer ,IEEE Computer,2,33,155,MMiller
+156,156,MichaelIMiller,"Method and apparatus for image registration,",United States Patent US Patent Office,2,120,156,MMiller
+157,157,GEChristensen SCJoshi MIMiller,"Individualizing Anatomical Atlases of the Head,",Proc th Intl Conf Visualization Biomedical Computing,2,34,157,MMiller
+158,158,MIMiller TJSchaewe CSBosch JJHAckerman,"A Mathematical Signal Model for Phase and Frequency Encoded Magnetic Resonance Imaging Data,",J Magn Reson series B,2,121,158,MMiller
+159,159,GaryChristensen MIMiller JLMarsh MWVannier,"Automatic Analysis of Medical Images Using a Deformable Textbook,",,2,35,159,MMiller
+160,160,MichaelIMiller GaryEChristensen YaliAmit UlfGrenander,"Mathematical Textbook of Deformable Neuroanatomies,",Proceedings of the National Academy of Science,2,122,160,MMiller
+161,161,GaryChristensen RDRabbitt MIMiller SCJoshi UGrenander TCoogan DVanEssen,"Topological properties of smooth anatomic maps,",Y Bizais C Braillot and R Di Paola editors Information Processing Medical Imaging th International Conference Kluwer Academic Publishers,2,36,161,MMiller
+162,162,MIMiller DLSnyder SMMoore,"An Evaluation of the Use of Sieves for Producing Estimates of Radioactivity Distributions with the EM Algorithm for Positron Emission Tomography,",IEEE Trans Nucl Sci,2,123,162,MMiller
+163,163,MCooper UlfGrenander MichaelMiller AnujSrivastava,"Accommodating Geometric and Thermodynamic Variability For Forward-Looking Infrared Sensors,",Proc SPIE The International Society for Optical Engineering Algorithms for Synthetic Aperture Radar IV E Zelnio Ed,2,37,163,MMiller
+164,164,MIMiller DLSnyder,"An Alternating Maximization of the Entropy/Likelihood Function for Image Reconstruction and Spectrum Estimation,",Proc SPIE The International Society for Optical Engineering Advanced Architectures and Algorithms,2,124,164,MMiller
+165,165,MCooper ASrivastava MIMiller,"Quadratic Analysis of Information Measures for Object Recognition,",SPIE The International Society for Optical Engineering,2,38,165,MMiller
+166,166,MIMiller DRFuhrmann,"An EM Algorithm for Direction-of-Arrival Estimation for Narrowband Signals in Noise,",Proc SPIE The International Society for Optical Engineering Advanced Algorithms and Architectures for Signal Process,2,125,166,MMiller
+167,167,MatthewCooper MichaelMiller,"Information Gain in Object Recognition Via Sensor Fusion,",Proc of the Intl Conf Multisource Multisensor Information Fusion,2,39,167,MMiller
+168,168,MIMiller KBLarson JESaffitz DLSnyder LJThomas BRoysam,"A New Method for Analysis of Electron Microscopic Autoradiographs,",Biotechniques,2,126,168,MMiller
+169,169,MIMiller JWang,"A New Stochastic Model for Auditory-Nerve Discharge,",J Acoust Soc Am,2,127,169,MMiller
+170,170,MIMiller ATrouve LYounes,"On the Metrics and Euler-Lagrange Equations of Computational Anatomy,",Annual Review of biomedical Engineering,2,128,170,MMiller
+171,171,MIMiller,"Application of Likelihood and Entropy for Toeplitz Constrained Covariance Estimation,",Maximum Entropy and Bayesian Methods Science and Engineering Kluwer Academic Publishers,2,129,171,MMiller
+172,172,MCooper MIMiller,"Information Measures for Object Recognition,",SPIE The International Society for Optical Engineering Conference Algorithms for Synthetic Aperture Radar Imagery V,2,40,172,MMiller
+173,173,MCooper MIMiller,"Information Measures for Object Recognition Accommodating Signature Variability,",IEEE Transactions Information Theory pages,2,41,173,MMiller
+174,174,MCooper AaronLanterman SarangJoshi MichaelMiller,"Representing The Variation of Thermodynamic State Via Principal Components Analysis,",Proc Third Workshop Conventional Weapon ATR U S Army Missile Command,2,42,174,MMiller
+175,175,JohnGCsernanskuy LeiWang PhD JeffreySwank ChinChinTing jPhilipMiller MichaelIMiller JohnCMorris,"Hippocampal Volume and shape Variation Predicts Cognitive Decline in Nondemented Elder Subjects,",World Congress,2,43,175,MMiller
+176,176,MIMiller MBSachs,"Representation of Voice Pitch in Discharge Patterns of Auditory-Nerve Fibers,",Hearing Res,2,130,176,MMiller
+177,177,JohnGCsernansky MathewKSchindler NReaganSplinter LeiWang MohktarGado LynnDSelemon DevnaRastogi Cruz JoelAPosener PaulAThompson MichaelIMiller,"Abnormalities of Thalamic Volume and Shape in Schizophrenia,",American Journal of Psychiatry,2,44,177,MMiller
+178,178,MIMiller MBSachs,"Representation of Stop Consonants in the Discharge Patterns of Auditory-Nerve Fibers,",J Acoust Soc Am,2,131,178,MMiller
+179,179,JohnGCsernansky JohnWHaller AyanashuBanerjee LeiWang SarangCJoshi GaryEChristensen MokhtarGado MichaelWVannier MichaelIMiller,"A Comparison of the Hippocampus in Schizophrenia and Control Subjects using Automated Methods for Neuromorphometry,",Schizophrenia Research,2,45,179,MMiller
+180,180,MIMiller,"Strategies for the Representation of Broadband Stimuli in the Discharge Patterns of Auditory Nerve Fibers,",Proc NATO Advanced Res Workshop Auditory Frequency Selectivity Auditory Frequency Selectivity,2,132,180,MMiller
+181,181,JohnGCsernansky JohnWHaller AyanashuBanerjee LeiWang SarangCJoshi GaryEChristensen MokhtarGado MichaelWVannier MichaelIMiller,"A Comparison of the Hippocampus in Schizophrenia and Control Subjects Using Automated Methods for Neuromorphometry ,", th Annual Meeting of the ACNP San Juan Puerto Rico,2,46,181,MMiller
+182,182,MIMiller PEBarta MBSachs,"Strategies for the Representation of a Tone in Background Noise in the Temporal Aspects of the Discharge Patterns of Auditory-Nerve Fibers,",J Acoust Soc Am,2,133,182,MMiller
+183,183,JohnGCsernansky LeiWang SarangCJoshi MokhtarGado JohnGMorris MichaelIMiller,"A Computerized Brain Mapping Method for Detailed Analyses of Neuroanatomical Shapes and Volumes,",International Journal of Psychopharmacology Suppl S,2,47,183,MMiller
+184,184,YAmit MIMiller,"Large Deviations for Coding Markov Chains and Gibbs Random Fields,",IEEE Trans Inform Theory,2,1,184,MMiller
+185,185,AyananshuBanerjee GaryChristensen SarangJoshi NavinKhaneja UGrenander LarissaMatejic,"Statistical Methods in Computational Anatomy,",Statistical Methods Medical Research,2,134,185,MMiller
+186,186,JohnGCsernansky LeiWang SarangCJoshi MokhtarGado JohnGMorris MichaelIMiller,"Hippocampal Deformities Detected in Schizophrenia and Alzheimer's Disease by High Dimensional Brain Mapping,",European Neuropsychopharmacology Suppl S,2,48,186,MMiller
+187,187,YAmit MIMiller,"Large Deviations for the Asymptotics of Ziv-Lempel Codes for -D Gibbs Fields,",IEEE Trans Inform Theory,2,2,187,MMiller
+188,188,MIMiller KEMark,"A Statistical Study of Cochlear Nerve Discharge Patterns in Response to Complex Speech Stimuli,",J Acoust Soc Am,2,135,188,MMiller
+189,189,JGCsernansky LWang DRastogi Cruz JPosener NBrickel GHeydebrand JPhilipMiller MIMiller,"Hippocampal Deformities in Schizophrenia Characterized by high Dimensional Brain mapping,",The American Journal of Psychiatry,2,49,189,MMiller
+190,190,MBakircioglu UGrenander NKhaneja MIMiller,"Curve Matching on Brain Surfaces Using Frenet Distances,",Human Brain Mapping,2,3,190,MMiller
+191,191,MichaelIMiller MatthewCooper JosephKostakis,"The Information Theory of Sensor Fusion,", ONR GTRI Workshop Target Tracking Sensor Fusion,2,136,191,MMiller
+192,192,MugeBakircioglu SarangJoshi MichaelIMiller,"Landmark Matching on Brain Surfaces Via Large Deformation Diffeomorphisms on the Sphere,",Proceedings of the SPIE The International Society for Optical Engineering Medical Imaging,2,4,192,MMiller
+193,193,MIMiller DLSnyder,"The Application of Maximum Entropy and Maximum-Likelihood for Spectral Estimation,",Proc IEEE Intl Inform Theory Sympos IEEE Inform Theory Group p,2,137,193,MMiller
+194,194,MBakircioglu SJoshi MIMiller,"Landmark Matching on the Sphere Via Large Deformation Diffeomorphisms,",Proceedings of SPIE The International Society for Optical Engineering Medical Imaging Image Processing,2,5,194,MMiller
+195,195,MIMiller DLSnyder,"The Role of Likelihood and Entropy in Incomplete-Data Problems: Applications to Estimating Point-Process Intensities and Toeplitz Constrained Covariances,",Proc of the IEEE,2,138,195,MMiller
+196,196,ABanerjee GaryChristensen JohnHaller SarangJoshi MichaelMiller MarcusRaichle,"Accommodating Anatomical Variability in Functional Imaging via Deformable Templates,",Proceedings of the th Annual Allerton Conference Communication Control and Computing University of at,2,6,196,MMiller
+197,197,MichaelIMiller UlfGrenander JosephASullivan DonaldLSnyder,"Automatic Target Recognition Organized via Jump-Diffusion Algorithms,",IEEE Transactions Image Processing,2,139,197,MMiller
+198,198,AyananshuBanerjee GaryEChristensen JohnGCsernansky JohnWHaller LeiWang SarangCJoshi,Gaussian Random Fields on Sub-Manifolds for Characterizing Brain Surfaces ,IPMI Information Processing Medical Imaging,2,7,198,MMiller
+199,199,ArBarker CEPriebe MIMiller MHosakari JTRatnanather LWang MGado JCMorris JCCsernansky,"Statistical Testing on Labelled Cortical Depth Maps to Identify Dementia Progression,",Proceedings of Joint Statistical Meetings,2,8,199,MMiller
+200,200,RCBarrett AWMcCarthy MIMiller REMorley,"Gaussian Convolutions on a Massively Parallel Processor,",Proc st Annu Conf Inform Sci and Syst,2,9,200,MMiller
+201,201,JGCsernansky LWang JSwank JPMiller MGado DMcKeel MIMiller JCMorris,"Hippocampal Volume and Shape Predicts Cognitive Decline in the Elderly,",Neuroimage,2,50,201,MMiller
+202,202,JGCsernansky LWang JSwank JPMiller MGado DMcKeel MIMiller JCMorris,"Hippocampal Volume and Shape Predicts Cognitive Decline in the Elderly,",World Alzheimer Congress Stockholm,2,51,202,MMiller
+203,203,JohnGCsernansky LeiWang DanielKido MokhtarGado JohnGMorris MichaelIMiller,"Hippocampal Morphometry in Dementia of the Alzheimer Type by Computer Algorithm,",Society of Neuroscience Abstracts,2,52,203,MMiller
+204,204,JohnCCsernansky SarangJoshi LeiWang MokhtarGado JPhilipMiller UlfGrenander MichaelIMiller,"Hippocampal Morphometry in Schizophrenia by High Dimensional Brain Mapping ,",Proceedings of the National Academy of Science,2,53,204,MMiller
+205,205,MIMiller DLSnyder MJTurmon,"Iterative Maximum-Likelihood Estimation of Toeplitz-Constrained Covariances,",Proc th Annu Allerton Conf Commun Contr and Computing,2,140,205,MMiller
+206,206,JohnGCsernansky LeiWang SarangJoshi JPhilipMiller MokhtarGado DanielKido DanielMcKeel JohnCMorris MichaelIMiller,"Early DAT is Distinguished from Aging by High Dimensional Mapping of the Hippocampus,",Neurology,2,54,206,MMiller
+207,207,PierreMoulin MichaelIMiller,"Detection Bounds for Automatic Target Recognition in Compressed Domain,",ISIT,2,141,207,MMiller
+208,208,JohnGCsernansky LeiWang SarangJoshi JPhilipMiller MokhtarGado DanielKido DanielMcKeel JohnCMorris MichaelIMiller,"Early DAT is Distinguished from Aging by High Dimensional Mapping of the Hippocampus,",First International Meeting of Alzheimer s Imaging Consortium DC,2,55,208,MMiller
+209,209,JO Sullivan StevenPJacobs MichaelIMiller DonaldLSnyder,"A Likelihood-Based Approach to Joint Target Tracking and Identification,",Conference Record Twenty Seventh Asilomar Conference Signals Systems Computers volume,2,142,209,MMiller
+210,210,PDupuis UGrenander MIMiller,"Variational Problems on Flows of Diffeomorphisms for Image Matching,",Quarterly J Applied Math ed D Mumford and W Freiberger,2,56,210,MMiller
+211,211,JosephO Sullivan MichaelDDeVore VikasKedia MichaelMiller,"SAR ATR Performance Using a Conditionally Gaussian Model,",IEEE Transactions Aerospace and Electronic Systems Page,2,143,211,MMiller
+212,212,VanEssen DC Lewis JW Drury HA Hadjikhani N Tootell RBH Bakircioglu M Miller MI,"Mapping visual cortex in monkeys and humans using surface-based atlases,",Vision Research,2,57,212,MMiller
+213,213,JoelAPosener LeiWang JosephLPrice MokhtarGado MichaelAProvince MichaelIMiller CaseyMBabb JohnGCsernansky,"High Dimensional Mapping of the Hippocampus in Depression,",The American Journal of Psychiatry,2,144,213,MMiller
+214,214,MFoltz ASrivastava MIMiller UGrenander,"Detection of Multiple Airborne Targets from Multi-Sensor Data,",SPIE The International Society for Optical Engineering Proceedings Volume Radar Ladar Signal Processing and Applications,2,58,214,MMiller
+215,215,CPreza MIMiller LJThomas  JGMcNally,"A Regularized Linear Method for Reconstruction of -D Microscopic Objects from Optical Sections,",J Opt Soc Am A,2,145,215,MMiller
+216,216,DRFuhrmann MIMiller,"On the Existence of Positive Definite Maximum-Likelihood Estimates of Structured Covariance Matrices,",IEEE Trans Inform Theory,2,59,216,MMiller
+217,217,CEPriebe MIMiller JTRatnanather,"Segmenting Magnetic Resonance Images via hierarchical Mixture Modellling,",Journal of the American Statistical Association,2,146,217,MMiller
+218,218,RRabbitt JWiess GEChristensen MIMiller,"Mapping of Hyperelastic Deformable Templates,",Proceedings of SPIE The International Society for Optical Engineering s Geometric Methods Applied Imaging San Diego Computer Animation,2,147,218,MMiller
+219,219,JTRatnanather CJing MIMiller,"Computational Anatomy of the Brain,",National Partnership for Advanced Computational Infrastructure All Hands Meeting San Diego Supercomputer Center,2,148,219,MMiller
+220,220,JTRatnanather PEBarta NAHoneycutt NGLee HMMorris ACDziorny MKHurdal GDPearlson MIMiller,"Dynamic programming generation of boundaries of local coordinatized submanifolds in the neocortex: application to the Planum Temporale ,",Neuroimage,2,149,220,MMiller
+221,221,DRFuhrmann MIMiller,"On the Singularity of Maximum-Likelihood Estimates of Structured Covariance Matrices,",Proc st Annu Conf Inform Sci and Syst,2,60,221,MMiller
+222,222,JoanGlaunü¾Ž†”¼s MarcVaillant MichaelIMiller,"Landmark Matching via Large Deformation Diffeomorphisms on the Sphere,",Journal of Mathematical Imaging and Vision special issue of Mathematics and Image Analysis,2,61,222,MMiller
+223,223,UlfGrenander MichaelIMiller,"Computational Anatomy: An Emerging Discipline,",Quarterly of Applied Mathematics LVI,2,62,223,MMiller
+224,224,UGrenander MIMiller,"Computational Anatomy: An Emerging Discipline,",feature article Statistical Computing and Graphics Newsletter,2,63,224,MMiller
+225,225,JTRatnanather KNBotteron TNishino ABMassie RMLal SGPatel SPeddi RDTodd MIMiller,"Validating Cortical Surface Analysis of Medial Prefrontal Cortex,",NeuroImage,2,150,225,MMiller
+226,226,UlfGrenander MIMiller GEChristensen,"Deformable Anatomical Data Bases Using Global Shape Models: a Position Paper for the Electronic Imaging of the Human Body Workshop,",Proceedings of the Cooperative Working Group Whole Body D Electronic Imaging of the Human Body,2,64,226,MMiller
+227,227,BRoysam MIMiller,"Combining Stochastic and Syntactic Processing with Analog Computation Methods,",Digital Signal Process A Review Journal ed J,2,151,227,MMiller
+228,228,UGrenander MIMiller ASrivastava,"Hilbert-Schmidt Lower Bounds for Estimators on Matrix Lie Groups for ATR,",IEEE Trans Pattern Analysis and Machine Intelligence,2,65,228,MMiller
+229,229,BRoysam MIMiller,"Grammars and Bayes Priors for Hierarchial Image Processing on Massively Parallel Processors,",Proc Allerton Conf,2,152,229,MMiller
+230,230,UlfGrenander MichaelIMiller,"Representation of Knowledge In Complex Systems with discussion section ,",Journal of the Royal Statitical Society,2,66,230,MMiller
+231,231,TJSchaewe MIMiller,"Parallel Algorithms for Maximum A-Posterori Estimation of Spin Density and Spin-Spin Decay in Magnetic Resonance Imaging,",IEEE Trans Med Imag,2,153,231,MMiller
+232,232,UlfGrenander ASrivastava MMiller,"Asymptotic Performance Analysis of Bayesian Object Recognition,",IEEE Transactions Information Theory pages,2,67,232,MMiller
+233,233,RMSchmich MIMiller,"Stochastic Models of the Fast and Slow Components of Synaptic Recovery and Post-Synaptic Action Potential Generation,",Proc Assoc for Res Otolaryngology th Midwinter Meeting p,2,154,233,MMiller
+234,234,JHaller GEChristensen MIMiller MGado DWMcKeel JGCsernansky MWVannier,"A Comparison of Automated and Manual Segmentation of Hippocampus MR Images,",SPIE The International Society for Optical Engineering Proceedings of the Conference Medical Imaging San Diego,2,68,234,MMiller
+235,235,RMSchmich MIMiller,"Stochastic Intensity of Hodgkin-Huxley-Based Spike Generation Models,",Proc Assoc for Res Otolaryngology th Midwinter Research Meeting,2,155,235,MMiller
+236,236,RMSchmich MIMiller,"Stochastic Intensity of Neural Spike Discharge Based on Active Channel Dynamics,",Computational Neuroscience Academic Press,2,156,236,MMiller
+237,237,JHaller GEChristensen SCJoshi MGado MIMiller MWVannier,"Functional and structural mapping of human cerebral cortex: Solutions are in the surfaces,",Y Bizais C Braillot and R Di Paola editors Information Processing Medical Imaging th International Conference Kluwer Academic Publishers Precision and Accuracy of a High Dimensional Transformation and Segmentation of MR Images of the Hippocampus,2,69,237,MMiller
+238,238,RobertMSchmich MichaelIMiller,"Stochastic Threshold Characterization of the Intensity of Active Channel Dynamical Action Potential Generation,",The American Physiological Society,2,157,238,MMiller
+239,239,EliShusterman MichaelIMiller BixioRimoldi,"Rate-Distortion Theoretic Codebook Design for Automatic Object Recognition,",IEEE Transactions Information Theory pages,2,158,239,MMiller
+240,240,KurtRSmith,Bayesian Inference of Regular Grammar and Markov Source Models ,NIPS Neural Information Processing Systems,2,159,240,MMiller
+241,241,JWHaller ABanerjee GEChristensen AZSnyder MIMiller MERaichle,"High Dimensional Transformation of PET and MRI to Atlas Space,", Intl Conf Functional Mapping of the Human Brain,2,70,241,MMiller
+242,242,JHaller GEChristensen SCJoshi JWNewcomer MIMiller JGCsernansky MWVannier,"Hippocampal MR Imaging Morphometry By Means of General Pattern Matching,",Radiology,2,71,242,MMiller
+243,243,JHaller GEChristensen SCJoshi MIMiller MGado JCsernansky MWVannier,"MRI Segmentation Using High Dimensional Transformations of a Digital Atlas,",Poster at American of Neuropsychopharmacology Conference San Juan Puerto Rico,2,72,243,MMiller
+244,244,RobertEHogan KevinEMark LeiWang SarangJoshi MichaelIMiller RichardDBucholz,"MR Imaging Deformation-Based Segmentation of the Hippocampus in Patients with Mesial Temporal Sclerosis and Temporal Lobe Epilepsy,",Epilepsia Suppl page,2,73,244,MMiller
+245,245,DLSnyder MIMiller TJSchulz,"Constrained Probability-Density Estimation from Noisy Data,",Proc Annu Conf Inform Sci and Syst,2,160,245,MMiller
+246,246,REHogan KEMark LWang SJoshi MIMiller RDBucholz,"Mesial Temporal Sclerosis and Temporal Lobe Epilepsy: MR Imaging Deformation-based Segmentation of the Hippocampus in Five Patients,",Radiology,2,74,246,MMiller
+247,247,DonaldSnyder DGPolitte MIMiller,"A Case Study in Statistical Image Processing: Positron Emission Tomography, - ",Spatial Statistics and Imaging A Possolo Ed Monograph Series Institute of Mathematical Statistics Computer Animation,2,161,247,MMiller
+248,248,SJacobs JosephAO Sullivan MFaisal ASrivastava DLSnyder MIMiller,"Automatic Target Recognition Using Sequences of High Resolution Radar Range Profiles,",ESSRL Monograph number ESSRL,2,75,248,MMiller
+249,249,DLSnyder MIMiller LJThomas  DGPolitte,"Noise and Edge Artifacts in Maximum-Likelihood Reconstruction for Emission Tomography,",IEEE Trans Med Imag,2,162,249,MMiller
+250,250,AvinashJain KannanRamchandran PierreMoulin,Information-Theoretic Bounds on Target Recognition Performance Based on Degraded Image Data ,IEEE Transactions Pattern Analysis and Machine Intelligence,2,76,250,MMiller
+251,251,DLSnyder MIMiller,"Random Point Processes in Time and Space,", ed New Springer Verlag,2,163,251,MMiller
+252,252,AJain PMoulin MIMiller KRamchandran,"Information-Theoretic Bounds on Target Recognition Performance Based on Degraded Image Data,",IEEE Transactions Pattern Analysis and Machine Intelligence pages,2,77,252,MMiller
+253,253,DLSnyder MIMiller,"Estimation Under Quantum-Limited Conditions,",Topical Meeting Quantum Limited Imaging and Image Process Technical Digest Opt Soc Am,2,164,253,MMiller
+254,254,DLSnyder MIMiller,"The Use of Grenander's Sieves in Quantum-Limited Imaging,",Proc th Annu Allerton Conf Commun Contr and Computing p,2,165,254,MMiller
+255,255,AvinashJain PMoulin MIMiller KRamchandran,"Performance Bounds for ATR based on Compressed Data,",Proc th Army Compression Workshop,2,78,255,MMiller
+256,256,DonaldSnyder JAO Sullivan MIMiller,"The Use of Maximum-Likelihood Estimation for Forming Images of Diffuse Radar-Targets from Delay-Doppler Data,",IEEE Trans Inform Theory,2,166,256,MMiller
+257,257,DCVanEssenHDrurySJoshi MIMiller,"Functional and Structural Mapping of Human Cerebral Cortex: Solutions Are In the Surfaces,",Proceedings of the National Academy of Science,2,79,257,MMiller
+258,258,DLSnyder MIMiller,"The Use of Sieves to Stabilize Images Produced with the EM Algorithm for Emission Tomography,",IEEE Trans Nucl Sci,2,167,258,MMiller
+259,259,ASrivastava MIMiller UGrenander,Bayesian Automated Target Recognition, Handbook of Video and Image Processing editor Alan Bovik,2,168,259,MMiller
+260,260,AnujSrivastava UlfGrenander,Hilbert-Schmidt Lower Bounds for Estimators on Matrix Lie Groups for ATR ,IEEE Transactions Pattern Analysis and Machine Intelligence,2,169,260,MMiller
+261,261,SJoshi MIMiller GEChristensen ABanerjee TCoogan UGrenander,"Hierarchical Brain Mapping via A Generalized Dirichlet Solution for Mapping Brain Manifolds,",Vision Geometry IV Proceedings of the SPIE The International Society for Optical Engineering s International Symposium Optical Science Engineering and Instrumentation San Diego Computer Animation,2,80,261,MMiller
+262,262,SJoshi MIMiller,"Landmark Matching Via Large Deformation Diffeomorphisms,",IEEE Transactions Image Processing pages,2,81,262,MMiller
+263,263,SJoshi MIMiller,"Maximum a Posteriori estimation with Good's Roughness for Optical Sectioning Microsopy,",Optical Society of America A,2,82,263,MMiller
+264,264,SJoshi JWang MIMiller DCVanEssen UGrenander,"On the Differential Geometry of the Cortical Surface,",Vision Geometry IV Proceedings of the SPIE The International Society for Optical Engineering s International Symposium Optical Science Engineering and Instrumentation San Diego Computer Animation,2,83,264,MMiller
+265,265,ASrivastava UGrenander GRJensen MIMiller,"Jump-Diffusion Markov Processes on Orthogonal Groups for Object Recognition,",Journal of Statistical Planning and Inference Issues pages,2,170,265,MMiller
+266,266,SJoshi MichaelIMiller UlfGrenander,"On the Geometry and Shape of Brain Sub-Manifolds,",International Journal of Pattern Recognition and Artificial Intelligence,2,84,266,MMiller
+267,267,ASrivastava MIMiller UGrenander,"Jump-Diffusion Processes on Matrix Lie Groups for Bayesian Inference,",IEEE HOS Workshop,2,171,267,MMiller
+268,268,NKaramanos MIMiller,"A New Method for Estimating Stimulus and Refractory Related Functions from Auditory-Nerve Discharges,",Basic Issues Hearing ed H Duifhuis et Academic Press,2,85,268,MMiller
+269,269,ASrivastava MIMiller UGrenander,"Lie Group Parameterization for Dynamics Based Prior In ATR,",Sixth Digital Signal Processing Workshop,2,172,269,MMiller
+270,270,NKhaneja UlfGrenander,Dynamic Programming Generation of Curves on Brain Surfaces ,IEEE Transactions Pattern Analysis and Machine Intelligence,2,86,270,MMiller
+271,271,ASrivastava MIMiller UGrenander,"Multiple Target Direction of Arrival Tracking,",IEEE Transactions Signal Processing,2,173,271,MMiller
+272,272,ASrivastava MCooper UGrenander,"Multi-Sensor Fusion and Performance Analysis of ATR,",Proc FUSION,2,174,272,MMiller
+273,273,NKhaneja MIMiller UGrenander,"Dynamic Programming Generation of Geodesics and Sulci on Brain Surfaces,",IEEE Trans Pattern Analysis and Machine Intelligence,2,87,273,MMiller
+274,274,AnujSrivastava AaronDLanterman UlfGrenander MarcLoizeaux MichaelIMiller,"Monte Carlo Techniques for Automated Target Recognition,",Sequential Monte Carlo Methods Practice eds Arnaud Doucet Nando Freitas Neil Gordon Springer Verlag,2,175,274,MMiller
+275,275,JKostakis MatthewCooper ThomasJGreen  MichaelIMiller JosephAO Sullivan JeffreyHShapiro DonaldLSnyder,"Multispectral Active-Passive Sensor Fusion for Ground-Based Target Orientation Estimation,",Proc SPIE The International Society for Optical Engineering Automatic Target Recognition VIII Ed Firooz A Sadjadi,2,88,275,MMiller
+276,276,ASrivastava MIMiller UGrenander,"Ergodic Algorithms on Special Euclidean Groups for ATR,",Syst and Contr the st Century Birkha ser,2,176,276,MMiller
+277,277,JosephKostakis MatthewCooper ThomasJGreen  MichaelIMiller JosephAO Sullivan DonaldLSnyder,"Multispectral Sensor Fusion for Ground-Based Target Orientation Estimation: FLIR, LADAR, HRR,",Proc SPIE The International Society for Optical Engineering Automatic Target Recognition IX Ed Firooz A Sadjadi,2,89,277,MMiller
+278,278,ASrivastava MIMiller UlfGrenander,"Ergodic Algorithms on Special Euclidean Groups for ATR,",Proceedings MTNS Publisher Birkhauser,2,177,278,MMiller
+279,279,MJTurmon MIMiller,"Maximum-Likelihood Estimation of Complex Sinusoids and Toeplitz Covariances,",IEEE Trans Signal Process,2,178,279,MMiller
+280,280,MJTurmon MIMiller,"Simulation Results for Maximum-Likehood Estimation of Toeplitz Constrained Covariances,",Proc st Annu Conf Inform Sci and Syst p,2,179,280,MMiller
+281,281,MFBeg GBhanot MIMiller JTRatnanather RWalkup LYounes,"Computing Geodesic Distances on Anatomies,",NPACI All Hands Meeting UCSD Supercomputer Center,2,10,281,MMiller
+282,282,MFaisalBeg MichaelIMiller AlainTrouve LaurentYounes,"Computing Metrics via Geodesics on Flows of Diffeomorphisms,",International Journal of Computer Vision,2,11,282,MMiller
+283,283,MFaisalBeg MichaelMiller AlainTrouve LaurentYounes,"Computational Anatomy: Computing Metrics on Anatomical Shapes,", IEEE Symposium Biomedical Imaging,2,12,283,MMiller
+284,284,MFaisalBeg DmitryBitouk MichaelIMiller LaurentYounes,"Metrics for Computational Anatomy and Image Analysis,",NPACI All Hands Meeting San Diego SuperComputing Center UCSD,2,13,284,MMiller
+285,285,MFBeg AMajethia MBrowne THKaiser MMartone KFWong ABMassie JHomer JTRatnanather MIMiller,"Enhancing tools to manipulate anatomical images: a step towards a deferated neuroscience image database,",NPACI All Hands Meeting San Diego Supercomputer Center Jolla Computer Animation,2,14,285,MMiller
+286,286,ALanterman MIMiller DLSnyder,"Automatic Target Recognition via the Simulation of Infrared Scenes,",Proc of the Sixth Annual Ground Target Modeling and Validation Conference Keweenaw Research Center Tech Univ,2,100,286,MMiller
+287,287,LEBergeron AJGoldberg SYKwon MIMiller,"A Robust Adaptive Transform Coder for Kb/s Speech Transmission,",Proc Intl Conf Acoust Speech Signal Process,2,15,287,MMiller
+288,288,MLoizeaux ASrivastava MIMiller,"Estimation of Pose and location of Ground-Targets for ATR,",Proceedings SPIE The International Society for Optical Engineering the International Society fo rOptical Engineering X Issue,2,101,288,MMiller
+289,289,DmitriBitouk MichaelIMiller Laurentyounes,"Clutter Metrics for ATR,",IEEE Transactions Pattern Analysis and Machine Intelligence,2,16,289,MMiller
+290,290,KEMark MIMiller,"Bayesian Model Selection and Minimum Description -D Length Estimation of Auditory-Nerve Discharge Rates,",J Acoust Soc Am,2,102,290,MMiller
+291,291,DmitriBitouk UlfGrenander MichaelIMiller ParitoshTyagi,"Fisher information in transported generator clutter models,",AeroSense Automatic Target Recognition XI SPIE The International Society for Optical Engineering Proceedings,2,17,291,MMiller
+292,292,KEMark MIMiller UGrenander,"Constrained Stochastic Language Models,",Image Models and their Speech Model Cousins ed S Levinson and L Shepp New Springer Verlag,2,103,292,MMiller
+293,293,DmitriBitouk MichaelIMiller LaurentYounes,"Empirically generated Metric Spaces for ATR in Clutter,",Proceedings of the th Asilimor Conference signals Systems and Computers,2,18,293,MMiller
+294,294,KMark MichaelIMiller UlfGrenander,"Parameter Estimation for Constrained Context Free Language Models,",DARPA Speech and Natural Language Workshop,2,104,294,MMiller
+295,295,LevyBucholz AbedMarzouk HendersonMichaelMiller,"A Patient Specific Deformable Brain Atlas Accounting for Structural Variability Between Individual Patients,",AANS,2,19,295,MMiller
+296,296,MIMiller ABMassie JTRatnanather KNBotteron JGCsernansky,"Bayesian construction of geometrically based cortical thickness metrics,",Neuroimage,2,105,296,MMiller
+297,297,ASrivastava UGrenander,"Conditional-Mean Estimation via Jump-Diffusion Processes in Multiple Target Tracking/Recognition,",IEEE Transactions Signal Processing,2,106,297,MMiller
+298,298,MIMiller CSButler," -D Maximum A-Posteriori Estimation of SPECT on Massively Parallel Computers,",IEEE Trans Med Imag,2,107,298,MMiller
+299,299,MIMiller LYounes,"Group Actions, Homeomorphisms, and Matching: A General Framework,",International Journal of Computer Vision Volume pages,2,108,299,MMiller
+300,300,MIMiller MHosakere ARBarker CEPriebe NLee JTRatnanather LWang MGado JCMorris JGCsernansky,"Labeled cortical mantle distnace maps quantify differences between dementia of the Alzheimer type and healthy aging,",Proceedings of the National Academy of Sciences pg,2,109,300,MMiller
+301,301,AaronDLanterman UlfGrenander,Bayesian Segmentation via Asymptotic Partition Functions ,IEEE Transactions Pattern Analysis and Machine Intelligence,2,90,301,MMiller
+302,302,AaronLanterman MatthewLCooper MichaelIMiller,"Efficient Estimation of Thermodynamic State Incorporating Bayesian Model Order Selection,",Automatic Target Recognition IX SPIE The International Society for Optical Engineering Proc,2,91,302,MMiller
+303,303,ADLanterman MIMiller DLSnyder,"General Metropolis-Hastings Jump Diffusions for Automatic Target Recognition in Infrared Scenes,",J Opt Engineering,2,92,303,MMiller
+304,304,ADLanterman MIMiller DLSnyder WJMiceli,"Jump-diffusion Processes for the Automated Understanding of FLIR Scenes,",Automatic Object Recognition IV Proc SPIE The International Society for Optical Engineering Ed Firooz J Sadjadi,2,93,304,MMiller
+305,305,MWVannier MIMiller UGrenander,"Modeling and Data Structure for Registration to a Brain Atlas of Multidimentional Images,",Functional Neuroimaging ed L Thatcher et New Academic Press,2,180,305,MMiller
+306,306,ADLanterman JAO Sullivan MIMiller,"Kullback-Liebler Distances for Quantifying Clutter and Models,",Optical Engineering,2,94,306,MMiller
+307,307,LWang JSSwank IEGlick MGado MIMiller JCMorris JGCsernansky,"Changes in Hippocampal Volume and Shape Across Time Distinguis Dementia of the Alzheimer Type from Healthy Aging,",NeuroImage,2,181,307,MMiller
+308,308,ALanterman MIMiller DLSnyder,"Implementation of Jump-diffusion Algorithms for Understanding FLIR Scenes,",Automatic Object Recognition V Proc SPIE The International Society for Optical Engineering Ed Firooz A Sadjadi,2,95,308,MMiller
+309,309,LeiWang MichaelIMiller,"Construction of Statistical Templates for Cross-Modality Mapping,",Proceedings of the First Aachen Conference Neuropsychology Neurosurgery Psychiatry and Neurology Aachen,2,182,309,MMiller
+310,310,LeiWang JingCui MichaelIMiller,"Validating High-Dimensional Transformations of the Hippocampus,",NeuroImage Proceedings of the Fourth International Conference Functional Mapping of the Human Brain Montreal,2,183,310,MMiller
+311,311,ADLanterman DLSnyder MIMiller,"Extension of Good's Roughness for maximum Penalized-Likelihood Estimation for Emission Tomography,",IEEE Trans Medical Imaging,2,96,311,MMiller
+312,312,LeiWang MichaelIMiller,"Large-Deformation Image Matching Via Volume Imagery,",Proceedings of the International Symposium Optical Science Engineering and Instrumentation SPIE The International Society for Optical Engineering s rd Annual Meeting San Diego,2,184,312,MMiller
+313,313,ADLanterman MIMiller DLSnyder,"Representations of Shape for Structural Inference in Infrared Scenes,",Proc SPIE The International Society for Optical Engineering th Annu Intl Sympos Aerosp Defense Sensing Simulation and Contr,2,97,313,MMiller
+314,314,LWang JSSwank MIMiller JCMorris JGCsernansky,"Progressive Hippocampal Atrophy Distinguishes DAT and Healthy Aging,",Annual Meeting of the Society for Neuroscience,2,185,314,MMiller
+315,315,ALanterman MIMiller DLSnyder,"Representations of Thermodynamic Variability in the Automated Understanding of FLIR Scenes,",Automatic Object Recognition Proc SPIE The International Society for Optical Engineering Ed Firooz A Sadjadi,2,98,315,MMiller
+316,316,JWang MIMiller ATOgielski,"A Stochastic Model of Synaptic Transmission and Auditory Nerve Discharge, Part I ,",Computation Neurons and Neural Systems ed F Eckman,2,186,316,MMiller
+317,317,ALanterman MIMiller DLSnyder,"The Unification of Detection, Tracking, and Recognition for Millimeter Wave and Infrared Sensors,",Radar Ladar Processing Proc SPIE The International Society for Optical Engineering Ed William J Miceli,2,99,317,MMiller
+318,318,JWang MIMiller ATOgielski,"A Stochastic Model of Synaptic Transmission and Auditory Nerve Discharge, Part II ,",Computation Neurons and Neural Systems ed F Eckman,2,187,318,MMiller
+319,319,LeiWang SarangCJoshi MichaelIMiller JohnGCsernansky,"Statistical Analysis of Hippocampal Asymmetry in Schizophrenia,",NeuroImage,2,188,319,MMiller
+320,320,LeiWang SarangCJoshi MichaelIMiller JohnGCsernansky,"Statistical Analysis of Hippocampal Asymmetry in Schizophrenia,",Annual Meeting of the Society for Neuroscience New Orleans,2,189,320,MMiller
+321,321,LevyBucholz SchaeweMarzouk KurtSmithMIMiller AbedHenderson,"The Determination of an Ideal Pallidotomy Target By the Incorporation of Intraoperative Physiological Recordings Deformed Into a Patient Specific Brain Atlas,",AANS,2,20,321,MMiller
+322,322,CSButler MIMiller,"Maximum A-Posteriori Estimation for SPECT using Regularization Techniques on Massively-Parallel Computers,",IEEE Trans Med Imag,2,21,322,MMiller
+323,323,CSButler MIMiller TRMiller JWWallis,"Massively Parallel Computers for -D Single-Photon-Emission Computed Tomography,",Phys Med Biol,2,22,323,MMiller
+324,324,CCeritoglu DBitouk MIMiller HASchmitt,"Asymptotic Performance in ATR in Infrared Images,",SPIE The International Society for Optical Engineering,2,23,324,MMiller
+325,325,SCChen TJSchaewe RSTeichman MIMiller SNNadel ASGreen,"Parallel Algorithms for Maximum-Likelihood Nuclear Magnetic Resonance Spectroscopy,",J Magn Reson Series A,2,24,325,MMiller
+326,326,MIMiller,"Algorithms for Removing Recovery Related Distortion from Auditory-Nerve Discharge Patterns,",J Acoust Soc Am,2,110,326,MMiller
+327,327,GaryChristensen RDRabbitt MIMiller," D Brain Mapping Using a Deformable Neuroanatomy,",Physics Med and Biol,2,25,327,MMiller
+328,328,MIMiller SCJoshi GEChristensen,Large Deformation Fluid Diffeomorphisms For Landmark and Image Matching, Brain Warping Academic Press San Diego Computer Animation,2,111,328,MMiller
+329,329,GaryChristensen MIMiller MWVannier,"A D Deformable Magnetic Resonance Textbook Based on Elasticity,",Proceedings of the American Association for Artificial Intelligence Symposium Applications of Computer Vision Medical Image Processing University,2,26,329,MMiller
+330,330,MIMiller SCJoshi DRMaffitt JGMcNally UGrenander,"Membranes, Mitochondria, and Amoebae: , , and Dimensional Shape Models,",Advances Applied Statistics ed K Mardia England Carfax II,2,112,330,MMiller
+331,331,GChristensen RDRabbitt MIMiller,"A Deformable Neuroanatomy Textbook Based On Viscous Fluid Mechanics,",Invited paper Prince and Runolfsson editors Proceedings of the Conference Information Sciences and Systems Johns University,2,27,331,MMiller
+332,332,DRFuhrmann JAO Sullivan DLSnyder,Maximum-Likelihood Methods for Toeplitz Covariance Estimation and Radar Imaging,,2,113,332,MMiller
+333,333,GEChristensen JFWilliamson KSCChao MIMiller FBSo MWVannier,"Deformable Anatomical Templates for Brachytherapy Treatment Planning in Radiotherapy of Cervical Cancer,",Vision Geometry eds R A Metter A Y Wu and L J Latecki SPIE The International Society for Optical Engineering,2,28,333,MMiller
+334,334,MIMiller DRFuhrmann,"Maximum-Likelihood Narrow-Band Direction Finding and the EM Algorithm,",IEEE Acoust Speech and Signal Process,2,114,334,MMiller
+335,335,GChristensen RichardDRabbitt MichaelIMiller,"Deformable Templates Using Large Deformation Kinematics,",IEEE Transactions Image Processing,2,29,335,MMiller
+336,336,MIMiller DLSnyder TRMiller,"Maximum-Likelihood Reconstruction for Single-Photon Emission Computed-Tomography,",IEEE Trans Nucl Sci,2,115,336,MMiller
+337,337,MIMiller DRFuhrmann,"Maximum-Likelihood Estimation of Direction of Arrivals of Multiple Narrowband Signals in Noise,",Proc st Annu Conf Inform Sci and Syst,2,116,337,MMiller
+338,338,MIMiller ASGreene,"Maximum-Likelihood Estimation for Nuclear Magnetic Resonance Spectroscopy,",J Magn Reson,2,117,338,MMiller
+339,339,MIMiller SCChen DAKeufler DAD Avignon,"Maximum-Likelihood Estimation and the EM Algorithm for -D NMR Spectroscopy,",J Magn Reson Series A,2,118,339,MMiller
+340,340,MIMiller KBLarson JRSaffitz DLSnyder LJThomas ,"Maximum-Likelihood Estimation Applied to Electron-Microscopic Autoradiography,",J Electron Microscopy Technique,2,119,340,MMiller
+341,341,RLWinslow PHelm WBaumgartner JTRatnanather SPeddi EMcVeigh MIMiller,"A Heart Failure Knowledgebase Combining Experimental Data with Tools for Integrative Biological Modeling,",The Novartis Foundation Symposium Silico Simulation of Biological Processes University London,2,190,341,MMiller
+342,342,LaurentYounes,"Group Actions, Homeomorphisms, and Matching: A General Framework ",International Journal of Computer Vision,2,191,342,MMiller
+343,343,SongChunZhu MichaelIMiller,"Clutter, Occlusion and Performance Analysis in Target Detection,",Workshop Target Detection Heavy Clutter,2,192,343,MMiller
+344,344,SongChunZhu AaronLanterman MichaelIMiller,"Clutter Modeling and Performance Analysis in Automatic Target Recognition,",Workshop Detection and Classification of Difficult Targets Redstone Arsenal,2,193,344,MMiller
+345,345,TedKaehler HadonNash MarkMiller ,"Betting, Bribery, and Bankruptcy-A Simulated Economy that Learns to Predict",IEEE CompCon Proceedings Appearing The Ecology of Computation North Press Elsevier,3,10,345,MMiller
+346,346,KennethMKahn EricDeanTribble MarkSMiller DanielGBobrow ,Objects in Concurrent Logic Programming Languages,OOPSLA Conference Object Oriented Programming Systems Languages and Applications,3,11,346,MMiller
+347,347,KenKahn EDeanTribble MarkMiller DannyBobrow inConcurrentProlog CollectedPapers,Vulcan: Logical Concurrent Objects,,3,12,347,MMiller
+348,348,KenKahn MarkMiller,Language Design and Open Systems,,3,13,348,MMiller
+349,349,MarkMiller KEricDrexler,Comparative Ecology: A Computational Perspective,,3,14,349,MMiller
+350,350,MarkSMiller ChipMorningstar BillFrantz ,Capability-based Financial Instruments, Proceedings of Financial Cryptography Springer Verlag,3,15,350,MMiller
+351,351,MarkMiller Ka PingYee JonathanShapiro,"Capability Myths Demolished,",HP Tech Report HPL Johns Tech Report SRL,3,16,351,MMiller
+352,352,MarkSMiller DanielGBobrow EricDeanTribble JacobLevy ,Logical Secrets,the Proceedings of the International Conference Logic Programming ICLP International Conference Logic Programming and Concurrent Prolog Collected Papers,3,17,352,MMiller
+353,353,MarkSMiller ,Learning Curve,a book review of John s Hidden Order Reason Magazine,3,18,353,MMiller
+354,354,MarkMiller KEricDrexler,Markets and Computation: Agoric Open Systems,,3,19,354,MMiller
+355,355,CurtisAbbott DanielGBobrow EhudYShapiro EricDeanTribble KennethMKahn,Channels: A Generalization of Streams ,ICLP International Conference Logic Programming,3,1,355,MMiller
+356,356,DanielGBobrow EricDeanTribble KennethMKahn,Objects in Concurrent Logic Programming Languages ,OOPSLA Conference Object Oriented Programming Systems Languages and Applications,3,2,356,MMiller
+357,357,DanielGBobrow DavidSFogelsong,Definition Groups: Making Sources into First-Class Objects ,Research Directions Object Oriented Programming,3,3,357,MMiller
+358,358,DanielGBobrow EricDeanTribble KennethMKahn,Vulcan: Logical Concurrent Objects ,Research Directions Object Oriented Programming,3,4,358,MMiller
+359,359,DanielGBobrow EricDeanTribble JacobLevy,Logical Secrets ,ICLP International Conference Logic Programming,3,5,359,MMiller
+360,360,KEricDrexler MarkMiller,Incentive Engineering for Computational Resource Management,,3,6,360,MMiller
+361,361,DanielFogelsong DannyBobrow MarkMiller ,Definition Groups: Making Sources into First Class Objects,Research Directions Object Oriented Programming,3,7,361,MMiller
+362,362,BillFrantz ChipMorningstar,Capability-Based Financial Instruments ,Financial Cryptography,3,8,362,MMiller
+363,363,SusanHirsh KenKahn MarkMiller ,Interming: Unifying Keyword and Positional Notations,Xerox PARC tech report,3,9,363,MMiller
+364,364,MarkSMiller DavidKrieger EDeanTribble ,An Introduction to Agoric Computation,Agorics tech report ADd P,3,20,364,MMiller
+365,365,MarkSMiller DavidKrieger ,An Automated Auction in ATM Network Bandwidth,Market Based Control Sun Labs tech report SML,3,21,365,MMiller
+366,366,MarkSMiller JonathanShapiro,"Paradigm Regained: Abstraction Mechanisms for Access Control,",HP Tech Report HPL Johns Tech Report SRL Proceedings of ASIAN Asian Computing Science Conference edited by Vijay Saraswat Springer Verlag,3,22,366,MMiller
+367,367,MarkSMiller DavidKrieger EDeanTribble NormHardy ,Architectural Issues in Agoric Open Systems,Agorics tech report ADd P,3,23,367,MMiller
+368,368,MarkSMiller DavidKrieger EDeanTribble ,Real Time Video Delivery with Market-based Resource Allocation,Agorics tech report,3,24,368,MMiller
+369,369,MarkSMiller MarcStiegler,The Digital Path: Smart Contracting and the Third World,Austrian Perspectives the Internet Economy Routledge,3,25,369,MMiller
+370,370,EricDeanTribble MarkSMiller KennethMKahn DanielGBobrow CurtisAbbott EhudYShapiro ,Channels: A Generalization of Streams,ICLP International Conference Logic Programming,3,26,370,MMiller
+371,371,EDeanTribble MarkSMiller NormHardy DavidKrieger ,Joule: Distributed Application Foundations,,3,27,371,MMiller
+372,372,MarkMillerwithEDeanTribble RaviPandya MarcStiegler ,The Open Society and its Media,Prospects Nanotechnology,3,28,372,MMiller
+373,373,BillTulloh MarkSMiller,Institutions as Abstraction Boundaries: Negotiated Categories and the Self-Reorganization of the Market Order, Economics Philosophy Information Technology The Intellectual Contributions of Don Lavoie edited by Jack High George University,3,29,373,MMiller
+374,374,Ka PingYee MarkSMiller,"Auditors: An Extensible, Dynamic Code Verification Mechanism",HP Tech Report preparation,3,30,374,MMiller
+375,375,JYin MSMiller TRIoerger JYen RAVolz,"A Knowledge-Based Approach for Designing Intelligent Team Training Systems,",Proceedings of the Fourth International Conference Autonomous Agents Barcelona acceptance rate,4,10,375,MMiller
+376,376,JianwenYin JohnYen RichardAVolz ThomasRIoerger,Training Teams with Collaborative Agents ,Intelligent Tutoring Systems,4,11,376,MMiller
+377,377,CongChen JohnYen KaivanKamali RichardAVolz RuiWang ShuangSun XiaocongFan,Formal semantics and communication strategies for proactive information delivery among team-based agents ,AAMAS Autonomous Agents Multiagent Systems,4,1,377,MMiller
+378,378,JMDHill MSMiller JYen UWPooch,"Tactical Event Resolution Using Software Agents, Crisp Rules, and a Genetic Algorithm,",Advanced Simulation Technologies Conference ASTC DC,4,2,378,MMiller
+379,379,MSMiller RAVolz,"Training for Teamwork,",The th World Multi Conference Systemics Cybernetics and Informatics,4,3,379,MMiller
+380,380,MSMiller JYin TRIoerger JYen RAVolz,"Training Teams with Collaborative Agents,",Proceedings of the Fifth International Conference Intelligent Tutoring Systems Montreal,4,4,380,MMiller
+381,381,DXu MSMiller RAVolz TRIoerger,"Collaborative Agents for C Teamwork Simulation,",Proceedings of the International Conference Artificial Intelligence Las Vegas II acceptance rate,4,5,381,MMiller
+382,382,DianxiangXu JianwenYin JohnYen RichardAVolz ThomasRIoerger,CAST: Collaborative Agents for Simulating Teamwork ,IJCAI International Joint Conference Artificial Intelligence,4,6,382,MMiller
+383,383,DianxiangXu JessePlymale RichardAVolz,Human-Agent Teamwork for Distributed Team Training ,ICTAI International Conference Tools with Artificial Intelligence,4,7,383,MMiller
+384,384,JYen JYin TRIoerger MSMiller DXu RAVolz,"CAST: Collaborative Agents for Simulating Teamwork,",Seventeenth International Joint Conference Artificial Intelligence acceptance rate,4,8,384,MMiller
+385,385,JianwenYin JohnYen RichardAVolz ThomasRIoerger,A knowledge-based approach for designing intelligent team training systems ,Agents,4,9,385,MMiller
+386,386,IngemarJCox JeffreyABloom,Informed Embedding: Exploiting Image and Detector Information During Watermark Insertion ,ICIP International Conference Image Processing,5,1,386,MMiller
+387,387,Gwena euml lJDo euml rr IngemarJCox,Informed Embedding for Multi-bit Watermarks ,IWDW International Workshop Digital Watermarking International,5,2,387,MMiller
+388,388,IngemarJCox PeterNYianilos StephenMOmohundro,Target Testing and the PicHunter Bayesian Multimedia Retrieval System ,ADL Advances Digital Libraries,5,3,388,MMiller
+389,389,IngemarJCox PeterNYianilos ThomasPMinka,An Optimized Interaction Strategy for Bayesian Relevance Feedback ,CVPR Computer Vision and Pattern RecognitioN,5,4,389,MMiller
+390,390,JeffreyABloom,Computing the Probability of False Watermark Detection ,Information Hiding,5,5,390,MMiller
+391,391,DennisJUnderwood RobertPSheridan SimonKKearsley,FLOG: A system to select 'quasi-flexible' ligands complementary to a receptor of known three-dimensional structure ,Journal of Computer Aided Molecular Design,6,1,391,MMiller
+392,392,DennisJUnderwood RobertPSheridan SimonKKearsley,Flexibases: A way to enhance the use of molecular docking methods ,Journal of Computer Aided Molecular Design,6,2,392,MMiller
+393,393,BradleyPFeuston JChristopherCulberson RobertBNachbar SimonKKearsley,Comparison of Knowledge-Based and Distance Geometry Approaches for Generation of Molecular Conformations ,Journal of Chemical Information and Computer Sciences,6,3,393,MMiller
+394,394,RobertPSheridan,A Method for Visualizing Recurrent Topological Substructures in Sets of Active Molecules ,Journal of Chemical Information and Computer Sciences,6,4,394,MMiller
+395,395,DennisJUnderwood RobertPSheridan SimonKKearsley,Chemical Similarity Using Geometric Atom Pair Descriptors ,Journal of Chemical Information and Computer Sciences,6,5,395,MMiller
+396,396,DArnold SAgrawal SBlackford JDongarra SVadhiyar KSagi ZShi,"Users' Guide to NetSolve v ,",University of Computer Science Technical Report CS,7,1,396,MMiller
+397,397,HCasanova JDongarra CRJohnson MMiller,"Application-specific Toolkits,",The Grid Blueprint for a New Computing Infrastructure I Foster and C Kesselman eds Morgan Kaufman Publishers San Francisco,7,2,397,MMiller
+398,398,HCasanova TBartol FBerman ABirnbaum JDongarra MEllisman MFaerman GObertelli SPomerantz TSejnowski JStiles RWolski,"The Virtual Instrument: Support for Grid-enabled Scientific Simulations,",Journal of Parallel and Distributed Computing,7,3,398,MMiller
+399,399,CharlesDHansen ChristopherRJohnson StevenGParker,Computational Steering and the SCIRun Integrated Problem Solving Environment ,Scientific Visualization,7,4,399,MMiller
+400,400,CharlesDHansen ChristopherRJohnson StevenGParker,Simulation Steering with SCIRun in a Distributed Environment ,HPDC High Performance Distributed Computing Symposium,7,5,400,MMiller
+401,401,CharlesDHansen ChristopherRJohnson,Simulation Steering with SCIRun in a Distributed Environment ,PARA Applied Parallel Computing,7,6,401,MMiller
+402,402,CharlesDHansen ChristopherRJohnson,The SCIRun Problem Solving Environment: Implementation Within a Distributed Environment ,PPSC SIAM Conference Parallel Processing for Scientific Computing,7,7,402,MMiller
+403,403,CMoulding JDongarra CJohnson,"Grid-Enabling Problem Solving Environments: A Case Study of SCIRun and NetSolve,",Proceedings of the High Performance Computing Symposium HPC Advanced Simulation Technologies Conference Society for Modeling and Simulation International,7,8,403,MMiller
+404,404,CHansen CRJohnson,"Simulation Steering with SCIRun in a Distributed Environment,",Applied Parallel Computing th International Workshop PARA Applied Parallel Computing B Kagstrom J Dongarra E Elmroth and J Wasniewski eds Springer Verlag,7,9,404,MMiller
+405,405,CDHansen SGParker CRJohnson,"Simulation Steering with SCIRun in a Distributed Environment,",Proceedings of the Seventh IEEE International Symposium High Performance Distributed Computing IEEE Press extended abstract and poster presentation,7,10,405,MMiller
+406,406,SGParker CDHansen CRJohnson,"An Integrated Problem Solving Environment: The SCIRun Computational Steering System,",Proceedings of the st International Conference System Sciences HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES VII IEEE Press,7,11,406,MMiller
+407,407,PhilipKChan SalvatoreJStolfo WeiFan WenkeLee,Using Artificial Anomalies to Detect Unknown and Known Network Intrusions ,ICDM IEEE International Conference Data Mining,8,1,407,MMiller
+408,408,ErezZadok SalvatoreJStolfo WeiFan WenkeLee,Toward Cost-Sensitive Modeling for Intrusion Detection and Response ,Journal of Computer Security,8,2,408,MMiller
+409,409,SalvatoreJStolfo WeiFan WenkeLee,A Multiple Model Cost-Sensitive Approach for Intrusion Detection ,ECML European Conference Machine Learning,8,3,409,MMiller
+410,410,,Context Shifts and Clashes in Dialogues: An Active Logic Perspective ,Fundam Inform,9,1,410,MMiller
+411,411,DonaldPerlis,Automated Inference in Active Logics ,Journal of Applied Non Classical Logics,9,2,411,MMiller
+412,412,DonaldPerlis MadhuraNirkhe SaritKraus,How to Plan to Meet a Deadline between Now and Then ,Journal of Logic and Computation,9,3,412,MMiller
