@@ -7,22 +7,35 @@ source("../lib/text_vectorize.R")
 source("../lib/evaluation_measures.R")
 ################### Function part ############################
 
+# old_become_new_pf5 <- function(old5, add5){
+#   if (sum(old5$CLUSTER.ID != add5$CLUSTER.ID) ==0){
+#     old5$MATRIX[[4]] <- -add5$DISTANCE[[1]]$MIN 
+#     old5$MATRIX[[5]] <- -add5$DISTANCE[[1]]$MAX
+#     old5$MATRIX[[6]] <- -add5$DISTANCE[[1]]$MEAN
+#     old5$MATRIX[[7]] <- -add5$DISTANCE[[2]]$MIN
+#     old5$MATRIX[[8]] <- -add5$DISTANCE[[2]]$MAX
+#     old5$MATRIX[[9]] <- -add5$DISTANCE[[2]]$MEAN
+#     old5$MATRIX[[10]] <- -add5$DISTANCE[[3]]$MIN
+#     old5$MATRIX[[11]] <- -add5$DISTANCE[[3]]$MAX
+#     old5$MATRIX[[12]] <- -add5$DISTANCE[[3]]$MEAN
+#     return(old5)
+#   }
+#   else 
+#     return(F)
+# }
+
 old_become_new_pf5 <- function(old5, add5){
   if (sum(old5$CLUSTER.ID != add5$CLUSTER.ID) ==0){
-    old5$MATRIX[[4]] <- -add5$DISTANCE[[1]]$MIN 
-    old5$MATRIX[[5]] <- -add5$DISTANCE[[1]]$MAX
-    old5$MATRIX[[6]] <- -add5$DISTANCE[[1]]$MEAN
-    old5$MATRIX[[7]] <- -add5$DISTANCE[[2]]$MIN
-    old5$MATRIX[[8]] <- -add5$DISTANCE[[2]]$MAX
-    old5$MATRIX[[9]] <- -add5$DISTANCE[[2]]$MEAN
-    old5$MATRIX[[10]] <- -add5$DISTANCE[[3]]$MIN
-    old5$MATRIX[[11]] <- -add5$DISTANCE[[3]]$MAX
-    old5$MATRIX[[12]] <- -add5$DISTANCE[[3]]$MEAN
+    old5$MATRIX[[4]] <- -add5$DISTANCE[[1]]$MEAN
+    old5$MATRIX[[5]] <- -add5$DISTANCE[[2]]$MEAN
+    old5$MATRIX[[6]] <- -add5$DISTANCE[[3]]$MEAN
     return(old5)
   }
-  else 
+  else
     return(F)
 }
+
+
 
 find_max_in_the_matrix <- function(A){
   dim_A <- dim(A)[1]
@@ -275,7 +288,7 @@ algorithm_paper_5 <- function(raw_data, True_labels,
   # True_labels should be author.id
   # raw data := list of 3 matices
   n_obs <- nrow(raw_data)
-  n_features <- 12 # This number is decided by our selection of features
+  n_features <- 6 # This number is decided by our selection of features
   
   # Initial assignment
   paras <- rep(0, n_features)
@@ -365,7 +378,9 @@ algorithm_paper_5 <- function(raw_data, True_labels,
  #   cat('\n paras:=',paras[t+1,])
   }
 
-  result <- list(best = colMeans(paras[(nrow(paras)-50):nrow(paras),]), iter = t-1)
+  result <- list(best = paras_t1, iter = t-1)
+  if (t > 400)
+    result <-  list(best = colMeans(paras[(nrow(paras)-100):nrow(paras),]), iter = t-1)
   return(result)
 }
 
