@@ -396,7 +396,7 @@ test_comeon_iamlazy <- function(raw_data2, paras2, K){
 
 # library(parallel) 
 
-# Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiler","SLee","Ychen")
+# Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiller","SLee","Ychen")
 # files <- paste0("../output/Coauthor_No_Space/",Filesname,".csv")
 # no_cores <- detectCores() - 1
 # cl1 <- makeCluster(no_cores, type="FORK")
@@ -404,7 +404,7 @@ test_comeon_iamlazy <- function(raw_data2, paras2, K){
 # stopCluster(cl1)
 
 
-Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiler","SLee","Ychen")
+Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiller","SLee","Ychen")
 files <- paste0("../output/Coauthor_No_Space/",Filesname,".csv")
 time1 <- system.time(perform1 <- one_step_5(files[1]))
 time2 <- system.time(perform2 <- one_step_5(files[2]))
@@ -421,5 +421,8 @@ time12 <- system.time(perform12 <- one_step_5(files[12]))
 time13 <- system.time(perform13 <- one_step_5(files[13]))
 time14 <- system.time(perform14 <- one_step_5(files[14]))
 
-performance <- rbind(perform1, perform2, perform3, perform4)
-colnames(performance) <- c("precision", "recall", "f1", "accuracy") 
+performance_base <- rbind(perform1, perform2, perform3, perform4, perform5, perform6, perform7, perform8, perform9,
+                     perform10, perform11, perform12, perform13, perform14)
+colnames(performance_base) <- c("precision", "recall", "f1", "accuracy", "para_coauthor", "para_paper", "para_journal") 
+rownames(performance_base) <- Filesname
+
