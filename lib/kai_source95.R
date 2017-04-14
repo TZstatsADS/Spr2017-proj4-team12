@@ -270,7 +270,7 @@ one_step_cluster <- function(pf5, paras1, label){
 
 algorithm_paper_5 <- function(raw_data, True_labels, 
                               max.iter = 500, stepsize = 0.02,
-                              epi = 1){
+                              epi = 0.01){
   
   # True_labels should be author.id
   # raw data := list of 3 matices
@@ -286,7 +286,7 @@ algorithm_paper_5 <- function(raw_data, True_labels,
   t <- 1  # iter control
   
   # iteration
-  while((t <= max.iter) & (compute_distance(paras[t+1,], paras_t1) > epi)){
+  while((t <= max.iter) & (compute_distance(paras[t+1,], paras[t,]) > epi)){
     
     # initial assignment
     old_labels <- 1:n_obs
@@ -424,10 +424,10 @@ ag5_akumar <- algorithm_paper_5(raw_data = training_akumar, True_labels = True_l
 
 # sb <- NULL
 
-
+test_akumar <- AKumar_raw[-train.id,]
 test_true_label <- AKumar$AuthorID[-train.id]
 KK <- length(unique(test_true_label))
-test_our_label <- test_comeon_iamlazy(test_akumar, ag5_akumar$best, KK)
+test_our_label <- test_comeon_iamlazy(test_akumar, ag5_akumar$best[nrow(ag5_akumar$best),], KK)
 
 test_our_label2 <- test_comeon_iamlazy(test_akumar, c(0.1,0.766, 0.298, -0.015, 0.022, -0.1477, -0.0144, 0.0272, -0.01,-0.03,0.004,-0.006), KK)
 
