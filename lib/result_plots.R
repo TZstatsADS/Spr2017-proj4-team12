@@ -25,15 +25,19 @@ library(ggplot2)
 plot(x=new_result$Author, y=new_result$precision, type = "o", 
      ylim = c(0,1), xlab = "Author", ylab = "Precision", main = "Precision Comparison")
 lines(x=new_result$Author, y=new_result$precision2, col="red")
+legend("topright", legend = c("Baseline", "Improved"), fill = c("black", "red"), cex = 0.5)
 
 plot(x=new_result$Author, y=new_result$recall, type = "o", 
      ylim = c(0,1), xlab = "Author", ylab = "Recall", main = "Recall Comparison")
 lines(x=new_result$Author, y=new_result$recall2, col="red")
+legend("bottomright", legend = c("Baseline", "Improved"), fill = c("black", "red"), cex = 0.5)
 
 plot(x=new_result$Author, y=new_result$f1, type = "o", 
      ylim = c(0,1), xlab = "Author", ylab = "f1", main = "F1 Comparison")
 lines(x=new_result$Author, y=new_result$f1_2, col="red")
+legend("topright", legend = c("Baseline", "Improved"), fill = c("black", "red"), cex = 0.5)
 
 plot(x=new_result$Author, y=new_result$accuracy, type = "o", 
      ylim = c(0,1), xlab = "Author", ylab = "Accuracy", main = "Accuracy Comparison")
 lines(x=new_result$Author, y=new_result$accuracy2, col="red")
+legend("bottomright", legend = c("Baseline", "Improved"), fill = c("black", "red"), cex = 0.5)

@@ -45,22 +45,17 @@ one_step_5 <- function(file_names){
   perform <- performance_statistics(matching_matrix(test_true_label, test_our_label))
   return(c(perform$precision, perform$recall, perform$f1, perform$accuracy, 
            ag5_SOMEONE$best[1+ag5_SOMEONE$iter,1], ag5_SOMEONE$best[1+ag5_SOMEONE$iter,2],
-           ag5_SOMEONE$best[1+ag5_SOMEONE$iter,3]))
+           ag5_SOMEONE$best[1+ag5_SOMEONE$iter,3], ag5_SOMEONE$best[1+ag5_SOMEONE$iter,4],
+           ag5_SOMEONE$best[1+ag5_SOMEONE$iter,5], ag5_SOMEONE$best[1+ag5_SOMEONE$iter,6]))
 }
 
 
 
 old_become_new_pf5 <- function(old5, add5){
   if (sum(old5$CLUSTER.ID != add5$CLUSTER.ID) ==0){
-    old5$MATRIX[[4]] <- -add5$DISTANCE[[1]]$MIN
-    old5$MATRIX[[5]] <- -add5$DISTANCE[[1]]$MAX
-    old5$MATRIX[[6]] <- -add5$DISTANCE[[1]]$MEAN
-    old5$MATRIX[[7]] <- -add5$DISTANCE[[2]]$MIN
-    old5$MATRIX[[8]] <- -add5$DISTANCE[[2]]$MAX
-    old5$MATRIX[[9]] <- -add5$DISTANCE[[2]]$MEAN
-    old5$MATRIX[[10]] <- -add5$DISTANCE[[3]]$MIN
-    old5$MATRIX[[11]] <- -add5$DISTANCE[[3]]$MAX
-    old5$MATRIX[[12]] <- -add5$DISTANCE[[3]]$MEAN
+    old5$MATRIX[[4]] <- -add5$DISTANCE[[1]]$MEAN
+    old5$MATRIX[[5]] <- -add5$DISTANCE[[2]]$MEAN
+    old5$MATRIX[[6]] <- -add5$DISTANCE[[3]]$MEAN
     return(old5)
   }
   else
@@ -288,7 +283,8 @@ algorithm_paper_5 <- function(raw_data, True_labels,
   # True_labels should be author.id
   # raw data := list of 3 matices
   n_obs <- nrow(raw_data)
-  n_features <- 3 # This number is decided by our selection of features
+  n_features <- 6
+  # This number is decided by our selection of features
   
   # Initial assignment
   paras <- rep(0, n_features)
@@ -318,8 +314,8 @@ algorithm_paper_5 <- function(raw_data, True_labels,
       ## additional 9 features
      # raw_data_list <- list(Coauthor = raw_data$Coauthor, Paper = raw_data$Paper, Journal = raw_data$Journal)
    #   pfnew5_ <- text_feature(text_matrix_function(cluster_merge(raw_data_list, old_labels)))
-   #    pfnew5 <- text_feature(text_matrix_function(merge_results1)) ## ju zhen yue xiao yue hao
-  #     pf5 <- old_become_new_pf5(pf5, pfnew5)
+      pfnew5 <- text_feature(text_matrix_function(merge_results1)) ## ju zhen yue xiao yue hao
+      pf5 <- old_become_new_pf5(pf5, pfnew5)
       
       # for each step, we merge only two clusters
       m_position <- one_step_cluster(pf5, paras1 = paras[t+1,], old_labels) # est cluster position
@@ -403,26 +399,26 @@ test_comeon_iamlazy <- function(raw_data2, paras2, K){
 # performance <- parSapply(cl1, files[1:4], one_step_5)
 # stopCluster(cl1)
 
-
-Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiller","SLee","Ychen")
-files <- paste0("../output/Coauthor_No_Space/",Filesname,".csv")
-time1 <- system.time(perform1 <- one_step_5(files[1]))
-time2 <- system.time(perform2 <- one_step_5(files[2]))
-time3 <- system.time(perform3 <- one_step_5(files[3]))
-time4 <- system.time(perform4 <- one_step_5(files[4]))
-time5 <- system.time(perform5 <- one_step_5(files[5]))
-time6 <- system.time(perform6 <- one_step_5(files[6]))
-time7 <- system.time(perform7 <- one_step_5(files[7]))
-time8 <- system.time(perform8 <- one_step_5(files[8]))
-time9 <- system.time(perform9 <- one_step_5(files[9]))
-time10 <- system.time(perform10 <- one_step_5(files[10]))
-time11 <- system.time(perform11 <- one_step_5(files[11]))
-time12 <- system.time(perform12 <- one_step_5(files[12]))
-time13 <- system.time(perform13 <- one_step_5(files[13]))
-time14 <- system.time(perform14 <- one_step_5(files[14]))
-
-performance_base <- rbind(perform1, perform2, perform3, perform4, perform5, perform6, perform7, perform8, perform9,
-                     perform10, perform11, perform12, perform13, perform14)
-colnames(performance_base) <- c("precision", "recall", "f1", "accuracy", "para_coauthor", "para_paper", "para_journal") 
-rownames(performance_base) <- Filesname
+# 
+# Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiller","SLee","Ychen")
+# files <- paste0("../output/Coauthor_No_Space/",Filesname,".csv")
+# time1 <- system.time(perform1 <- one_step_5(files[1]))
+# time2 <- system.time(perform2 <- one_step_5(files[2]))
+# time3 <- system.time(perform3 <- one_step_5(files[3]))
+# time4 <- system.time(perform4 <- one_step_5(files[4]))
+# time5 <- system.time(perform5 <- one_step_5(files[5]))
+# time6 <- system.time(perform6 <- one_step_5(files[6]))
+# time7 <- system.time(perform7 <- one_step_5(files[7]))
+# time8 <- system.time(perform8 <- one_step_5(files[8]))
+# time9 <- system.time(perform9 <- one_step_5(files[9]))
+# time10 <- system.time(perform10 <- one_step_5(files[10]))
+# time11 <- system.time(perform11 <- one_step_5(files[11]))
+# time12 <- system.time(perform12 <- one_step_5(files[12]))
+# time13 <- system.time(perform13 <- one_step_5(files[13]))
+# time14 <- system.time(perform14 <- one_step_5(files[14]))
+# 
+# performance_base <- rbind(perform1, perform2, perform3, perform4, perform5, perform6, perform7, perform8, perform9,
+#                      perform10, perform11, perform12, perform13, perform14)
+# colnames(performance_base) <- c("precision", "recall", "f1", "accuracy", "para_coauthor", "para_paper", "para_journal") 
+# rownames(performance_base) <- Filesname
 
