@@ -78,13 +78,15 @@ get_feature<-function(data, condition="combine"){
   #return(result_sclust)
   
 }
-
+```
+```{r}
 my.dir<-"C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/Coauthor_No_Space_Author"
 files<-list.files(my.dir)
 path<-file.path(my.dir, files)
 n<-length(path)
 names<-gsub(".csv", "", files)
-
+```
+```{r}
 Data<-list()
 n<-1
 for (i in path){
@@ -112,6 +114,7 @@ entity<-function(data){
 ```
 ```{r}
 mean_entity<-lapply(Data, entity)
+mean_entity<-unlist(mean_entity)
 ```
 # 1.2 Linear SVM
 To understand the basic idea of svm, please visit:
@@ -159,20 +162,17 @@ start.time <- Sys.time()
 result_paper<-lapply(feature_paper, get_svm_result)
 end.time <- Sys.time()
 time_svm_paper<- end.time - start.time
-```
-```{r}
+
 start.time <- Sys.time()
 result_coauthor<-lapply(feature_coauthor, get_svm_result)
 end.time <- Sys.time()
 time_svm_coauthor<- end.time - start.time
-```
-```{r}
+
 start.time <- Sys.time()
 result_journal<-lapply(feature_journal, get_svm_result)
 end.time <- Sys.time()
 time_svm_journal<- end.time - start.time
-```
-```{r}
+
 start.time <- Sys.time()
 result_combine<-lapply(feature_combine, get_svm_result)
 end.time <- Sys.time()
@@ -186,27 +186,41 @@ As the results shown below, we can see column XXXXX has the best performance amo
 result_p<-unlist(result_paper)
 mean_paper<-mean(result_p)
 sd_paper<-sd(result_p)
-mean_time<-time_svm_journal/14
-```
-```{r}
+mean_time_p<-time_svm_paper/14
+
 result_j<-unlist(result_journal)
 mean_journal<-mean(result_j)
 sd_journal<-sd(result_j)
-mean_time<-time_svm_journal/14
-```
-```{r}
+mean_time_j<-time_svm_journal/14
+
 result_coauthor<-unlist(result_coauthor)
 mean_coauthor<-mean(result_coauthor)
 sd_coauthor<-sd(result_coauthor)
-mean_time<-time_svm_coauthor/14
-```
+mean_time_coa<-time_svm_coauthor/14
 
-```{r}
 result_combine<-unlist(result_combine)
 mean_combine<-mean(result_combine)
 sd_combine<-sd(result_combine)
-mean_time<-time_svm_combine/14
+mean_time_com<-time_svm_combine/14
+
+result.all<-cbind(result_p,result_j,result_coauthor,result_combine, mean_entity)
+mean_t<-c(as.numeric(mean_time_p)*60,as.numeric(mean_time_j)*60,as.numeric(mean_time_coa),as.numeric(mean_time_com)*60, NA)
+result.all<-rbind(result.all,c(mean_paper,mean_journal,mean_coauthor,mean_combine, NA),c(sd_paper,sd_journal,sd_coauthor,sd_combine, NA),mean_t)
+names1<-c(names,"Average Accuracy","SD Accuracy", "Average Run Time")
+rownames(result.all)<-names1
+colnames(result.all)<-c("Paper","Journal","Coauthor","Paper+Journal+Coauthor", "Average # of Paper Under Entity")
+kable(result.all,caption="Comparison of different features using SVM accuracy",digits=2)
+
+#runtime<-data.frame(matrix(c(mean_time_p,mean_time_j,mean_time_coa,mean_time_com),nrow=1,ncol=4))
+#colnames(runtime)<-c("Paper","Journal","Coauthor","Paper+Journal+Coauthor")
+#kable(runtime,caption="Comparison of different features using running time(sec) per author")
+
 ```
+```{r}
+result.a<-as.data.frame(result.all)
+write.csv(result.a, file="C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/SVM_result.csv")
+```
+
 
 ## Part II (Please insert Title)
 ## Camparism and Conclusion
