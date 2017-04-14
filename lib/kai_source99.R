@@ -41,10 +41,13 @@ one_step_5 <- function(file_names){
   test_true_label <- SOMEONE$AuthorID[-train.id]
   KK <- length(unique(test_true_label))
   
-  test_our_label <- test_comeon_iamlazy(test_SOMEONE, ag5_SOMEONE$best[ag5_SOMEONE$iter,], KK)
+  test_our_label <- test_comeon_iamlazy(test_SOMEONE, ag5_SOMEONE$best[1+ag5_SOMEONE$iter,], KK)
   perform <- performance_statistics(matching_matrix(test_true_label, test_our_label))
-  return(c(perform$precision, perform$recall, perform$f1, perform$accuracy))
+  return(c(perform$precision, perform$recall, perform$f1, perform$accuracy, 
+           ag5_SOMEONE$best[1+ag5_SOMEONE$iter,1], ag5_SOMEONE$best[1+ag5_SOMEONE$iter,2],
+           ag5_SOMEONE$best[1+ag5_SOMEONE$iter,3]))
 }
+
 
 
 old_become_new_pf5 <- function(old5, add5){
@@ -418,3 +421,5 @@ time12 <- system.time(perform12 <- one_step_5(files[12]))
 time13 <- system.time(perform13 <- one_step_5(files[13]))
 time14 <- system.time(perform14 <- one_step_5(files[14]))
 
+performance <- rbind(perform1, perform2, perform3, perform4)
+colnames(performance) <- c("precision", "recall", "f1", "accuracy") 
