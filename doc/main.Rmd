@@ -5,16 +5,13 @@ date: "April 13, 2017"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Introduction
 In this entity resolution project. We studied two papers (No.2 and No.5) about entity resolution and tried to understand their algorism. We also compared the two methods. We believe that our work is significant for people who want to have a better understand of these two papers. The following are the details of our works.
 
 # Part I Simple Linear Support Vector Machine
 SVM is one of the most popular tools of classification. In paper 2, the author introduced the use of simple linear svm for a multi-classification. They first divided the data set into test and training set by seperating data with same label into two groups with same size. Then they calculate the test prediction errors. The accuracy rate is simply the porpotion of right match in the test set.
 For the features selection, since the author of paper doesn't point out a specific way to choose features, we decide to use the sample code on Github. Also, at the end we caculated the mean and standard deviation of accuracy of all our data set and compared the performance of variable Coauthor, Paper and Journal.
+
 ## 1.0 Packages Install
 ```{r}
 install.packages("pacman")
@@ -22,6 +19,7 @@ pacman::p_load(text2vec, dplyr, qlcMatrix, kernlab, knitr)
 install.packages("e1071")
 
 ```
+
 ## 1.1 Input data and feature selection
 
 ```{r}
@@ -177,7 +175,7 @@ time_svm_combine<- end.time - start.time
 
 
 ## 1.3 Results and Evaluation
-As the results shown below, we can see column XXXXX has the best performance among the three columns.
+As the results shown below, we can see column "paper+journal+coauthor" has the best performance among the 4 columns.
 ```{r}
 result_p<-unlist(result_paper)
 mean_paper<-mean(result_p)
@@ -199,27 +197,35 @@ mean_combine<-mean(result_combine)
 sd_combine<-sd(result_combine)
 mean_time<-time_svm_combine/14
 
-result.all<-cbind(result_p,result_j,result_coauthor,result_combine, mean_entity)
-mean_t<-c(as.numeric(mean_time_p)*60,as.numeric(mean_time_j)*60,as.numeric(mean_time_coa),as.numeric(mean_time_com)*60, NA)
-result.all<-rbind(result.all,c(mean_paper,mean_journal,mean_coauthor,mean_combine, NA),c(sd_paper,sd_journal,sd_coauthor,sd_combine, NA),mean_t)
+result.all<-cbind(result_p,result_j,result_coauthor,
+                  result_combine, mean_entity)
+mean_t<-c(as.numeric(mean_time_p)*60,as.numeric(mean_time_j)*60,
+          as.numeric(mean_time_coa),as.numeric(mean_time_com)*60, NA)
+result.all<-rbind(result.all,c(mean_paper,mean_journal,
+                               mean_coauthor,mean_combine, NA),
+                  c(sd_paper,sd_journal,sd_coauthor,sd_combine, NA),
+                  mean_t)
 names1<-c(names,"Average Accuracy","SD Accuracy", "Average Run Time")
 rownames(result.all)<-names1
-colnames(result.all)<-c("Paper","Journal","Coauthor","Paper+Journal+Coauthor", "Average # of Paper Under Entity")
-kable(result.all,caption="Comparison of different features using SVM accuracy",digits=2)
+colnames(result.all)<-c("Paper","Journal","Coauthor","Paper+Journal+Coauthor", 
+                        "Average # of Paper Under Entity")
+kable(result.all,
+      caption="Comparison of different features using SVM accuracy",
+      digits=2)
 
 #runtime<-data.frame(matrix(c(mean_time_p,mean_time_j,mean_time_coa,mean_time_com),nrow=1,ncol=4))
 #colnames(runtime)<-c("Paper","Journal","Coauthor","Paper+Journal+Coauthor")
 #kable(runtime,caption="Comparison of different features using running time(sec) per author")
 
 ```
+
 ```{r}
 result.a<-as.data.frame(result.all)
 result.a
 ```
 
 
-# Part II (Please insert Title)
-# Camparism and Conclusion
+# Part II Error-driven Machine Learning with a Ranking Loss Function
 
 ## 1.1 Input data and feature selection
 
@@ -325,7 +331,8 @@ text_matrix_function <- function(data){
     text_matrix_max <- matrix(NA, nrow = nrow(raw_data), ncol = 50) 
     text_matrix_mean <- matrix(NA, nrow = nrow(raw_data), ncol = 50) 
     for (j in (1:nrow(raw_data))){
-      text_vector <- unlist(strsplit(raw_data[,i][j], split = " ")) # row j, column i, a vector of strings
+      text_vector <- unlist(strsplit(raw_data[,i][j], split = " ")) 
+      # row j, column i, a vector of strings
       text_vectorized <- text_vector_function(text = text_vector, word_vector = word_vectors)
       text_matrix_min[j, ] <- apply(text_vectorized, 2, min)
       text_matrix_max[j, ] <- apply(text_vectorized, 2, max)
@@ -356,19 +363,22 @@ text_feature <- function(data){
 
 ```
 
-##1.2 Cluster
+##1.2 Baseline Evaluation
 ```{r}
 source("../lib/evaluation_measures.R")
 source("../lib/kai_source99.R")
 
 # Input: file names
-# Output: a vector contains "precision", "recall", "f1", "accuracy", and the three final parameters
+# Output: a vector contains "precision", "recall", "f1", "accuracy", 
+# and the three final parameters
 one_step_5 <- function(file_names){
   
   SOMEONE <- read.csv(file_names, as.is = T)
   SOMEONE <- SOMEONE[ifelse(rowSums(SOMEONE == "") > 0, F, T), ]
   
-  SOMEONE_raw <- data.frame(Coauthor = SOMEONE$Coauthor,Paper = SOMEONE$Paper, Journal = SOMEONE$Journal)
+  SOMEONE_raw <- data.frame(Coauthor = SOMEONE$Coauthor,
+                            Paper = SOMEONE$Paper, 
+                            Journal = SOMEONE$Journal)
   # colnames(AKumar_raw) <- c("Coauthor","Paper","Journal")
   True_labels <- SOMEONE$AuthorID
   
@@ -383,7 +393,8 @@ one_step_5 <- function(file_names){
  # raw_data <- training_SOMEONE
   True_labels_train <- SOMEONE$AuthorID[train.id]
   
-  ag5_SOMEONE <- algorithm_paper_5(raw_data = training_SOMEONE, True_labels = True_labels_train,
+  ag5_SOMEONE <- algorithm_paper_5(raw_data = training_SOMEONE, 
+                                   True_labels = True_labels_train,
                                    stepsize = 0.1, epi = 0.03)
   
   
@@ -391,17 +402,17 @@ one_step_5 <- function(file_names){
   test_true_label <- SOMEONE$AuthorID[-train.id]
   KK <- length(unique(test_true_label))
   
-  test_our_label <- test_comeon_iamlazy(test_SOMEONE, ag5_SOMEONE$best[1+ag5_SOMEONE$iter,], KK)
+  test_our_label <- test_comeon_iamlazy(test_SOMEONE, 
+                                        ag5_SOMEONE$best[1+ag5_SOMEONE$iter,], KK)
   perform <- performance_statistics(matching_matrix(test_true_label, test_our_label))
   return(c(perform$precision, perform$recall, perform$f1, perform$accuracy, 
            ag5_SOMEONE$best[1+ag5_SOMEONE$iter,1], ag5_SOMEONE$best[1+ag5_SOMEONE$iter,2],
            ag5_SOMEONE$best[1+ag5_SOMEONE$iter,3]))
 }
-```
 
-##1.3 Evaluation and Comparison
-```{r}
-Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiler","SLee","Ychen")
+
+Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson",
+               "JSmith","KTanaka","MBrown","MJones","MMiler","SLee","Ychen")
 files <- paste0("../output/Coauthor_No_Space/",Filesname,".csv")
 time1 <- system.time(perform1 <- one_step_5(files[1]))
 time2 <- system.time(perform2 <- one_step_5(files[2]))
@@ -417,6 +428,131 @@ time11 <- system.time(perform11 <- one_step_5(files[11]))
 time12 <- system.time(perform12 <- one_step_5(files[12]))
 time13 <- system.time(perform13 <- one_step_5(files[13]))
 time14 <- system.time(perform14 <- one_step_5(files[14]))
+
+performance_base <- rbind(perform1, perform2, perform3, perform4, perform5,
+                          perform6, perform7, perform8, perform9,
+                      perform10, perform11, perform12, perform13, perform14)
+colnames(performance_base) <- c("precision", "recall", "f1", "accuracy", "para_coauthor",
+                                "para_paper", "para_journal") 
+rownames(performance_base) <- Filesname
+```
+
+##1.3 Improved Model
+
+```{r}
+source("../lib/evaluation_measures.R")
+source("../lib/kai_source992.R")
+
+one_step_5 <- function(file_names){
+  
+  SOMEONE <- read.csv(file_names, as.is = T)
+  SOMEONE <- SOMEONE[ifelse(rowSums(SOMEONE == "") > 0, F, T), ]
+  
+  SOMEONE_raw <- data.frame(Coauthor = SOMEONE$Coauthor,
+                            Paper = SOMEONE$Paper, 
+                            Journal = SOMEONE$Journal)
+  # colnames(AKumar_raw) <- c("Coauthor","Paper","Journal")
+  True_labels <- SOMEONE$AuthorID
+  
+  setmember <- nrow(SOMEONE)
+  
+  ### training
+  trainingnumber <- ceiling(setmember * 0.5)
+  train.id <- sample(1:setmember, trainingnumber)
+  training_SOMEONE <- SOMEONE_raw[train.id,]
+ 
+ # dim(training_SOMEONE)
+#  dim(test_SOMEONE)
+  
+ # raw_data <- training_SOMEONE
+  True_labels_train <- SOMEONE$AuthorID[train.id]
+  
+  ag5_SOMEONE <- algorithm_paper_5(raw_data = training_SOMEONE, 
+                                   True_labels = True_labels_train,
+                                   stepsize = 0.1, epi = 0.03)
+  
+  # sb <- NULL
+  
+  
+  test_SOMEONE <- SOMEONE_raw[-train.id,]
+  test_true_label <- SOMEONE$AuthorID[-train.id]
+  KK <- length(unique(test_true_label))
+  
+  test_our_label <- test_comeon_iamlazy(test_SOMEONE, 
+                                        ag5_SOMEONE$best[1+ag5_SOMEONE$iter,], KK)
+  perform <- performance_statistics(matching_matrix(test_true_label, test_our_label))
+  return(c(perform$precision, perform$recall, perform$f1, perform$accuracy, 
+           ag5_SOMEONE$best[1+ag5_SOMEONE$iter,1], ag5_SOMEONE$best[1+ag5_SOMEONE$iter,2],
+           ag5_SOMEONE$best[1+ag5_SOMEONE$iter,3], ag5_SOMEONE$best[1+ag5_SOMEONE$iter,4],
+           ag5_SOMEONE$best[1+ag5_SOMEONE$iter,5], ag5_SOMEONE$best[1+ag5_SOMEONE$iter,6]))
+}
+
+Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson",
+               "JSmith","KTanaka","MBrown","MJones","MMiler","SLee","Ychen")
+files <- paste0("../output/Coauthor_No_Space/",Filesname,".csv")
+time_1 <- system.time(perform1 <- one_step_5(files[1]))
+time_2 <- system.time(perform2 <- one_step_5(files[2]))
+time_3 <- system.time(perform3 <- one_step_5(files[3]))
+time_4 <- system.time(perform4 <- one_step_5(files[4]))
+time_5 <- system.time(perform5 <- one_step_5(files[5]))
+time_6 <- system.time(perform6 <- one_step_5(files[6]))
+time_7 <- system.time(perform7 <- one_step_5(files[7]))
+time_8 <- system.time(perform8 <- one_step_5(files[8]))
+time_9 <- system.time(perform9 <- one_step_5(files[9]))
+time_10 <- system.time(perform10 <- one_step_5(files[10]))
+time_11 <- system.time(perform11 <- one_step_5(files[11]))
+time_12 <- system.time(perform12 <- one_step_5(files[12]))
+time_13 <- system.time(perform13 <- one_step_5(files[13]))
+time_14 <- system.time(perform14 <- one_step_5(files[14]))
+
+improved_df <- rbind(perform1,perform2, perform3, perform4, perform5,perform6, 
+                     perform7, perform8, perform9, perform10,
+                     perform11, perform12, perform13, perform14)
+colnames(improved_df) <- c("precision2", "recall2", "f1_2", "accuracy2", 
+                           "para_cos_coauthor2", "para_cos_paper2", "para_cos_journal2",
+                           "para_dis_coauthor2", "para_dist_paper2", "para_dist_journal2")
+
+rownames(improved_df) <- Filesname
 ```
 
 
+##1.3 Model Comparison
+```{r}
+new_result <- data.frame(baseline, improved_df)
+new_result$Author <- rep(1:14)
+
+plot(x=new_result$Author, y=new_result$precision, type = "o", 
+     ylim = c(0,1), xlab = "Author", ylab = "Precision", main = "Precision Comparison")
+lines(x=new_result$Author, y=new_result$precision2, col="red")
+legend("topright", legend = c("Baseline", "Improved"), fill = c("black", "red"), cex = 0.5)
+
+plot(x=new_result$Author, y=new_result$recall, type = "o", 
+     ylim = c(0,1), xlab = "Author", ylab = "Recall", main = "Recall Comparison")
+lines(x=new_result$Author, y=new_result$recall2, col="red")
+legend("bottomright", legend = c("Baseline", "Improved"), fill = c("black", "red"), cex = 0.5)
+
+plot(x=new_result$Author, y=new_result$f1, type = "o", 
+     ylim = c(0,1), xlab = "Author", ylab = "f1", main = "F1 Comparison")
+lines(x=new_result$Author, y=new_result$f1_2, col="red")
+legend("topright", legend = c("Baseline", "Improved"), fill = c("black", "red"), cex = 0.5)
+
+plot(x=new_result$Author, y=new_result$accuracy, type = "o", 
+     ylim = c(0,1), xlab = "Author", ylab = "Accuracy", main = "Accuracy Comparison")
+lines(x=new_result$Author, y=new_result$accuracy2, col="red")
+legend("bottomright", legend = c("Baseline", "Improved"), fill = c("black", "red"), cex = 0.5)
+
+```
+
+
+###Observe the parameters for baseline
+
+```{r}
+new_result[,c("para_coauthor", "para_paper", "para_journal")]
+```
+
+###Observe the parameters for improved model
+```{r}
+new_result[,c("para_cos_coauthor2", "para_cos_paper2", 
+              "para_cos_journal2", "para_dis_coauthor2", 
+              "para_dist_paper2", "para_dist_journal2")]
+```
