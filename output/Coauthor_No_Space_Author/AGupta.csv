@@ -1,0 +1,578 @@
+,X,Coauthor,Paper,Journal,AuthorID,PaperNO,PaperID,Author
+1,1,BjornKvande IrwinBLevinstein KurtMaly MargretheHOlson RaviMukkamala RitaChambers RoyWhitney SNanjangud,PMES: privilege mangagement and enforcement system for secure distributed resource sharing ,IFIP International Federation for Information Processing World Conference IT Tools,10,1,1,AGupta
+2,2,CSVemuru HSyed HusseinMAbdel Wahab KurtMaly MohamedKholief RaviMukkamala SDittakavi,CoProcess: A Java-based Environment for Collaborative Process Management Over the Web ,WebNet,10,2,2,AGupta
+3,3,BjornKvande IrwinBLevinstein KurtMaly MargretheHOlson RaviMukkamala RitaChambers RoyWhitney SNanjangud,A privilege management and enforcement system for distributed resource sharing ,WETICE Workshop Enabling Technologies Infrastructure for Collaborative Enterprises,10,3,3,AGupta
+4,4,AlaaYoussef CMichaelOverstreet EmiliaStoica HusseinMAbdel Wahab JChristianWild KurtMary,The software architecture and interprocess communications of IRI: an Internet-based interactive distance learning system ,WETICE Workshop Enabling Technologies Infrastructure for Collaborative Enterprises,10,4,4,AGupta
+5,5,APrabhu CSVemuru HSyed HusseinMAbdel Wahab KurtMaly RaviMukkamala,Mosaic + XTV = CoReview ,Computer Networks and ISDN Systems,10,5,5,AGupta
+6,6,AGonzalez AymanAdelAbdelHamid CMichaelOverstreet HusseinMAbdel Wahab JChristianWild KurtMaly SaharGhanem XiaoqingZhu,"IRI-h, a Java-based distance education system ",ACM Journal of Educational Resources Computing,10,6,6,AGupta
+7,7,KurtMaly SatishMynam,BTU: A Host Communication Benchmark ,IEEE Computer,10,7,7,AGupta
+8,8,AlaaYoussef CMichaelOverstreet EhabSAl Shaer EmiliaStoica HusseinMAbdel Wahab JChristianWild KurtMaly,Interactive Distance Learning over Intranets ,IEEE Internet Computing,10,8,8,AGupta
+9,9,CMichaelOverstreet HusseinMAbdel Wahab KurtMaly MuthuKumar RahulSrivastava,Performance trade-offs for a multimedia distributed application ,HPN High Performance Networking,10,9,9,AGupta
+10,10,MarkMoran RiccardoBettati RolfOppliger,A Security Architecture for Tenet Scheme ,IDMS Interactive Distributed Multimedia Systems and Telecommunication Services,11,1,10,AGupta
+11,11,RiccardoBettati,Dynamic Resource Allocation Migration for Multiparty Real-Time Communications ,ICDCS International Conference Distributed Computing Systems,11,2,11,AGupta
+12,12,DomenicoFerrari MarkMoran QuyenNguyen RajendraYavatkar RiccardoBettati WHeffner WingwaiHowe,Connection Establishment for Multi-Party Real-Time Communication ,NOSSDAV Network and Operating System Support for Digital Audio and Video,11,3,12,AGupta
+13,13,DomenicoFerrari GiorgioVentre,Distributed Advance Reservation of Real-Time Connections ,NOSSDAV Network and Operating System Support for Digital Audio and Video,11,4,13,AGupta
+14,14,MarkMoran QuyenNguyen WingwaiHowe,Resource Sharing for Multi-Party Real-Time Communication ,INFOCOM The Conference Computer Communications,11,5,14,AGupta
+15,15,DomenicoFerrari GiorgioVentre,Distributed Advance Reservation of Real-Time Connections ,Multimedia Syst,11,6,15,AGupta
+16,16,DomenicoFerrari,Resource partitioning for real-time communication ,IEEE ACM Trans Netw,11,7,16,AGupta
+17,17,KurtRothermel,Failure Recovery for Multi-Party Real-Time Communication ,ICMCS International Conference Multimedia Computing and Systems,11,8,17,AGupta
+18,18,SGhosh SVPemmaraju,"A self-stabilizing algorithm for the maximum flow problem,", th Annual IEEE International Conference Computers and Communication,12,20,18,AGupta
+19,19,CMazumdar,"PMM: A parallel architecture for production systems,",ACM Southeastcon,12,21,19,AGupta
+20,20,CMazumdar,"A partially shared parallel Rete network for faster execution of production systems,",Froniters of Knowledge Based Computing Vijay P Bhatkar and Kiran M Rege ed Narosa Publishing House,12,22,20,AGupta
+21,21,NGururaj AGupta,"A simulator for distributed self-stabilizing algorithms,",ADCOM International Conference Advanced Computing and Communication Bhubaneswar,12,23,21,AGupta
+22,22,MEKortright RBorie,"Fast parallel algorithms for the balanced decomposition of series-parallel graphs,",Congressus Numerantium,12,24,22,AGupta
+23,23,VMadhu PSinghal AGupta,"Design and implementation of a Linux-based IPv -IPv Bridge,",CIT Bhubaneswar,12,25,23,AGupta
+24,24,AnimeshNandi,Estimating Link Characteristics of Internet Paths With FPathchar ,International Conference Internet Computing,12,26,24,AGupta
+25,25,HSPaul RBadrinath,"Combining diverse checkpoint and recovery algorithms for distributed systems,", rd International Workshop Distributed Computing Calcutta,12,27,25,AGupta
+26,26,HSPaul RBadrinath,"Hierarchical coordinated checkpointing algorithms,",PDCS Parallel and Distributed Computing Systems IASTED International Conference Parallel and Distributed Computing and Systems,12,28,26,AGupta
+27,27,HSPaul RBadrinath,"A heterogeneous checkpoint and recovery protocol,",PDPTA Parallel and Distributed Processing Techniques and Applications International Conference Parallel and Distributd Processing Techniques and Applications Las Vegas,12,29,27,AGupta
+28,28,SBanerjee ABasu,"Online transcoding of web pages for mobile devices,",HCI Human Computer Interaction Udine,12,1,28,AGupta
+29,29,AnupamBasu UmeshDeshpande,Adaptive Fault Tolerant Hospital Resource Scheduling ,CoopIS DOA International Symposium Distributed Objects and Applications ODBASE International Conference Ontologies Databases and Applications of SEmantics,12,2,29,AGupta
+30,30,AnupamBasu SomnathBanerjee,Online Transcoding of Web Pages for Mobile Devices ,HCI Human Computer Interaction,12,3,30,AGupta
+31,31,ABasu AGupta,"Intellegent mobile agent based framework for resource discovery and transcoding,",Intelligent Computing and VLSI Very Large Scale Integration Allied Publishers,12,4,31,AGupta
+32,32,RBorie AGupta,"Balanced decomposition for partial-k trees,",Congressus Numerantium,12,5,32,AGupta
+33,33,UDeshpande ABasu,"Coordinated problem solving through resource sharing in a distributed environment,", IEEE Transactions Systems Man and Cybernatics,12,6,33,AGupta
+34,34,UDeshpande ABasu,"A coordination mechanism for hospital resource scheduling using a multi-agent framework,", rd International Workshop Distributed Computing Calcutta,12,7,34,AGupta
+35,35,UDeshpande ABasu,"Adaptive fault tolerant hospital resource scheduling,",International Conference Cooperative Information Systems LNCS,12,8,35,AGupta
+36,36,UDeshpande ABasu,"A distributed hospital resource scheduling system using a multi-agent framework,",IETE Technical Review,12,9,36,AGupta
+37,37,HimadriSekharPaul RBadrinath,A Heterogeneous Checkpoint and Recovery Protocol in Cluster-Based Distributed Systems ,PDPTA Parallel and Distributed Processing Techniques and Applications,12,30,37,AGupta
+38,38,HSPaul RBadrinath,"Evaluation of different classes of checkpoint and recovery potocols iwth dPSIM,",CIT th International Conference Information Technology Gopalpur Sea,12,31,38,AGupta
+39,39,HSPaul RBadrinath,"Performance comparison of checkpoint and recovery protocols,", Concurrency and Computation Practice and Experience,12,32,39,AGupta
+40,40,HSPaul RBadrinath,"Simulation and performance estimation of checkpoint and recovery protocols,",Poster presentation HPC ASIA Bangalore,12,33,40,AGupta
+41,41,SriramVPemmaraju SukumarGhosh,Fault-containing network protocols ,SAC Selected Areas Cryptography,12,34,41,AGupta
+42,42,SriramVPemmaraju SukumarGhosh TedHerman,Fault-Containing Self-Stabilizing Algorithms ,PODC Symposium Principles of Distributed Computing,12,35,42,AGupta
+43,43,SriramVPemmaraju SukumarGhosh,A Self-Stabilizing Algorithm for the Maximum Flow Problem ,Distributed Computing,12,36,43,AGupta
+44,44,SRanjan ABasu AMeka AChaturvedi,"Adaptive mobile agents: modeling and a case study,", Workshop Distributed Computing Calcutta,12,37,44,AGupta
+45,45,SShekhar SBanerjee AGupta,"Online transcoding of news pages for handheld devices,",International Conference Computer Sciences,12,38,45,AGupta
+46,46,UDeshpande ABasu,"Performance improvement of contract net based using instance based learning,",International Workshop Distributed Computing Kolkata Proceedings Springer Verlag s LNCS series,12,10,46,AGupta
+47,47,UDeshpande ABasu,"Task assignment in a collaborative system with imprecise information,",KBCS Mumbai,12,11,47,AGupta
+48,48,SGhosh SVPemmaraju,"Fault-containing network protocols,",Annual ACM Symposium Applied Computing San Jose,12,12,48,AGupta
+49,49,SGhosh SVPemmaraju,"A fault-containing self-stabiling spanning tree algorithm,",Journal of Computing and Information,12,13,49,AGupta
+50,50,SGhosh THerman SVPemmaraju,"Fault-containing self-stabilizing protocols,", th Annual ACM Symposium Principles of Distributed Computing,12,14,50,AGupta
+51,51,SGhosh AGupta,"An exercise in fault-containment: Self-stabilizing leader election,",Information Processing Letters,12,15,51,AGupta
+52,52,SGhosh SVPemmaraju,"Randomized algorithms in graph theory,",Technical Report TR Department of Computer Science The University of City,12,16,52,AGupta
+53,53,SGhosh MHKaraata SVPemmaraju,"Self-stabilizing dynamic programming algorithms on trees,", Workshop Self Stabilizing Systems Las Vegas,12,17,53,AGupta
+54,54,SGhosh MHKaraata SVPemmaraju,"A self-stabilizing algorithm for maximal matching on trees,",Technical Report TR Department of Computer Science The University of City,12,18,54,AGupta
+55,55,SGhosh SVPemmaraju,"A self-stabilizing algorithm for the maximum flow problem,",Distributed Computing,12,19,55,AGupta
+56,56,Marie PierreDubuisson Jolly ThomasO Donnell,A Cooperative Framework for Segmentation Using D Active Contours and D Hybrid Models as Applied to Branching Cylindrical Structures ,ICCV International Conference Computer Vision,13,1,56,AGupta
+57,57,Cheng ChungLiang Marie PierreDubuisson Jolly,Optimal Polyline Tracking for Artery Motion Compensation in Coronary Angiography ,ICCV International Conference Computer Vision,13,2,57,AGupta
+58,58,TerranceEBoult ThomasO Donnell,A new model for the recovery of cylindrical structures from medical image data ,CVRMed,13,3,58,AGupta
+59,59,BirBhanu DavidMichael TerranceEBoult,Introduction to the Special Issue on Innovative Applications of Computer Vision ,Mach Vis Appl,13,4,59,AGupta
+60,60,TerranceEBoult ThomasO Donnell,Global Models with Parametric Offsets as Applied to Cardiac Motion Recovery ,CVPR Computer Vision and Pattern RecognitioN,13,5,60,AGupta
+61,61,GarethFunka Lea,The use of hybrid models to recover cardiac wall motion in tagged MR images ,CVPR Computer Vision and Pattern RecognitioN,13,6,61,AGupta
+62,62,GarethFunka Lea RichardDWhite SandraSimonHalliburton ShmuelAharon ThomasO Donnell,Multi-Modality Model-Based Registration in the Cardiac Domain ,CVPR Computer Vision and Pattern RecognitioN,13,7,62,AGupta
+63,63,JeremyPChew,Fairness performance of dynamic weights in the ATM ABR service ,Perform Eval,14,1,63,AGupta
+64,64,JeremyPChew,Improving Fairness of Long VCs Using Active Fairness in the ATM ABR Service ,ICC International Conference Communications,14,2,64,AGupta
+65,65,XiaoqunWang,Controlling Isochronous Traffic in CRMA/ATM Interworking ,ICC International Conference Communications,14,3,65,AGupta
+66,66,Bu SungLee MdShamsuzzaman,A New Consolidation Algorithm for Point-to-Multipoint ABR Service in ATM Networks ,ICN International Competition Network,14,4,66,AGupta
+67,67,NicolasDGeorganas,Analysis of a Packet Switch with Input and Output Buffers and Speed Constraints ,INFOCOM The Conference Computer Communications,14,5,67,AGupta
+68,68,NicolasDGeorganas,Priority Performance of ATM Packet Switches ,INFOCOM The Conference Computer Communications,14,6,68,AGupta
+69,69,LuisOrozco Barbosa NicolasDGeorganas,Switching Modules for ATM Switching Systems and Their Interconnection Networks ,Computer Networks and ISDN Systems,14,7,69,AGupta
+70,70,AlokGupta BorisJukic PrabhudevKonana,"Pricing Virtual Private Networks - An Economic, Engineering and Experimental Approach,",Business Modelling A MultiDisciplinary Approach Essays honor of Andrew B Whinston C Holsapple V Jacob H R Rao eds Kluwer Academic Publishers forthcoming,15,30,70,AGupta
+71,71,AlokGupta DaleOStahl AndrewBWhinston,"Priority Pricing of Integrated Services Networks, in Internet Economics, L W McKnight and J P Bailey, eds , MIT Press, Cambridge, MA, , - ",,15,31,71,AGupta
+72,72,AlokGupta DaleOStahl AndrewBWhinston," A Priority Pricing Approach to Manage Multi-Service Class Networks in Real-Time,", The Journal of Electronic Publishing,15,32,72,AGupta
+73,73,AlokGupta DaleOStahl AndrewBWhinston,"A Stochastic Equilibrium Model of Internet Pricing,",Journal of Economic Dynamics and Control,15,33,73,AGupta
+74,74,AlokGupta BorisJukic MingzhiLi DaleOStahl AndrewBWhinston," Estimating Internet Users' Demand Characteristics,",Computational Economics,15,34,74,AGupta
+75,75,AlokGupta BorisJukic ManojParameswaran DaleOStahl AndrewBWhinston," Streamlining the Digital Economy: How to Avert a Tragedy of the Commons,",IEEE Internet Computing,15,35,75,AGupta
+76,76,AlokGupta DaleOStahl AndrewBWhinston," The Economics of Network Management,",Communications of the ACM,15,36,76,AGupta
+77,77,AlokGupta DaleOStahl AndrewBWhinston,The Internet: A Future Tragedy of the Commons?,Computational Approaches to Economic Problems H Amman B Rustem and A B Whinston eds Kluwer Academic Publishers Dordrecht The,15,37,77,AGupta
+78,78,AlokGupta DouglasJMorrice,"Transient S ensitivity Analysis in Computer Simulation,",Proceedings of European Simulation Multiconference Barcelona Nominated for the Best Paper Award,15,38,78,AGupta
+79,79,PKonana AlokGupta AndrewBWhinston," Integrating User Preferences and Real-time Workload in Electronic Commerce,",Information Systems Research,15,39,79,AGupta
+80,80,PKonana AlokGupta DaleOStahl AndrewBWhinston,"Pricing and Real-Time Database Applications for Information Services: A Framework and Economic Justification,",Proceedings of ICIS International Conference Information Systems Dcember Winner Runners up award for the Best Paper,15,40,80,AGupta
+81,81,PKonana AlokGupta DaleOStahl AndrewBWhinston,"Research Issues in Real-time DBMS in the Context of Electronic Commerce,",Proceedings of ACM for Workshop Databases Active and Real time association with th International Conference Information and Knowledge Management,15,41,81,AGupta
+82,82,AndrewBWhinston BorisJukic DaleOStahl ManojParameswaran,Streamlining the Digital Economy: How to Avert a Tragedy of the Commons ,IEEE Internet Computing,15,42,82,AGupta
+83,83,AndrewBWhinston DaleOStahl,The Economics of Network Management ,Commun ACM,15,43,83,AGupta
+84,84,RaviBapna PauloGoes AlokGupta,"Simulating Online Yankee Auctions to Optimize Sellers Revenue,",Proceedings of HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES Maui,15,10,84,AGupta
+85,85,RaviBapna PauloGoes AlokGupta YiweiJin,"User Heterogeneity and its Impact on Electronic Auction Market Design: An Empirical Exploration,",Forthcoming Management Information Systems Quarterly,15,11,85,AGupta
+86,86,RaviBapna PauloGoes AlokGupta," A Theoretical and Empirical Investigation of Multi-item On-line Auctions,",Information Technology and Management,15,12,86,AGupta
+87,87,RKChellappa Gupta A,"Managing Computing Resources in Active Intranets ,",International Journal of Network Management,15,13,87,AGupta
+88,88,AndrewChen PauloGoes AlokGupta JamesMarsden,"Database Design in the Modern Organization - Identifying Robust Structures Under Changing Query Patterns and Arrival Rate Conditions,",Forthcoming Decision Support Systems of Article Press version,15,14,88,AGupta
+89,89,PauloBGoes RaviBapna,Insights and Analyses of Online Auctions ,Commun ACM,15,15,89,AGupta
+90,90,PauloBGoes RaviBapna,Simulating Online Yankee Auctions to Optimize Sellers Revenue ,HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES,15,16,90,AGupta
+91,91,RamDGopal,Minitrack Introduction ,HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES,15,17,91,AGupta
+92,92,RamGopal AlokGupta,"Trading Higher Software Piracy for Higher Profits: The Case of Phantom Piracy,",Proceedings of HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES Big Island Nominated for the Best Paper Award,15,18,92,AGupta
+93,93,AlokGupta LeighLinden DaleOStahl AndrewBWhinston," Benefits and Costs of Adopting Usage Based Pricing in a Subnetwork,",Information Technology and Management,15,19,93,AGupta
+94,94,GedasAdomavicius AlokGupta,"Towards Comprehensive Bidder Support in Online Combinatorial Auctions,",Proceedings of WITS Workshop Information Technologies and Systems,15,1,94,AGupta
+95,95,RaviBapna PauloGoes AlokGupta," Comparative Analysis of Multi-Item Online Auctions: Evidence from the Laboratory,",Decision Support System,15,2,95,AGupta
+96,96,RaviBapna AlokGupta,"Online Mercantile Processes: A Closer Look at B C Online Auctions, in Handbook of Electronic Commerce in Business and Society, P B Lowry, R J Watson, and J O Cherrington eds , St Lucie Press, Boca Raton, FL, , - ",,15,3,96,AGupta
+97,97,RaviBapna PauloGoes AlokGupta,"Online Mercantile Processes for Digital Products under Quality-of-Service and Uncertain Demand,",Proceedings of WITS Workshop Information Technologies and Systems Sydney,15,4,97,AGupta
+98,98,RaviBapna PauloGoes AlokGupta," Analysis and Design of Business-to-Consumer Online Auctions,",Management Science,15,5,98,AGupta
+99,99,RaviBapna PauloGoes AlokGupta," Insights and Analysis of Online Auctions,",Communications of the ACM,15,6,99,AGupta
+100,100,RaviBapna PauloGoes AlokGupta GilbertKaruga,"Predictive Calibration of Online Multi-Unit Ascending Auctions,",Proceedings of WITS Workshop Information Technologies and Systems Barcelona Nominated for the Best Paper Award,15,7,100,AGupta
+101,101,RaviBapna PauloGoes AlokGupta GilbertKaruga,"Optimal Design of the Online Auction Channel: Analytical, Empirical and Computational Insights,",Decision Sciences of prepublication version,15,8,101,AGupta
+102,102,RaviBapna PauloGoes AlokGupta," Replicating Online Yankee Auctions to Analyze Auctioneers' and Bidders' Strategies,",Information Systems Research,15,9,102,AGupta
+103,103,AlokGupta DaleOStahl AndrewBWhinston,"A Conceptual Framework for Applying Parallel Computing to Flexible Manufacturing Systems,",Proceedings of NSF Conference Design and Manufacturing,15,20,103,AGupta
+104,104,AlokGupta Bo ChiuanSu ZhipingWalter,"Economic Analysis of Consumer Purchase Intentions in Electronic and Traditional Retail Channels: Competitive and Strategic Implications,",Forthcoming Decision Support Systems,15,21,104,AGupta
+105,105,DaleOStahl AndrewBWhinston,"Economic Issues in Electronic Commerce,",Readings Electronic Ravi Kalakota and Andrew B Whinston eds Wesley Parts Reprinted under the same title Legal Issues Electronic R L ed Captus Press,15,22,105,AGupta
+106,106,AlokGupta DaleOStahl AndrewBWhinston,"A Decentralized Approach to Estimate Activity Based Costs and Near-Optimal Resource Allocation in Flexible Manufacturing Systems,",International Journal of Flexible Manufacturing Systems,15,23,106,AGupta
+107,107,AlokGupta YAlexTung JamesRMarsden," Digital Signature: Use and Modification to Achieve Success in Next Generational E-Business Processes,",Forthcoming Information Management,15,24,107,AGupta
+108,108,AlokGupta DaleOStahl AndrewBWhinston," Managing Computing Resources in Intranets: An Electronic Commerce Perspective,",Decision Support Systems,15,25,108,AGupta
+109,109,AlokGupta BorisJukic DaleOStahl AndrewBWhinston," Extracting Consumers' Private Information for Implementing Incentive Compatible Internet Traffic Pricing,",Journal of Management Information Systems,15,26,109,AGupta
+110,110,AlokGupta DaleOStahl AndrewBWhinston,"An Economic Approach to Network Computing with Priority Classes,",Journal of Organizational Computing and Electronic,15,27,110,AGupta
+111,111,AlokGupta DaleOStahl AndrewBWhinston,"Application of Parallel Computing to Resource Pricing and Scheduling in Flexible Manufacturing Systems,",Operations Research Methods Models and Applications J E Aronson and S Zionts eds Quorum Books,15,28,111,AGupta
+112,112,AlokGupta DaleOStahl AndrewBWhinston,"Pricing of Services on The Internet,",IMPACT How IC Research Affects Public Policy and Business Markets Quorum Books forthcoming,15,29,112,AGupta
+113,113,ArminBiere EdmundMClarke PoulFrederickWilliams,Combining Decision Diagrams and SAT Procedures for Efficient Symbolic Model Checking ,CAV Computer Aided Verification,16,1,113,AGupta
+114,114,EdmundMClarke JamesHKukula OferShrichman,SAT Based Abstraction-Refinement Using ILP and Machine Learning Techniques ,CAV Computer Aided Verification,16,2,114,AGupta
+115,115,AartiGupta AnubhavGupta ZijiangYang PranavAshar,Dynamic Detection and Removal of Inactive Clauses in SAT with Application in Image,Computation DAC Design Automation Conference,16,3,115,AGupta
+116,116,AartiGupta PranavAshar ZijiangYang,Dynamic Detection and Removal of Inactive Clauses in SAT with Application in Image Computation ,DAC Design Automation Conference,16,4,116,AGupta
+117,117,AartiGupta PranavAshar ZijiangYang,SAT-Based Image Computation with Application in Reachability Analysis ,FMCAD Formal Methods Computer Aided Design,16,5,117,AGupta
+118,118,RamSuryanarayan TravisNBlalock,A slew rate enhancement technique for operational amplifiers based on a tunable active Gm-based capacitance multiplication circuit ,ACM Great Lakes Symposium VLSI Very Large Scale Integration,16,6,118,AGupta
+119,119,PoulFrederickWilliams ArminBiere EdmundMClarke AnubhavGupta,Combining Decision Diagrams and SAT Procedures for Efficient Symbolic Model Checking,CAV Computer Aided Verification,16,7,119,AGupta
+120,120,JohnPHayes,Width minimization of two-dimensional CMOS cells using integer programming ,ICCAD International Conference Computer Aided Design,17,1,120,AGupta
+121,121,JohnPHayes,Optimal -D cell layout with integrated transistor folding ,ICCAD International Conference Computer Aided Design,17,2,121,AGupta
+122,122,JohnPHayes,CLIP: An Optimizing Layout Generator for Two-Dimensional CMOS Cells ,DAC Design Automation Conference,17,3,122,AGupta
+123,123,JohnPHayes,CLIP: integer-programming-based optimal layout synthesis of D CMOS cells ,ACM Trans Design Autom Electr Syst,17,4,123,AGupta
+124,124,IlianaAvila Campillo ToddJGreen AshishKumarGupta MakotoOnizuka DemianRaven DanSuciu,XMLTK: An XML Toolkit for Scalable XML Stream Processing, PLANX,18,1,124,AGupta
+125,125,SurajitChaudhuri VivekRNarasayya,Compressing SQL workloads ,SIGMOD International Conference Management of Data Conference,18,2,125,AGupta
+126,126,AshishKumarGupta AlonHalevy DanSuciu,View Selection for Stream Processing,WebDB,18,3,126,AGupta
+127,127,AshishKumarGupta DanSuciu,Stream Processing of XPath Queries with Predicates,SIGMOD International Conference Management of Data,18,4,127,AGupta
+128,128,AshishKumarGupta DanSuciu AlonHalevy,The View Selection Problem for Stream Processing,PODS Symposium Principles of Database Systems,18,5,128,AGupta
+129,129,AlonYHalevy DanSuciu,View Selection for Stream Processing ,WebDB,18,6,129,AGupta
+130,130,AlonYHalevy DanSuciu,The view selection problem for XML content based routing ,PODS Symposium Principles of Database Systems,18,7,130,AGupta
+131,131,DanSuciu,Stream Processing of XPath Queries with Predicates ,SIGMOD International Conference Management of Data Conference,18,8,131,AGupta
+132,132,KanadChakraborty PinakiMazumder,A Silicon Compiler for Fault-Tolerant ROMs ,DFT Defect and Fault Tolerance VLSI Systems,19,1,132,AGupta
+133,133,KanadChakraborty MayukhBhattacharya PinakiMazumder ShriramKulkarni,A Physical Design Tool for Built-in Self-Repairable Static RAMs ,DATE Design Automation and Test Europe,19,2,133,AGupta
+134,134,LarryWhitman RameshKAgarwal,Supply chain agent decision aid system SCADAS ,Winter Simulation Conference,19,3,134,AGupta
+135,135,BenVerghese MendelRosenblum RohitChandra ScottDevine,Scheduling and Page Migration for Multiprocessor Compute Servers ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,103,135,AGupta
+136,136,JohnChapin MendelRosenblum StephenAlanHerrod,Memory System Performance of UNIX on CC-NUMA Multiprocessors ,SIGMETRICS Measurement and Modeling of Computer Systems,1,16,136,AGupta
+137,137,Wolf DietrichWeber,Cache Invalidation Patterns in Shared-Memory Multiprocessors ,IEEE Trans Computers,1,104,137,AGupta
+138,138,DavidRCheriton HendrikAGoosen PatrickDBoyle,"The VMP Multiprocessor: Initial Experience, Refinements and Performance Evlauation ",ISCA International Symposium Computer Architecture,1,17,138,AGupta
+139,139,Wolf DietrichWeber,Exploring the Benefits of Multiple Hardware Contexts in a Multiprocessor Architecture: Preliminary Results ,ISCA International Symposium Computer Architecture,1,105,139,AGupta
+140,140,DanielLenoski JamesLaudon JohnLHennessy KouroshGharachorloo PhillipBGibbons,Memory Consistency and Event Ordering in Scalable Shared-Memory Multiprocessors ,ISCA International Symposium Computer Architecture,1,50,140,AGupta
+141,141,AlexColburn IvanTashev JonathanJCadiz Li weiHe RossCutler SteveSilverberg YongRui ZhengyouZhang ZichengLiu,Distributed meetings: a meeting capture and broadcasting system ,ACM Multimedia,1,18,141,AGupta
+142,142,Wolf DietrichWeber,Analysis of Cache Invalidation Patterns in Multiprocessors ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,106,142,AGupta
+143,143,DanielLenoski JamesLaudon JohnLHennessy KouroshGharachorloo,The Directory-Based Cache Coherence Protocol for the DASH Multiprocessor ,ISCA International Symposium Computer Architecture,1,51,143,AGupta
+144,144,RossCutler YongRui AnoopGupta JonathanJCadiz IvanTashev Li weiHe AlexColburn ZhengyouZhang ZichengLiu SteveSilverberg,"Distributed meetings,", ACM_Multimedia,1,19,144,AGupta
+145,145,Wolf DietrichWeber ToddCMowry,"Reducing Memory and Traffic Requirements for Scalable Directory Based Cache Coherence Schemes,", Anoop Gupta,1,107,145,AGupta
+146,146,DanielLenoski DavidNakahira JamesLaudon JohnLHennessy LuisStevens TrumanJoe,The DASH Prototype: Logic Overhead and Performance ,IEEE Trans Parallel Distrib Syst,1,52,146,AGupta
+147,147,StevenCameronWoo MoriyoshiOhara EvanTorrie JaswinderPalSingh AnoopGupta,"The SPLASH Programs,", ISCA International Symposium Computer Architecture,1,108,147,AGupta
+148,148,DanielLenoski DavidNakahira JamesLaudon JohnLHennessy LuisStevens TrumanJoe,The DASH Prototype: Implementation and Performance ,ISCA International Symposium Computer Architecture,1,53,148,AGupta
+149,149,DanielLenoski JamesLaudon JohnLHennessy KouroshGharachorloo MarkHorowitz MonicaSLam Wolf DietrichWeber,The Stanford Dash Multiprocessor ,IEEE Computer,1,54,149,AGupta
+150,150,MargaretMartonosi ThomasEAnderson,Effectiveness of Trace Sampling for Performance Debugging Tools ,SIGMETRICS Measurement and Modeling of Computer Systems,1,55,150,AGupta
+151,151,MargaretMartonosi ThomasEAnderson,MemSpy: Analyzing Memory System Bottlenecks in Programs ,SIGMETRICS Measurement and Modeling of Computer Systems,1,56,151,AGupta
+152,152,MargaretMartonosi ThomasEAnderson,Tuning Memory Performance of Sequential and Parallel Programs ,IEEE Computer,1,57,152,AGupta
+153,153,PerStenstr ouml m TrumanJoe,Comparative Performance Evaluation of Cache-Coherent NUMA and COMA Architectures ,ISCA International Symposium Computer Architecture,1,90,153,AGupta
+154,154,MargaretMartonosi,Tradeoffs in Message Passing and Shared Memory Implementations of a Standard Cell Router ,ICPP International Conference Parallel Processing,1,58,154,AGupta
+155,155,MilindTambe,Suitability of Message Passing Computers for Implementing Production Systems ,AAAI National Conference Artificial Intelligence,1,91,155,AGupta
+156,156,ToddCMowry Wolf DietrichWeber,Reducing Memory and Traffic Requirements for Scalable Directory-Based Cache Coherence Schemes ,ICPP International Conference Parallel Processing,1,59,156,AGupta
+157,157,DanTeodosiu JohnChapin MendelRosenblum ScottDevine TirthankarLahiri,Hive: Fault Containment for Shared-Memory Multiprocessors ,SOSP Symposium Operating Systems Principles,1,92,157,AGupta
+158,158,DanTeodosiu JohnChapin MendelRosenblum ScottDevine TirthankarLahiri,Implementing Efficient Fault Containment for Multiprocessors: Confining Faults in a Shared-Memory Multiprocessor Environment ,Commun ACM,1,93,158,AGupta
+159,159,EvanTorrie JaswinderPalSingh MoriyoshiOhara StevenCameronWoo,The SPLASH- Programs: Characterization and Methodological Considerations ,ISCA International Symposium Computer Architecture,1,94,159,AGupta
+160,160,AndrewTucker JosepTorrellas,Benefits of Cache-Affinity Scheduling in Shared-Memory Multiprocessors: A Summary ,SIGMETRICS Measurement and Modeling of Computer Systems,1,95,160,AGupta
+161,161,AndrewTucker JosepTorrellas,Evaluating the Performance of Cache-Affinity Scheduling in Shared-Memory Multiprocessors ,J Parallel Distrib Comput,1,96,161,AGupta
+162,162,AndrewTucker,Exploiting Variable Grain Parallelism at Runtime ,PPOPP Principles Practice of Parallel Programming PPEALS Symposium Principles and Practice of Parallel Programming,1,97,162,AGupta
+163,163,AndrewTucker,Process Control and Scheduling Issues for Multiprogrammed Shared-Memory Multiprocessors ,SOSP Symposium Operating Systems Principles,1,98,163,AGupta
+164,164,AndrewTucker ShigeruUrushibara,The Impact of Operating System Scheduling Policies and Synchronization Methods of the Performance of Parallel Application ,SIGMETRICS Measurement and Modeling of Computer Systems,1,99,164,AGupta
+165,165,CharlesForgy AnoopGupta AllenNewell RobertGWedig,"Initial Assessment of Architectures for Production Systems,", AAAI National Conference Artificial Intelligence,1,20,165,AGupta
+166,166,CharlesForgy,Static and Run-Time Characteristics of OPS Production Systems ,J Parallel Distrib Comput,1,21,166,AGupta
+167,167,KouroshGharachorloo DanielLenoski JamesLaudon PhillipBGibbons AnoopGupta JohnLHennessy,"Memory Consistency and Event Ordering in Scalable SharedMemory Multiprocessors Retrospectives and Reprints ,", _Years_ISC,1,22,167,AGupta
+168,168,KouroshGharachorloo RohitChandra VijayaraghavanSoundararajan,Performance evaluation of hybrid hardware and software distributed shared memory protocols ,International Conference Supercomputing,1,23,168,AGupta
+169,169,KouroshGharachorloo AnoopGupta JohnLHennessy,"Performance Evaluation of Memory Consistency Models for Shared Memory Multiprocessors,", ASPLOS Architectural Support for Programming Languages and Operating Systems,1,24,169,AGupta
+170,170,JonathanGrudin LiweiHe,Designing presentations for on-demand viewing ,CSCW Conference Computer Supported Cooperative Work,1,25,170,AGupta
+171,171,AnoopGupta CharlesForgy AllenNewell RobertGWedig,"Parallel Algorithms and Architectures for RuleBased Systems,", ISCA International Symposium Computer Architecture,1,26,171,AGupta
+172,172,AnoopGupta MilindTambe,"Suitability of Message Passing Computers for Implementing Production Systems,", AAAI National Conference Artificial Intelligence,1,27,172,AGupta
+173,173,ToddCMowry,Tolerating Latency Through Software-Controlled Prefetching in Shared-Memory Multiprocessors ,J Parallel Distrib Comput,1,60,173,AGupta
+174,174,ZiyadSHakura,The Design and Analysis of a Cache Architecture for Texture Mapping ,ISCA International Symposium Computer Architecture,1,28,174,AGupta
+175,175,DavidNakahira DavidOfelt JaswinderPalSingh JeffreyKuskin JoelBaxter JohnHeinlein JohnLHennessy KouroshGharachorloo MarkHeinrich MarkHorowitz MendelRosenblum RichardSimoni,The Performance Impact of Flexibility in the Stanford FLASH Multiprocessor ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,61,175,AGupta
+176,176,Li weiHe QiongLiu YongRui,Building an intelligent camera management system ,ACM Multimedia,1,29,176,AGupta
+177,177,DavidNakahira DavidOfelt JeffreyKuskin JoelBaxter JohnChapin JohnHeinlein JohnLHennessy KouroshGharachorloo MarkHeinrich MarkHorowitz MendelRosenblum RichardSimoni,The Stanford FLASH Multiprocessor ,ISCA International Symposium Computer Architecture,1,62,177,AGupta
+178,178,PPandurangNayak PaulSRosenbloom,Comparison of the Rete and Treat Production Matchers for Soar ,AAAI National Conference Artificial Intelligence,1,63,178,AGupta
+179,179,AllenNewell CharlesForgy,High-Speed Implementations of Rule-Based Systems ,ACM Trans Comput Syst,1,64,179,AGupta
+180,180,AllenNewell CharlesForgy RobertGWedig,Initial Assessment of Architectures for Production Systems ,AAAI National Conference Artificial Intelligence,1,65,180,AGupta
+181,181,AllenNewell CharlesForgy RobertGWedig,Parallel Algorithms and Architectures for Rule-Based Systems ,ISCA International Symposium Computer Architecture,1,66,181,AGupta
+182,182,AllenNewell CharlesForgy DirkKalp MilindTambe,Parallel OPS on the Encore Multimax ,ICPP International Conference Parallel Processing,1,67,182,AGupta
+183,183,AllenNewell BrianMilnes CharlesForgy DirkKalp MilindTambe,Soar/PSM-E: Investigating Match Parallelism in a Learning Production System ,PPOPP Principles Practice of Parallel Programming PPEALS Symposium Principles and Practice of Parallel Programming,1,68,183,AGupta
+184,184,EdwardRothberg JaswinderPalSingh,Modeling Communication in Parallel Algorithms: A Fruitful Interaction Between Theory and Systems?,SPAA ACM Symposium Parallel Algorithms and Architectures,1,69,184,AGupta
+185,185,LiweiHe,Exploring benefits of non-linear time compression ,ACM Multimedia,1,30,185,AGupta
+186,186,LiweiHe ElizabethSanocki AnoopGupta JonathanGrudin,"Auto summarization of audiovideo presentations,",,1,31,186,AGupta
+187,187,JohnHeinlein KouroshGharachorloo MendelRosenblum RobertPBosch,Coherent Block Data Transfer in the FLASH Multiprocessor ,IPPS International Parallel Processing Symposium,1,32,187,AGupta
+188,188,JohnHeinlein KouroshGharachorloo ScottDresser,Integration of Message Passing and Shared Memory in the Stanford FLASH Multiprocessor ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,33,188,AGupta
+189,189,JohnLHennessy JosepTorrellas,Characterizing the Caching and Synchronization Performance of a Multiprocessor Operating System ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,34,189,AGupta
+190,190,JohnLHennessy RohitChandra,COOL: An Object-Based Language for Parallel Programming ,IEEE Computer,1,35,190,AGupta
+191,191,JohnLHennessy KouroshGharachorloo ToddCMowry Wolf DietrichWeber,Comparative Evaluation of Latency Reducing and Tolerating Techniques ,ISCA International Symposium Computer Architecture,1,36,191,AGupta
+192,192,JohnLHennessy RohitChandra,Data Locality and Load Balancing in COOL ,PPOPP Principles Practice of Parallel Programming,1,37,192,AGupta
+193,193,EdwardRothberg,Experiences Implementing a Parallel ATMS on a Shared-Memory Multiprocessor ,IJCAI International Joint Conference Artificial Intelligence,1,70,193,AGupta
+194,194,JohnLHennessy KouroshGharachorloo,Hiding Memory Latency using Dynamic Scheduling in Shared-Memory Multiprocessors ,ISCA International Symposium Computer Architecture,1,38,194,AGupta
+195,195,EdwardRothberg JaswinderPalSingh AnoopGupta,"Working Sets Cache Sizes,", ISCA International Symposium Computer Architecture,1,71,195,AGupta
+196,196,JohnLHennessy MarkHeinrich VijayaraghavanSoundararajan,A Quantitative Analysis of the Performance and Scalability of Distributed Shared Memory ,IEEE Trans Computers,1,39,196,AGupta
+197,197,EdwardRothberg JaswinderPalSingh,"Working Sets, Cache Sizes, and Node Granularity Issues for Large-Scale Multiprocessors ",ISCA International Symposium Computer Architecture,1,72,197,AGupta
+198,198,,Stanford DASH Multiprocessor: The Hardware and Software Approach ,PARLE Parallel Architectures and Languages Europe,1,1,198,AGupta
+199,199,EdwardRothberg,Parallel ICCG on a hierarchical memory multiprocessor - Addressing the triangular solve bottleneck ,Parallel Computing,1,73,199,AGupta
+200,200,AlexAcero YongRui,Automatically extracting highlights for TV Baseball programs ,ACM Multimedia,1,2,200,AGupta
+201,201,EdwardRothberg,Techniques for improving the performance of sparse matrix factorization on multiprocessor workstations ,Supercomputing,1,74,201,AGupta
+202,202,AnuragAcharya MilindTambe,Implementation of Production Systems on Message-Passing Computers ,IEEE Trans Parallel Distrib Syst,1,3,202,AGupta
+203,203,EdwardRothburg,An efficient block-oriented approach to parallel sparse Cholesky factorization ,Supercomputing,1,75,203,AGupta
+204,204,AnantAgarwal,Memory-Reference Characteristics of Multiprocessor Applications under MACH ,SIGMETRICS Measurement and Modeling of Computer Systems,1,4,204,AGupta
+205,205,YongRui Li weiHe AnoopGupta QiongLiu,"Building an intelligent camera management system,", ACM_Multimedia,1,76,205,AGupta
+206,206,AvneeshAgrawal NavinChaddha TeresaHYMeng,Variable Compression Using JPEG ,ICMCS International Conference Multimedia Computing and Systems,1,5,206,AGupta
+207,207,YongRui AnoopGupta AlexAcero,"Automatically extracting highlights for TV Baseball programs,", ACM_Multimedia,1,77,207,AGupta
+208,208,AnandBalachandran ElizabethSanocki GavinJancke JonathanGrudin JonathanJCadiz,Distance learning through distributed collaborative video viewing ,CSCW Conference Computer Supported Cooperative Work,1,6,208,AGupta
+209,209,ElizabethSanocki FrancisCLi Li weiHe YongRui,Browsing digital video ,CHI Conference Human Factors Computing Systems,1,78,209,AGupta
+210,210,FranzBarachini HansMistelberger,Run-Time Prediction for Production Systems ,AAAI National Conference Artificial Intelligence,1,7,210,AGupta
+211,211,DavidBargeron ElizabethSanocki JonathanGrudin,Annotations for Streaming Video on the Web: System Design and Usage Studies ,Computer Networks,1,8,211,AGupta
+212,212,ElizabethSanocki JonathanGrudin LiweiHe,Comparing presentation summaries: slides vs reading vs listening ,CHI Conference Human Factors Computing Systems,1,79,212,AGupta
+213,213,DavidBargeron ElizabethSanocki FrancisCLi JonathanGrudin,Asynchronous Collaboration around Multimedia and its Application to On-Demand Training ,HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES,1,9,213,AGupta
+214,214,JohnLHennessy KouroshGharachorloo,Performance Evaluation of Memory Consistency Models for Shared Memory Multiprocessors ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,40,214,AGupta
+215,215,JohnLHennessy KouroshGharachorloo MarkDHill SaritaVAdve,Programming for Different Memory Consistency Models ,J Parallel Distrib Comput,1,41,215,AGupta
+216,216,JohnLHennessy KouroshGharachorloo,Two Techniques to Enhance the Performance of Memory Consistency Models ,ICPP International Conference Parallel Processing,1,42,216,AGupta
+217,217,ChrisHolt JaswinderPalSingh JohnLHennessy TakashiTotsuka,"Load Balancing and Data locality in Adaptive Hierarchical N-Body Methods: Barnes-Hut, Fast Multipole, and Rasiosity ",J Parallel Distrib Comput,1,43,217,AGupta
+218,218,ChrisHolt JaswinderPalSingh JohnLHennessy,A parallel adaptive fast multipole method ,Supercomputing,1,44,218,AGupta
+219,219,GavinJancke GinaDanielleVenolia JonathanJCadiz,Designing and deploying an information awareness interface ,CSCW Conference Computer Supported Cooperative Work,1,45,219,AGupta
+220,220,GavinJancke GinaDanielleVenolia JonathanGrudin JonathanJCadiz,Linking public spaces: technical and social issues ,CHI Conference Human Factors Computing Systems,1,46,220,AGupta
+221,221,GavinJancke JonathanGrudin,Presenting to local and remote audiences: design and use of the TELEP system ,CHI Conference Human Factors Computing Systems,1,47,221,AGupta
+222,222,ElizabethSanocki GregKimberly HarryChesley JonathanGrudin StephenAWhite,Evolving Use of a System for Education at a Distance ,HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES,1,80,222,AGupta
+223,223,MonicaSLam ToddCMowry,Design and Evaluation of a Compiler Algorithm for Prefetching ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,48,223,AGupta
+224,224,ElizabethSanocki JonathanGrudin LiweiHe NosaOmoigui,"Time-Compression: Systems Concerns, Usage, and Benefits ",CHI Conference Human Factors Computing Systems,1,81,224,AGupta
+225,225,JamesLaudon MarkHorowitz,Interleaving: A Multithreading Technique Targeting Multiprocessors and Workstations ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,49,225,AGupta
+226,226,ElizabethSanocki JonathanGrudin LiweiHe,Auto-summarization of audio-video presentations ,ACM Multimedia,1,82,226,AGupta
+227,227,JaswinderPalSingh JohnLHennessy,Implications of Hierarchical N-Body Methods for Multiprocessor Architectures,ACM Trans Comput Syst,1,83,227,AGupta
+228,228,JaswinderPalSingh JohnLHennessy TrumanJoe,An empirical comparison of the Kendall Square Research KSR- and Stanford DASH multiprocessors ,Supercomputing,1,84,228,AGupta
+229,229,JaswinderPalSingh MarcLevoy,Parallel Visualization Algorithms: Performance and Architectural Implications ,IEEE Computer,1,85,229,AGupta
+230,230,JaswinderPalSingh JohnLHennessy,Scaling Parallel Programs for Multiprocessors: Methodology and Examples ,IEEE Computer,1,86,230,AGupta
+231,231,BurtonJSmith DavidCDouglas DavidMaier FredericaDarema JustinRatner OlafMLubeck PaulMessina,What's in the future for parallel architectures?,Supercomputing,1,87,231,AGupta
+232,232,LarrySoul eacute ,Characterization of Parallelism and Deadlocks in Distributed Digital Logic Simulation ,DAC Design Automation Conference,1,88,232,AGupta
+233,233,LarrySoul eacute ,An Evaluation of the Chandy-Misra-Bryant Algorithm for Digital Logic Simulation ,ACM Trans Model Comput Simul,1,89,233,AGupta
+234,234,AJBernheimBrush DavidBargeron JonathanGrudin,Notification for shared annotation of digital documents ,CHI Conference Human Factors Computing Systems,1,10,234,AGupta
+235,235,AJBernheimBrush DavidBargeron JonathanJCadiz,Robust annotation positioning in digital documents ,CHI Conference Human Factors Computing Systems,1,11,235,AGupta
+236,236,EdouardBugnion EmmettWitchel MendelRosenblum StephenAlanHerrod,The Impact of Architectural Trends on Operating System Performance ,SOSP Symposium Operating Systems Principles,1,12,236,AGupta
+237,237,BenVerghese JohnLHennessy KouroshGharachorloo MarkHeinrich VijayaraghavanSoundararajan,Flexible Use of Memory for Replication/Migration in Cache-Coherent DSM Multiprocessors ,ISCA International Symposium Computer Architecture,1,100,237,AGupta
+238,238,JonathanJCadiz YongRui,Viewing meeting captured by an omni-directional camera ,CHI Conference Human Factors Computing Systems,1,13,238,AGupta
+239,239,BenVerghese MendelRosenblum,Performance Isolation: Sharing and Isolation in Shared-Memory Multiprocessors ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,101,239,AGupta
+240,240,JonathanJCadiz QiongLiu YongRui,Automating camera management for lecture room environments ,CHI Conference Human Factors Computing Systems,1,14,240,AGupta
+241,241,BenVerghese MendelRosenblum ScottDevine,Operating System Support for Improving Data Locality on CC-NUMA Compute Servers ,ASPLOS Architectural Support for Programming Languages and Operating Systems,1,102,241,AGupta
+242,242,RohitChandra ScottDevine BenVerghese AnoopGupta MendelRosenblum,"Scheduling and Page Migration for Multiprocessor Compute Servers,", ASPLOS Architectural Support for Programming Languages and Operating Systems,1,15,242,AGupta
+243,243,AnshulKothari DivyakantAgrawal SubhashSuri,Range Addressable Network: A P P Cache Architecture for Data Ranges ,Peer to Peer Computing,20,1,243,AGupta
+244,244,AmrElAbbadi DivyakantAgrawal,Approximate Range Selection Queries in Peer-to-Peer Systems ,CIDR Conference Innovative Data Systems Research,20,2,244,AGupta
+245,245,MarciaKilchenmanO Malley,Passive and Active Assistance for Human Performance of a Simulated Underactuated Dynamic Task ,HAPTICS,20,3,245,AGupta
+246,246,DanielPSiewiorek,Automated Multi-Cycle Symbolic Timing Verification of Microprocessor-Based Designs ,DAC Design Automation Conference,21,1,246,AGupta
+247,247,AudreyABrennan DanielPSiewiorek PatrickEdmond,ASSURE: Automated Design for Dependability ,DAC Design Automation Conference,21,2,247,AGupta
+248,248,DanielPSiewiorek WilliamPBirmingham,The MICON System for Computer Design ,DAC Design Automation Conference,21,3,248,AGupta
+249,249,Wen meiWHwu,Xprof: Profiling the Execution of X Window Programs ,SIGMETRICS Measurement and Modeling of Computer Systems,22,1,249,AGupta
+250,250,Wen meiWHwu,An execution Profiler for Window-oriented Applications ,Softw Pract Exper,22,2,250,AGupta
+251,251,WKentFuchs,Garbage Collection in a Distributed Object-Oriented System ,IEEE Trans Knowl Data Eng,22,3,251,AGupta
+252,252,IanFAkyildiz RichardFujimoto,Performance Analysis of Time Warp with Homogeneous Processors and Exponential Task Times ,SIGMETRICS Measurement and Modeling of Computer Systems,23,1,252,AGupta
+253,253,IanFAkyildiz RichardFujimoto,Performance Analysis of Time Warp With Multiple Homogeneous Processors ,IEEE Trans Software Eng,23,2,253,AGupta
+254,254,AWong GerardJounghyunKim RamDSriram SRGorti,An object-oriented representation for product and design processes ,Computer Aided Design,24,1,254,AGupta
+255,255,MuraliVemulapati RamDSriram,Incremental Loading in the Persistent C++ Language E ,JOOP Journal of Object Oriented Programming,24,2,255,AGupta
+256,256,RSekar,An Approach for Detecting Self-propagating Email Using Anomaly Detection ,RAID,25,1,256,AGupta
+257,257,ATiwari HYang JFrullo RSekar SZhou TShanbhag,Specification-based anomaly detection: a new approach for detecting network intrusions ,ACM Conference Computer and Communications Security,25,2,257,AGupta
+258,258,ManishBhide MukeshMohania,Towards Bringing Database Management Task in the Realm of IT non-Experts ,ICDE International Conference Data Engineering,26,1,258,AGupta
+259,259,ManishBhide MukeshMohania SandeepPandey,Dynamic Access Control Framework Based On Events ,ICDE International Conference Data Engineering,26,2,259,AGupta
+260,260,TWeymouth RJain,Semantic queries with pictures: the VIMSYS model, Proc International Conference Very Large Data Bases Barcelona Edited by Lohman G M Sernadas A Camps R San Mateo Computer Animation Morgan Kaufmann,2,30,260,AGupta
+261,261,BLudü¾†”¼scher MEMartone XQian JTran IZaslavsky, A System for Managing Alternate Models in Model-based Mediation, British National Conference Databases BNCOD British National Conference Databases,2,31,261,AGupta
+262,262,BLudü¾†”¼scher, The Many Faces of Process Interaction Graphs: A Data Management Perspective, OMICS A Journal of Integrative Biology,2,32,262,AGupta
+263,263,SSantini, Toward a Feature Algebra for Visual Databases: a Case Study with Histogram Algebra, VDB Visual Database Systems Int Conf Visual Databases Tokyo,2,33,263,AGupta
+264,264,BLudü¾†”¼scher JSGrethe MEMartone, Towards a Formalization of Disease-Specific Ontologies for Neuroinformatics, Neural Networks press,2,34,264,AGupta
+265,265,ArunHampapur BradleyHorowitz CharlesFuller Chiao FeShu JeffreyRBach MonikaGorkani RameshJain,Virage Video Engine ,Storage and Retrieval for Image and Video Databases SPIE The International Society for Optical Engineering,2,35,265,AGupta
+266,266,ArunHampapur BradleyHorowitz CharlesFuller Chiao FeShu JeffreyRBach RameshJain RichHumphrey,Virage Image Search Engine: An Open Framework for Image Management ,Storage and Retrieval for Image and Video Databases SPIE The International Society for Optical Engineering,2,36,266,AGupta
+267,267,RJain AGupta,Computer Vision and Visual Information Retrieval, Book Chapter Advances Image Understanding A Festschrift for Prof Azriel Rosenfeld IEEE Computer Society Press,2,37,267,AGupta
+268,268,MEMartone MWong XQian GSosinsky SLamont BLudü¾†”¼scher MHEllisman, A Cell-Centered Database for Electron Tomographic Data, Journal of Structural Biology,2,70,268,AGupta
+269,269,RameshJain,Visual Information Retrieval ,Commun ACM,2,38,269,AGupta
+270,270,MEMartone BLudascher IZaslavsky MHEllisman, Federation of brain data through knowledge-guided mediation ,R Kotter ed Neuroscience Databases A Practical Guide Kluwer Academic Publishers,2,71,270,AGupta
+271,271,RameshJain SimoneSantini,Emergent Semantics through Interaction in Image Databases ,IEEE Trans Knowl Data Eng,2,39,271,AGupta
+272,272,MaryannEMartone ShenglanZhang XufeiQian,A Practical Approach for Microscopy Imaging Data Management MIDM in Neuroscience ,SSDBM Statistical and Scientific Database Management,2,72,272,AGupta
+273,273,RMoore CBaru ARajasekar BLudü¾†”¼scher RMarciano MWan WSchroeder AGupta, Collection-based persistent digital archives , D Lib Magazine Corporation for National Research Initiatives,2,73,273,AGupta
+274,274,XQian BLudü¾†”¼scher MEMartone AGupta, Navigating Virtual Information Sources with Know-ME, Proc of Conference Extending Database Technology EDBT Extending Database Technology Prague,2,74,274,AGupta
+275,275,SSantini AGupta," Conceptual Integration of Multiple Partial Geometric Models,", st International Conference Conceptual Modeling ER International Conference Conceptual Modeling the Entity Relationship Approach Tampere,2,75,275,AGupta
+276,276,SimoneSantini,A Data Model for Querying Wavelet Features in Image Databases ,Multimedia Information Systems,2,76,276,AGupta
+277,277,SSantini AGupta, GeMBASE: A Geometric Mediator for Brain Analysis with Surface Ensembles, Intl Conf Very Large Databases VLDB Very Large Data Bases Hong Kong,2,77,277,AGupta
+278,278,SSantini RJain,Querying Multiple Perspective Video, Proceedings of SPIE The International Society for Optical Engineering Storage and Retrieval for Image and Video Databases VII San Jose,2,78,278,AGupta
+279,279,SSantini RJain, Emergent Semantics through Interaction in Image Databases, IEEE Trans Knowledge and Data Engineering,2,79,279,AGupta
+280,280,RameshJain TerryEWeymouth,An Extended Object-Oriented Data Model for Large Image Bases ,SSD Symposium Large Spatial Databases,2,40,280,AGupta
+281,281,RameshJain SimoneSantini,In Search of Information in Visual Media ,Commun ACM,2,41,281,AGupta
+282,282,RameshJain TerryEWeymouth,Semantic Queries in Image Databases ,VDB Visual Database Systems,2,42,282,AGupta
+283,283,RameshJain TerryEWeymouth,Semantic Queries with Pictures: The VIMSYS Model ,VLDB Very Large Data Bases,2,43,283,AGupta
+284,284,RameshJain ShailendraKBhonsle SimoneSantini,Semiorder Database for Complex Activity Recognition in Multi-Sensory Environments ,ICDE International Conference Data Engineering,2,44,284,AGupta
+285,285,RameshJain SimoneSantini,A User Interface for Emergent Sementics in Image Databases ,DS Discovery Science,2,45,285,AGupta
+286,286,AKatkere JSchlenzig RJain,Interactive video on WWW: beyond VCR-like interfaces, Computer Networks and ISDN Systems,2,46,286,AGupta
+287,287,PatrickHKelly RameshJain,Visual Computing Meets Data Modeling: Defining Objects in Multicamera Video Databases ,Storage and Retrieval for Image and Video Databases SPIE The International Society for Optical Engineering,2,47,287,AGupta
+288,288,PADeAlarcon APascual Montano JMCarazo,Modeling Shape and Topology of D Images of Biological Specimens, Proc Int Conf Image Proc And Pattern Recog ICPR International Conference Pattern Recognition,2,1,288,AGupta
+289,289,SSantini AGupta, A Wavelet Data Model for Image Databases, IEEE Intl Conf Multimedia and Expo Tokyo,2,80,289,AGupta
+290,290,BertramLud auml scher MaryannEMartone,BIRN-M: A Semantic Mediator for Solving Real-World Neuroscience Problems ,SIGMOD International Conference Management of Data Conference,2,48,290,AGupta
+291,291,PAdeAlarcü¾Œ¶˜¼n JMCarazo, A Framework for Querying a Database for Structural Information on D Images of Macromolecules: A Web-Based Query-by-Content Prototype on the BioImage Macromolecular Server, Journal of Structural Biology,2,2,291,AGupta
+292,292,SSantini AGupta,An Extensible Feature Management Engine for Image Retrieval, Proc SPIE The International Society for Optical Engineering Storage and Retrieval for Media Databases,2,81,292,AGupta
+293,293,BertramLud auml scher IlkayAltintas,Compiling Abstract Scientific Workflows into Web Service Workflows ,SSDBM Statistical and Scientific Database Management,2,49,293,AGupta
+294,294,IAltintas SBhagwanani DButtler SChandra MColeman TCritchlow WHan LLiu BLudü¾†”¼scher RMoore CPu AShoshani MVouk, A Modeling and Execution Environment for Distributed Scientific Workflows, Int Conf Statistical and Scientific Data Management SSDBM Statistical and Scientific Database Management,2,3,294,AGupta
+295,295,SimoneSantini TianqiuWang,An Interpolated Volume Data Model ,VLDB Very Large Data Bases,2,82,295,AGupta
+296,296,JRBach CFuller AHampapur,The Virage Image Search Engine: an open framework for image management, Proc Storage and Retrieval for Still Image and Video Databases IV San Jose Computer Animation,2,4,296,AGupta
+297,297,SSantini AGupta, Principles of Schema Design in Multimedia Databases, IEEE Trans Multimedia Systems,2,83,297,AGupta
+298,298,CBaru BLudü¾†”¼scher RMarciano YPapakonstantinou PVelikhov VChu,XML-Based Information Mediation for Digital Libraries, Proc Digital Libraries,2,5,298,AGupta
+299,299,SSantini RJain,"User Interfaces for Emergent Semantics in Image Databases,'' In Proceedings of the th IFIP Working Conference on Database Semantics DS- Rotorua New Zealand , January - ",,2,84,299,AGupta
+300,300,CBaru BLudü¾†”¼scher RMarciano Yapakonstantinou PVelikhov VChu, XML-Based Information Mediation with MIX, Proc of the ACM SIGMOD International Conference Management of Data,2,6,300,AGupta
+301,301,SimoneSantini,Toward feature Algebras in Visual Databases: The Case for a Histogram Algebra ,VDB Visual Database Systems,2,85,301,AGupta
+302,302,ChaitanyaKBaru IlyaZaslavsky RichardMarciano,Integrating GIS and Imagery Through XML-Based Information Mediation ,Integrated Spatial Databases,2,7,302,AGupta
+303,303,ArieShoshani BertramLud auml scher CaltonPu DavidButtler IlkayAltintas LingLiu MatthewColeman MladenAVouk ReaganMoore SandeepChandra SangeetaBhagwanani TerenceCritchlow WeiHan ZhengangCheng,A Modeling and Execution Environment for Distributed Scientific Workflows ,SSDBM Statistical and Scientific Database Management,2,86,303,AGupta
+304,304,SBhonsle SSantini MWorring RJain,Complex Visual Activity Recognition Using a Temporally Ordered Database, Proc Of the rd Int Conf Visual The Lecture Notes Computer Science Springer,2,8,304,AGupta
+305,305,SBhonsle SSantini RJain, Semiorder Database for Complex Activity Recognition in Multi-sensory Environments, Proc Of IEEE Int Conf Data Engineering San Diego demonstration paper,2,9,305,AGupta
+306,306,ArnoldWMSmeulders MarcelWorring RameshJain SimoneSantini,Content-Based Image Retrieval at the End of the Early Years ,IEEE Transactions Pattern Analysis and Machine Intelligence,2,87,306,AGupta
+307,307,MohanMTrivedi ShailendraKBhonsle,Database Architecture for Autonomous Transportation Agents for On-Scene Networked Incident Management ATON ,ICPR International Conference Pattern Recognition,2,88,307,AGupta
+308,308,TWang SSantini AGupta, An Interpolated Volume Data Model, ACM Conf Very Large Databases VLDB Very Large Data Bases Demonstration,2,89,308,AGupta
+309,309,GBurns KStephan BLudü¾†”¼scher AGupta,Towards a Federated Neuroscientific Knowledge Management System Using Brain Atlases, Computational Neuroscience Meeting CNS poster paper Brugge,2,10,309,AGupta
+310,310,MChagoyen MEKurul PADe Alarcon SSantini BLudü¾†”¼scher JMCarazo AGupta, A Semantic Mediation Approach for Problems in Computational Molecular Biology, IEEE Computer Society Bioinformatics Conference CSB,2,11,310,AGupta
+311,311,PAde Alarcon APascual Montano JMCarazo, Modeling Shape and Topology of Low-resolution Density Maps of Biological Macromolecules, Biophysical Journal,2,12,311,AGupta
+312,312,MHGoldbaum VKouznetsova IZaslavsky DJNazafi,General Medical Image online Description Grammar, poster American Association of Ophthalmologists,2,13,312,AGupta
+313,313,BLudü¾†”¼scher MEMartone ARajasekar ERoss XQian SSantini HHe IZaslavsky, BIRN-M: A Semantic Mediator for Solving Real-World Neuroscience Problems, ACM Conf Management of Data SIGMOD International Conference Management of Data Demonstration page,2,14,313,AGupta
+314,314,SMoezzi ATaylor SChatterjee RJain MGoldbaum SBurgess,Content-based retrieval of ophtalmological images,Proc International Conference Image Processing Lusanne,2,15,314,AGupta
+315,315,YYang ABagchi ARay," Declarative Specification of Gene Regulatory Networks and Query Evaluation in PathSys,",Proc of Workshop Bioinformatics conjunction with Intl Conf Data Engineering ICDE International Conference Data Engineering,2,16,315,AGupta
+316,316,BChanda,A Hue Preserving Enhancement Scheme For A Class Of Colour Images, Pattern Recognition Letters,2,17,316,AGupta
+317,317,BertramLud auml scher MaryannEMartone,Knowledge-Based Integration of Neuroscience Data Sources ,SSDBM Statistical and Scientific Database Management,2,50,317,AGupta
+318,318,RJain,Visual information retrieval, Communications of the ACM,2,18,318,AGupta
+319,319,BertramLud auml scher IlyaZaslavsky ShabbarTambawala,Query Evaluation and Presentation Planning within a Spatial Mediator: Extending XML-based Mediation to Heterogeneous Sources of GIS and Imagery Data Invited Address ,DEXA Database and Expert Systems Applications Workshop,2,51,319,AGupta
+320,320,AGupta,Visual Information Retrieval: a Virage Perspective, Technical Report Virage Inc,2,19,320,AGupta
+321,321,BertramLud auml scher MaryannEMartone,Model-Based Mediation with Domain Maps ,ICDE International Conference Data Engineering,2,52,321,AGupta
+322,322,BertramLud auml scher MaryannEMartone,Model-Based Information Integration in a Neuroscience Mediator System ,VLDB Very Large Data Bases,2,53,322,AGupta
+323,323,BertramLud auml scher,Modeling Interactive Web Sources for Information Mediation ,ER International Conference Conceptual Modeling the Entity Relationship Approach Workshops,2,54,323,AGupta
+324,324,BertramLud auml scher ChaitanyaKBaru PavelVelikhov RichardMarciano VincentChu YannisPapakonstantinou,XML-based Information Mediation for Digital Libraries ,ACM DL Digital Libraries,2,55,324,AGupta
+325,325,BertramLud auml scher ChaitanyaKBaru PavelVelikhov RichardMarciano VincentChu YannisPapakonstantinou,XML-Based Information Mediation with MIX ,SIGMOD International Conference Management of Data Conference,2,56,325,AGupta
+326,326,BertramLud auml scher MaryannEMartone XufeiQian,Navigating Virtual Information Sources with Know-ME ,EDBT Extending Database Technology,2,57,326,AGupta
+327,327,TWang SSantini AGupta, An Interpolated Volume Model for Databases, Int Conf Conceptual Modeling ER International Conference Conceptual Modeling the Entity Relationship Approach,2,90,327,AGupta
+328,328,BertramLud auml scher MaryannEMartone,An Extensible Model-Based Mediatior System with Domain Maps ,ICDE International Conference Data Engineering Demo Sessions,2,58,328,AGupta
+329,329,MarcelWorring RameshJain ShailendraKBhonsle SimoneSantini,Complex Visual Activity Recognition Using a Temporally Ordered Database ,VISUAL Visual Information and Information Systems,2,91,329,AGupta
+330,330,BertramLud auml scher ReaganMoore,Ontology services for curriculum development in NSDL ,JCDL ACM IEEE Joint Conference Digital Libraries,2,59,330,AGupta
+331,331,IZaslavsky BLudü¾†”¼scher RMarciano,Accuracy Mediation in a Spatial Wrapper Mediator System, st Geographic Information Science Conference Extended abstract,2,92,331,AGupta
+332,332,IZaslavsky RMarciano,Combined Query and Transformation Planning in Spatial Mediators, Spatial Data Handling,2,93,332,AGupta
+333,333,IZaslavsky RMarciano CBaru, XML-based Spatial Data Mediation Infrastructure for Global Interoperability, th Global Spatial Data Infrastructure Conference Cape Town South Africa,2,94,333,AGupta
+334,334,SZhang XQian MEMartone, A Practical Approach for Microscopy Imaging Data Management MIDM in Neuroscience, Int Conf Statistical and Scientific Data Management SSDBM Statistical and Scientific Database Management,2,95,334,AGupta
+335,335,ABagchi,Learning object models in visual semantic networks, Proc International Conference Tools with Artificial Intelligence TAI Los Alamitos Computer Animation IEEE Comput Soc Press,2,20,335,AGupta
+336,336,SBhonsle SSantini RJain,An Event Management Architecture for Activity Recognition in a Multistream Video Database, Proceedings of the Image Understanding Workshop Computer Animation,2,21,336,AGupta
+337,337,TEWeymouth RJain,An extended object-oriented data model for large image bases, Proc Advances Spatial Databases Symposium SSD Symposium Large Spatial Databases Zurich Edited by Gunther O Schek H J Springer Verlag,2,22,337,AGupta
+338,338,CBaru, An Extensible Information Model for Shared Scientific Data Collections, Future Generation Computer Systems,2,23,338,AGupta
+339,339,HHampapur MGorkani RJain,On Summarization of Video, International Conference Image Processing IEEE Santa Barbara,2,24,339,AGupta
+340,340,SSantini RJain,In Search of Information in Visual Media, Communications of the ACM,2,25,340,AGupta
+341,341,RMarciano IZaslavsky CBaru, Integrating GIS and Imagery through XML-Based Information Mediation, Proc NSF International Workshop Integrated Spatial Databases Digital Images and GIS Workshop Advances Geographic Information Systems Lecture Notes Computer Science Springer Verlag,2,26,341,AGupta
+342,342,BLudü¾†”¼scher RWMoore, Ontology Services for Curriculum Development in NSDL, ACM IEEE CS Joint Conference Digital Libraries JCDL ACM IEEE Joint Conference Digital Libraries,2,27,342,AGupta
+343,343,BertramLud auml scher MaryannEMartone,Registering Scientific Information Sources for Semantic Mediation ,ER International Conference Conceptual Modeling the Entity Relationship Approach,2,60,343,AGupta
+344,344,BLudü¾†”¼scher MEMartone," Registering Scientific Information Sources for Semantic Mediation,", st International Conference Conceptual Modeling ER International Conference Conceptual Modeling the Entity Relationship Approach Tampere,2,28,344,AGupta
+345,345,BertramLud auml scher EdwardRoss IlyaZaslavsky JoshuaTran MaryannEMartone XufeiQian,A System for Managing Alternate Models in Model-Based Mediation ,BNCOD British National Conference Databases,2,61,345,AGupta
+346,346,TWeymouth RJain,Semantic queries in image databases, IFIP International Federation for Information Processing Transactions A Computer Science and Technology A,2,29,346,AGupta
+347,347,BertramLud auml scher IlkayAltintas,Time to Leave the Trees: From Syntactic to Conceptual Querying of XML ,EDBT Extending Database Technology Workshops,2,62,347,AGupta
+348,348,BertramLud auml scher GullyBurns KlaasEStephan RolfK ouml tter,Towards a federated neuroscientific knowledge management system using brain atlases ,Neurocomputing,2,63,348,AGupta
+349,349,BLudü¾†”¼scher IAltintas, Compiling Abstract Scientific Workflows into Web Service Workflows, Int Conf Statistical and Scientific Data Management SSDBM Statistical and Scientific Database Management,2,64,349,AGupta
+350,350,BLudü¾†”¼scher MEMartone, Model-Based Mediation with Domain Maps, th Intl Conference Data Engineering ICDE International Conference Data Engineering Heidelberg IEEE Computer Society,2,65,350,AGupta
+351,351,BLudü¾†”¼scher MEMartone, A Model Based Mediator System for Scientific Data Management ,Z Lacroix and T Critchlow eds Bioinformatics Managing Scientific Data Morgan Kaufmann Publishers,2,66,351,AGupta
+352,352,BLudü¾†”¼scher AGupta, Modeling Interactive Web Sources for Information Mediation, Proc WWWCM Conceptual Modeling for the World Wide Web,2,67,352,AGupta
+353,353,BLudü¾†”¼scher MMartone, A Mediator System for Model-based Information Integration, Int Conf VLDB Very Large Data Bases Cairo,2,68,353,AGupta
+354,354,BLudü¾†”¼scher IAltintas AGupta, Time to Leave the Trees: From Syntactic to Conceptual Querying of XML, Proc of Workshop XML Data Management XMLDM conjunction with Intl Conf Extending Database Technology EDBT Extending Database Technology,2,69,354,AGupta
+355,355,JeffreyDUllman JenniferWidom YehoshuaSagiv,Efficient and Complete Tests for Database Integrity Constraint Checking ,PPCP Principles and Practice of Constraint Programming,3,10,355,AGupta
+356,356,DallanQuass VenkyHarinarayan,Aggregate-Query Processing in Data Warehousing Environments ,VLDB Very Large Data Bases,3,11,356,AGupta
+357,357,InderpalSinghMumick,What is the Data Warehousing Problem? Are Materialized Views the Answer? ,VLDB Very Large Data Bases,3,12,357,AGupta
+358,358,JeffreyFNaughton PrasadDeshpande RaghuRamakrishnan RakeshAgrawal SameetAgarwal SunitaSarawagi,On the Computation of Multidimensional Aggregates ,VLDB Very Large Data Bases,3,13,358,AGupta
+359,359,JeffreyDUllman JenniferWidom YehoshuaSagiv,Validating Constraints with Partial Information: Research Overview ,DAISD Deductive Approach to Information Systems and Databases,3,14,359,AGupta
+360,360,HVJagadish InderpalSinghMumick,Maintenance and Self Maintenance of Outer-Join Views ,NGITS Next Generation Information Technologies and Systems,3,15,360,AGupta
+361,361,DineshKatiyar InderpalSinghMumick,Counting solutions to the View Maintenance Problem ,Workshop Deductive Databases JICSLP Joint International Conference and Symposium Logic Programming,3,16,361,AGupta
+362,362,JeffreyDUllman,Generalizing Conjunctive Query Containment for View Maintenance and Integrity Constraint Verification Abstract ,Workshop Deductive Databases JICSLP Joint International Conference and Symposium Logic Programming,3,17,362,AGupta
+363,363,InderpalSinghMumick KennethARoss,Adapting Materialized Views after Redefinitions ,SIGMOD International Conference Management of Data Conference,3,18,363,AGupta
+364,364,InderpalSinghMumick VSSubrahmanian,Maintaining Views Incrementally ,SIGMOD International Conference Management of Data Conference,3,19,364,AGupta
+365,365,,Junglee: Integrating Data of All Shapes and Sizes ,ICDE International Conference Data Engineering,3,1,365,AGupta
+366,366,RakeshAgrawal SunitaSarawagi,Modeling Multidimensional Databases ,ICDE International Conference Data Engineering,3,2,366,AGupta
+367,367,AnandRajaraman VenkyHarinarayan,Virtual Database Technology ,ICDE International Conference Data Engineering,3,3,367,AGupta
+368,368,VenkyHarinarayan,Optimization Using Tuple Subsumption ,ICDT International Conference Database Theory,3,4,368,AGupta
+369,369,LauraMHaas YannisPapakonstantinou,Capabilities-Based Query Rewriting in Mediator Systems ,PDIS Conference Parallel and Distributed Information Systems,3,5,369,AGupta
+370,370,DallanQuass InderpalSinghMumick JenniferWidom,Making Views Self-Maintainable for Data Warehousing ,PDIS Conference Parallel and Distributed Information Systems,3,6,370,AGupta
+371,371,JeffreyDUllman JenniferWidom YehoshuaSagiv,Constraint Checking with Partial Information ,PODS Symposium Principles of Database Systems,3,7,371,AGupta
+372,372,,Entrepreneurship for Information Systems Researchers Abstract of Invited Tutorial ,PODS Symposium Principles of Database Systems,3,8,372,AGupta
+373,373,InderpalSinghMumick,Magic-sets Transformation in Nonrecursive Systems ,PODS Symposium Principles of Database Systems,3,9,373,AGupta
+374,374,JenniferWidom,Local Verification of Global Integrity Constraints in Distributed Databases ,SIGMOD International Conference Management of Data Conference,3,20,374,AGupta
+375,375,InderpalSinghMumick JunRao KennethARoss,Adapting materialized views after redefinitions: techniques and a performance study ,Inf Syst,3,21,375,AGupta
+376,376,Jos eacute ABlakeley,Using Partial Information to Update Materialized Views ,Inf Syst,3,22,376,AGupta
+377,377,LauraMHaas YannisPapakonstantinou,Capabilities-Based Query Rewriting in Mediator Systems ,Distributed and Parallel Databases,3,23,377,AGupta
+378,378,InderpalSinghMumick,"Maintenance of Materialized Views: Problems, Techniques, and Applications ",IEEE Data Eng Bull,3,24,378,AGupta
+379,379,SanjaiTiwari,Constraint Management On Distributed Design Databases ,IEEE Data Eng Bull,3,25,379,AGupta
+380,380,AnandRajaraman VenkyHarinarayan,Virtual Database technology ,SIGMOD International Conference Management of Data Record,3,26,380,AGupta
+381,381,SanjaiTiwari,Distributed Constraint Management for Collaborative Engineering Databases ,CIKM International Conference Information and Knowledge Management,3,27,381,AGupta
+382,382,HVJagadish InderpalSinghMumick,Data Integration using Self-Maintainable Views ,EDBT Extending Database Technology,3,28,382,AGupta
+383,383,HectorGarcia Molina JeffreyDUllman YannisPapakonstantinou,A Query Translation Scheme for Rapid Implementation of Wrappers ,DOOD Deductive and Object Oriented Databases,3,29,383,AGupta
+384,384,,E-Commerce and the Web ,Workshop Web Information and Data Management,3,30,384,AGupta
+385,385,ArunNSwami HonestyCYoung,Algorithms for Handling Skew in Parallel Task Scheduling ,J Parallel Distrib Comput,3,31,385,AGupta
+386,386,NNishimura,Finding Smallest Common Supertrees, Sixth Annual International Symposium Algorithms and Computation,4,30,386,AGupta
+387,387,AGupta,"A fast parallel algorithm for recognition of parenthesis languages,",Technical Report TR Department of Computer Science University of Toronto,4,31,387,AGupta
+388,388,DKaller SMahajan TShermer,Vertex Partitioning Problems on Partial k-trees, Scandinavian Workshop Algorithmic Theory,4,32,388,AGupta
+389,389,DKaller TShermer,Linear-Time Algorithms for Partial k-Tree Complements, Algorithmica,4,33,389,AGupta
+390,390,NNishimura AProskurowski PRagde, Embeddings of k-connected graphs of pathwidth k, Proceedings of the th Annual Scandinavian Workshop Algorithm Theory,4,34,390,AGupta
+391,391,DKaller TShermer, On the complements of Partial k-Trees, International Colloquium Automata Languages and Programming,4,35,391,AGupta
+392,392,NNishimura,An outline of the graph minors project : Wagner's Conjecture,Technical Report TR Department of Computer Science University of Toronto,4,36,392,AGupta
+393,393,RKrishnamurti,"Parallel algorithms for vehicle routing problems,", Parallel Processing Letters,4,37,393,AGupta
+394,394,RKrishnamurti,"Parallel algorithms for vehicle routing problems,",HIPC,4,38,394,AGupta
+395,395,NNishimura,Sequential and Parallel Algorithms for Embedding Problems on Classes of Partial k-Trees, Scandinavian Workshop Algorithmic Theory,4,39,395,AGupta
+396,396,NNishimura,"Sequential and parallel algorithms for embedding problems on k-connected partial k-trees,", pages,4,40,396,AGupta
+397,397,SMahajan,Using amplification to compute majority using small majority gates, Computational Complexity,4,41,397,AGupta
+398,398,NNishimura,The complexity of subgraph isomorphism: Duality results for graphs of bounded path- and tree-width, TCS Theoretical Computer Science A,4,42,398,AGupta
+399,399,DKaller SMahajan TShermer,The Generalized Matching Problem on Partial k-Trees, Contemporary Trends Discrete Math AMS American Mathematical Society,4,43,399,AGupta
+400,400,NNishimura,"The parallel complexity of tree embedding problems,",Journal of Algorithms Also appeared at the Ninth Symposium Theoretical Aspects of Computer Science STACS Symposium Theoretical Aspects of Computer Science,4,44,400,AGupta
+401,401,RussellImpagliazzo,Bounding the Size of Planar Intertwines ,SIAM Society for Industrial and Applied Mathematics J Discrete Math,4,45,401,AGupta
+402,402,RussellImpagliazzo,Computing Planar Intertwines,FOCS IEEE Symposium Foundations of Computer Science,4,46,402,AGupta
+403,403,DamonKaller SanjeevMahajan ThomasCShermer,Vertex Partitioning Problems On Partial k-Trees ,SWAT Scandinavian Workshop Algorithm Theory,4,47,403,AGupta
+404,404,DamonKaller ThomasCShermer,Linear-Time Algorithms for Partial-Tree Complements ,Algorithmica,4,48,404,AGupta
+405,405,DamonKaller ThomasCShermer,On the Complements of Partial k-Trees ,ICALP Automata Languages and Programming,4,49,405,AGupta
+406,406,JDelgrande AGupta," Updating =,-chains", Information Processing Letters,4,10,406,AGupta
+407,407,JamesPDelgrande,"Updating &lt;=, &lt;-chains ",Inf Process Lett,4,11,407,AGupta
+408,408,JamesPDelgrande TimVanAllen,Point-Based Approaches to Qualitative Temporal Reasoning ,PRICAI Pacific Rim International Conference Artificial Intelligence,4,12,408,AGupta
+409,409,JamesPDelgrande TimVanAllen,Point-Based Approaches to Qualitative Temporal Reasoning ,AAAI National Conference Artificial Intelligence IAAI The Twelfth Innovative Applications of Artificial Intelligence,4,13,409,AGupta
+410,410,JDelgrande TVanAllen, Point Based Approaches to Qualitative Temporal Reasoning, American Association for Artificial Intelligence,4,14,410,AGupta
+411,411,JDelgrande AGupta,"Revising TimeGraph II,", th Canadian Conference Artificial Intelligence,4,15,411,AGupta
+412,412,JDelgrande AGupta,"A representation for constant time temporal reasoning,",AAAI National Conference Artificial Intelligence,4,16,412,AGupta
+413,413,JamesPDelgrande,A Representation for Efficient Temporal Reasoning ,AAAI National Conference Artificial Intelligence IAAI The Twelfth Innovative Applications of Artificial Intelligence,4,17,413,AGupta
+414,414,DKaller TShermer,Regular factors in k-trees, Workshop Algorithms and Data Structures,4,50,414,AGupta
+415,415,JamesPDelgrande,The Complexity of Minimum Partial Truth Assignments and Implication in Negation-Free Formulae ,Annals of Mathematics and Artificial Intelligence,4,18,415,AGupta
+416,416,DamonKaller ThomasCShermer,Regular-Factors In The Complements Of Partial k-Trees ,WADS Workshop Algorithms and Data Structures,4,51,416,AGupta
+417,417,JDelgrande AGupta,Two results in negation-free logic,Applied Mathematical Letters,4,19,417,AGupta
+418,418,DKaller  TShermer,The [chi lc gif] t-colouring problem, th Annual Symposium the Theoretical Aspects of Computer Science,4,52,418,AGupta
+419,419,DamonKaller ThomasCShermer,The Chi-t-Coloring Problem ,STACS Symposium Theoretical Aspects of Computer Science,4,53,419,AGupta
+420,420,SanjeevMahajan,Using Amplification to Compute Majority with Small Majority Gates ,Computational Complexity,4,54,420,AGupta
+421,421,NaomiNishimura,Characterizing the Complexity of Subgraph Isomorphism for Graphs of Bounded Path-Width ,STACS Symposium Theoretical Aspects of Computer Science,4,55,421,AGupta
+422,422,NaomiNishimura,Finding Largest Common Embeddable Subtrees ,STACS Symposium Theoretical Aspects of Computer Science,4,56,422,AGupta
+423,423,NaomiNishimura,Finding Largest Subtrees and Smallest Supertrees ,Algorithmica,4,57,423,AGupta
+424,424,NaomiNishimura,finding Smallest Supertrees ,ISAAC International Symposium Algorithms and Computation,4,58,424,AGupta
+425,425,NaomiNishimura,Sequential and Parallel Algorithms for Embedding Problems on Classes of Partial k-Trees ,SWAT Scandinavian Workshop Algorithm Theory,4,59,425,AGupta
+426,426,HEverett AGupta,"Acyclic directed hypercubes may have exponential diameter,",Information Processing Letters,4,20,426,AGupta
+427,427,DayaRamGaur RameshKrishnamurti,A / -approximation algorithm for scheduling vehicles on a path with release and handling times ,Inf Process Lett,4,21,427,AGupta
+428,428,NNishimura,"Characterizing the complexity of subgraph isomorphism for graphs of bounded path-width,", th Symposium the Theoretical Aspects of Computer Science,4,22,428,AGupta
+429,429,RImpagliazzo,Computing planar interwines,appeared at the Symposium the Foundations of Computer Science FOCS IEEE Symposium Foundations of Computer Science,4,23,429,AGupta
+430,430,RImpagliazzo,Computing planar interwines SIAM,Journal Discrete Mathematics Also appeared at the Symposium the Foundations of Computer Science FOCS IEEE Symposium Foundations of Computer Science,4,24,430,AGupta
+431,431,RImpagliazzo,"Computing planar intertwines,",Siam Journal Discrete Mathematics,4,25,431,AGupta
+432,432,NNishimura,Computing subtrees and supertrees, Algorithmica,4,26,432,AGupta
+433,433,AGupta,A constructive proof that trees are well-quasi ordered under minors,A Nerode and M Taitslin editors Second Symposium the Logical Foundations of Computer Science pages Springer Verlag,4,27,433,AGupta
+434,434,NaomiNishimura,The Complexity of Subgraph Isomorphism for Classes of Partial k-Trees ,Theor Comput Sci,4,60,434,AGupta
+435,435,AGupta,"Constructivity issues in tree minors,",Technical Report TR Department of Computer Science University of Toronto PhD dissertation,4,28,435,AGupta
+436,436,NaomiNishimura,The Parallel Complexity of Tree Embedding Problems ,J Algorithms,4,61,436,AGupta
+437,437,NNishimura,Finding Largest Common Embeddable Subtrees, th Annual Symposium the Theoretical Aspects of Computer Science,4,29,437,AGupta
+438,438,,A Constructive Proof that Trees Are Well-Quasi-Ordered Under Minors ,LFCS Logical Foundations of Computer Science,4,1,438,AGupta
+439,439,NaomiNishimura,The Parallel Complexity of Tree Embedding Problems Extended Abstract ,STACS Symposium Theoretical Aspects of Computer Science,4,62,439,AGupta
+440,440,,Finite Automata as Characterizations of Minor Closed Tree Families Extended Abstract ,ICALP Automata Languages and Programming,4,2,440,AGupta
+441,441,AndrzejProskurowski NaomiNishimura PrabhakarRagde,Embeddings of-Connected Graphs of Pathwidth ,SWAT Scandinavian Workshop Algorithm Theory,4,63,441,AGupta
+442,442,TVanAllen JDelgrande AGupta,"Qualitative Temporal Reasoning,",Pacific Rim International Conference Artificial Intelligence,4,3,442,AGupta
+443,443,ABarranco Mendoza AGupta,"Computational model of the development of neoplastic pre-invasive bronchial epithelial lesions,", English title General Congress Computo Medical Informatics City,4,4,443,AGupta
+444,444,SBuss SCook VRamachandran,"An optimal parallel algorithm for formula evaluation,",SIAM Society for Industrial and Applied Mathematics Journal Computing,4,5,444,AGupta
+445,445,FDehne JSack RTamassia,Algorithms and Data Structures, Springer Verlag Lecture Notes Computer Science Volume,4,6,445,AGupta
+446,446,JDelgrande AGupta,"Complexity in negation free logic,",Annals of Mathematics and Artificial Intelligence invited paper,4,7,446,AGupta
+447,447,JDelgrande AGupta,Complexity in negation-free logic, AAAI National Conference Artificial Intelligence Workshop Complexity and AI Artificial Intelligence,4,8,447,AGupta
+448,448,JDelgrande TvanAllen,A comparison of point-based approaches to qualitative temporal reasoning, Artifical Intelligence J,4,9,448,AGupta
+449,449,FredGGustavson MaheshVJoshi SivanToledo,"The Design, Implementation, and Evaluation of a Banded Linear Solver for Distributed-Memory Parallel Computers ",PARA Applied Parallel Computing,5,10,449,AGupta
+450,450,FredGGustavson MaheshVJoshi SivanToledo,"The Design, Implementation, and Evaluation of a Symmetric Banded Linear Solver for Distributed-Memory Parallel Computers ",ACM Trans Math Softw,5,11,450,AGupta
+451,451,MaheshVJoshi VipinKumar,WSSMP: A High-Performance Serial and Parallel Symmetric Sparse Linear Solver ,PARA Applied Parallel Computing,5,12,451,AGupta
+452,452,AlexanderKaraivanov FredGGustavson JerzyWasniewski PlamenYYalamov,Experience with a Recursive Perturbation Based Algorithm for Symmetric Indefinite Linear Systems ,Euro Par,5,13,452,AGupta
+453,453,GeorgeKarypis VipinKumar,A Highly Parallel Interior Point Algorithm ,PPSC SIAM Conference Parallel Processing for Scientific Computing,5,14,453,AGupta
+454,454,GeorgeKarypis VipinKumar,Highly Scalable Parallel Algorithms for Sparse Matrix Factorization ,IEEE Trans Parallel Distrib Syst,5,15,454,AGupta
+455,455,GeorgeKarypis VipinKumar,A parallel formulation of interior point algorithms ,Supercomputing,5,16,455,AGupta
+456,456,VipinKumar,Analysis of scalability of parallel algorithms and architectures: a survey ,ICS International Conference Supercomputing,5,17,456,AGupta
+457,457,VipinKumar,Performance Properties of Large Scale Parallel Systems ,J Parallel Distrib Comput,5,18,457,AGupta
+458,458,VipinKumar,Parallel Algorithms for Forward and Back Substitution in Direct Solution of Sparse Linear Systems ,Supercomputing,5,19,458,AGupta
+459,459,VipinKumar,Optimally Scalable Parallel Sparse Cholesky Factorization ,PPSC SIAM Conference Parallel Processing for Scientific Computing,5,20,459,AGupta
+460,460,VipinKumar,A scalable parallel algorithm for sparse Cholesky factorization ,Supercomputing,5,21,460,AGupta
+461,461,VipinKumar,Scalability of Parallel Algorithms for Matrix Multiplication ,ICPP International Conference Parallel Processing,5,22,461,AGupta
+462,462,VipinKumar,The Scalability of FFT on Parallel Computers ,IEEE Trans Parallel Distrib Syst,5,23,462,AGupta
+463,463,DavidMoran GarySDitlow RalphWilliams RichardMoore TomWilkins,Parallel Analysis of IC Power Distribution Networks ,PPSC SIAM Conference Parallel Processing for Scientific Computing,5,24,463,AGupta
+464,464,YantoMuliadi,An Experimental Comparison of some Direct Sparse Solver Packages ,IPDPS International Parallel and Distributed Processing Symposium,5,25,464,AGupta
+465,465,PankajRohatgi RameshCAgarwal,Fast practical algorithms for the Boolean-product-witness-matrix problem ,ISSAC International Symposium Symbolic and Algebraic Computation,5,26,465,AGupta
+466,466,AhmedHSameh VipinKumar,Performance and Scalability of Preconditioned Conjugate Gradient Methods on Parallel Computers ,IEEE Trans Parallel Distrib Syst,5,27,466,AGupta
+467,467,AhmedHSameh VipinKumar,Performance and Scalability of Preconditioned Conjugate Gradient Methods on the CM- ,PPSC SIAM Conference Parallel Processing for Scientific Computing,5,28,467,AGupta
+468,468,,Recent Progress in General Sparse Direct Solvers ,International Conference Computational Science,5,1,468,AGupta
+469,469,AnshulGupta GeorgeKarypis VipinKumar,Highly Scalable Parallel Algorithms for Sparse Matrix Factorization,IEEE Transactions Parallel and Distributed Systems,5,2,469,AGupta
+470,470,AnshulGupta,Improved Symbolic and Numerical Factorization Algorithms for Unsymmetric Sparse Matrices,IBM Research Report RC,5,3,470,AGupta
+471,471,AnshulGupta MaheshJoshi VipinKumar,WSMP: A High-Performance Serial and Parallel Sparse Linear Solver,IBM Research Report RC,5,4,471,AGupta
+472,472,AnshulGupta,Recent Advances in Direct Methods for Solving Unsymmetric Sparse Systems of Linear Equations,IBM Research Report RC,5,5,472,AGupta
+473,473,FredGGustavson GeorgeKarypis MaheshVJoshi VipinKumar,Design and Implementation of a Scalable Parallel Direct Solver for Sparse Symmetric Positive Definite Systems: Preliminary Results ,PPSC SIAM Conference Parallel Processing for Scientific Computing,5,6,473,AGupta
+474,474,FredGGustavson,Fast Graph Partitioning and Its Application in Sparse Matrix Ordering ,PARA Applied Parallel Computing,5,7,474,AGupta
+475,475,FredGGustavson,A New Parallel Algorithm for Tridiagonal Symmetric Positive Definite Systems of Equations ,PARA Applied Parallel Computing,5,8,475,AGupta
+476,476,FredGGustavson GeorgeKarypis MaheshVJoshi VipinKumar,PSPASES: An Efficient and Scalable Parallel Sparse Direct Solver ,PPSC SIAM Conference Parallel Processing for Scientific Computing,5,9,476,AGupta
+477,477,AmitKumar,Sorting and Selection with Structured Costs ,FOCS IEEE Symposium Foundations of Computer Science,6,30,477,AGupta
+478,478,AGupta,Steiner nodes in Trees don't really help ,SODA Symposium Discrete Algorithms,6,31,478,AGupta
+479,479,AmitKumar MikkelThorup,Tree Based MPLS Routing ,SPAA ACM Symposium Parallel Algorithms and Architectures,6,32,479,AGupta
+480,480,AmitKumar RajeevRastogi,"Traveling with a Pez Dispenser or, Routing Issues in MPLS ",FOCS IEEE Symposium Foundations of Computer Science,6,33,480,AGupta
+481,481,AmitKumar ChandraChekuri DannyRaz JosephNaor,Building Edge-Failure Resilient Networks ,IPCO Integer Programming Combinatorial Optimization,6,34,481,AGupta
+482,482,AmitKumar TimRoughgarden,A Constant-Factor Approximation Algorithm for the Multicommodity ,FOCS IEEE Symposium Foundations of Computer Science,6,35,482,AGupta
+483,483,AmitKumar RajeevRastogi,Exploring the trade-off between label size and stack depth in MPLS Routing ,INFOCOM The Conference Computer Communications,6,36,483,AGupta
+484,484,AmitKumar MartinP aacute l TimRoughgarden,Approximation Via Cost-Sharing: A Simple Approximation Algorithm for the Multicommodity Rent-or-Buy Problem ,FOCS IEEE Symposium Foundations of Computer Science,6,37,484,AGupta
+485,485,AmitKumar B uuml lentYener JonMKleinberg RajeevRastogi,Provisioning a virtual private network: a network design problem for multicommodity flow ,STOC ACM Symposium Theory of Computing,6,38,485,AGupta
+486,486,AmitKumar TimRoughgarden,Simpler and better approximation algorithms for network design ,STOC ACM Symposium Theory of Computing,6,39,486,AGupta
+487,487,AmitKumar,Sorting and Selection with Structured Costs ,FOCS IEEE Symposium Foundations of Computer Science,6,40,487,AGupta
+488,488,AmitKumar MikkelThorup,Tree based MPLS routing ,SPAA ACM Symposium Parallel Algorithms and Architectures,6,41,488,AGupta
+489,489,AmitKumar RajeevRastogi,"Traveling with a Pez Dispenser Or, Routing Issues in MPLS ",FOCS IEEE Symposium Foundations of Computer Science,6,42,489,AGupta
+490,490,JamesRLee RobertKrauthgamer,"Bounded Geometries, Fractals, and Low-Distortion Embeddings ",FOCS IEEE Symposium Foundations of Computer Science,6,43,490,AGupta
+491,491, Eacute vaTardos,A constant factor approximation algorithm for a class of classification problems ,STOC ACM Symposium Theory of Computing,6,1,491,AGupta
+492,492,AlistairSinclair IlanNewman YuriRabinovich,"Cuts, Trees and l-Embeddings of Graphs ",FOCS IEEE Symposium Foundations of Computer Science,6,44,492,AGupta
+493,493,,Embedding Tree Metrics Into Low Dimensional Euclidean Spaces ,STOC ACM Symposium Theory of Computing,6,2,493,AGupta
+494,494,AlistairSinclair ChandraChekuri IlanNewman YuriRabinovich,Embedding k-outerplanar graphs into l ,SODA Symposium Discrete Algorithms,6,45,494,AGupta
+495,495,,Improved bandwidth approximation for trees ,SODA Symposium Discrete Algorithms,6,3,495,AGupta
+496,496,FrancisZane,Counting inversions in lists ,SODA Symposium Discrete Algorithms,6,46,496,AGupta
+497,497,,Improved Bandwidth Approximation for Trees and Chordal Graphs ,J Algorithms,6,4,497,AGupta
+498,498,,Improved results for directed multicut ,SODA Symposium Discrete Algorithms,6,5,498,AGupta
+499,499,,Steiner points in tree metrics don't really help ,SODA Symposium Discrete Algorithms,6,6,499,AGupta
+500,500,AlexandrAndoni MichaelDeza PiotrIndyk SofyaRaskhodnikova,Lower bounds for embedding edit distance into normed spaces ,SODA Symposium Discrete Algorithms,6,7,500,AGupta
+501,501,AmitChakrabarti AmitKumar ChandraChekuri,Approximation Algorithms for the Unsplittable Flow Problem ,APPROX,6,8,501,AGupta
+502,502,SanjoyDasgupta,An elementary proof of a theorem of Johnson and Lindenstrauss ,Random Structures and Algorithms,6,9,502,AGupta
+503,503,RobertKrauthgamer JamesRLee,"Bounded geometries, fractals, and low-distortion embeddings ",FOCS IEEE Symposium Foundations of Computer Science,6,10,503,AGupta
+504,504,AmitKumar TimRoughgarden,A Constant Factor Approximation Algorithm for the Multicommodity Rent-or-Buy Problem ,FOCS IEEE Symposium Foundations of Computer Science,6,11,504,AGupta
+505,505,ü¾Œ¶Œ¼vaTardos,Constant Factor Approximation Algorithms for a Class of Classification Problems ,STOC ACM Symposium Theory of Computing,6,12,505,AGupta
+506,506,FrancisZane,Counting Inversions in Streams,SODA Symposium Discrete Algorithms,6,13,506,AGupta
+507,507,IlanNewman YuriRabinovich AlistairSinclair,"Cuts, Trees and l Embeddings ",FOCS IEEE Symposium Foundations of Computer Science,6,14,507,AGupta
+508,508,ChandraChekuri AmitKumar JosephSeffiNaor DannyRaz,Designing Edge-Failure Resilient Networks ,IPCO Integer Programming Combinatorial Optimization,6,15,508,AGupta
+509,509,AlexandrAndoni MichelDeza PiotrIndyk SofyaRaskhodnikova,Lower bounds for embedding edit distance into normed spaces,SODA Symposium Discrete Algorithms,6,16,509,AGupta
+510,510,ChandraChekuri IlanNewman YuriRabinovich AlistairSinclair,Embedding k-Outerplanar graphs into l,SODA Symposium Discrete Algorithms,6,17,510,AGupta
+511,511,AGupta,Embeddings of Finite Metrics ,Ph D thesis University of,6,18,511,AGupta
+512,512,AGupta,Embedding Trees into Low Dimensional Euclidean Spaces ,STOC ACM Symposium Theory of Computing Discrete Computational Geometry,6,19,512,AGupta
+513,513,AmitKumar RajeevRastogi,Exploring the trade-off between label size and stack depth in MPLS routing ,INFOCOM The Conference Computer Communications,6,20,513,AGupta
+514,514,AGupta,Improved Bandwidth Approximation for Trees and Chordal graphs ,SODA Symposium Discrete Algorithms Journal of Algorithms,6,21,514,AGupta
+515,515,AGupta,Improved Results for Directed Multicut ,SODA Symposium Discrete Algorithms,6,22,515,AGupta
+516,516,SanjoyDasgupta,An elementary proof of the Johnson Lindenstrauss lemma ,Random Structures Algorithms ICSI TR,6,23,516,AGupta
+517,517,AravindSrinivasan,On the Covering Steiner Problem,FST TCS Theoretical Computer Science,6,24,517,AGupta
+518,518,KedarDhamdhere RRavi,Approximating average distortion for embeddings into the line,STACS Symposium Theoretical Aspects of Computer Science,6,25,518,AGupta
+519,519,AmitKumar MartinPal TimRoughgarden,Approximation Via Cost-Sharing: A Simple Approximation Algorithm for the Multicommodity Rent-or-Buy Problem ,FOCS IEEE Symposium Foundations of Computer Science,6,26,519,AGupta
+520,520,AmitChakrabarti ChandraChekuri AmitKumar,Approximation Algorithms for the Unsplittable Flow Problem ,APPROX,6,27,520,AGupta
+521,521,JonKleinberg AmitKumar RajeevRastogi Bü¾˜¶˜¼lentYener,Provisioning a Virtual Private Network: A Network Design problem for Multicommodity flows ,STOC ACM Symposium Theory of Computing,6,28,521,AGupta
+522,522,AmitKumar TimRoughgarden,Simpler and Better Approximation Algorithms for Network Design , STOC ACM Symposium Theory of Computing,6,29,522,AGupta
+523,523,AndreasGPhotiou,Load Balances Priority Queues on Distributed Memory Machines ,PARLE Parallel Architectures and Languages Europe,7,10,523,AGupta
+524,524,AlfredJBoals JahangirAHashmi NaveedASherwani,Compact Hypercubes: Properties and Recognition ,ICCI International Conference Computing and Information,7,11,524,AGupta
+525,525,AlfredJBoals JahangirAHashmi NaveedASherwani,An Efficient Approximation Algorithm for Hypercube Scheduling ,ICCI International Conference Computing and Information,7,12,525,AGupta
+526,526,AlfredJBoals NaveedASherwani,On Optimal Embeddings into Incomplete Hypercubes ,IPPS International Parallel Processing Symposium,7,13,526,AGupta
+527,527,CongFan JiuqiangLiu,Latin Cubes and Parallel Array Access ,IPPS International Parallel Processing Symposium,7,14,527,AGupta
+528,528,HongWang,On Embedding Ternary Trees into Boolean Hypercubes ,SPDP Symposium Parallel and Distributed Processing,7,15,528,AGupta
+529,529,SusanneEHambrusch,Load balanced tree embeddings ,Parallel Computing,7,16,529,AGupta
+530,530,SusanneEHambrusch,Embedding Complete Binary Trees into Butterfly Networks ,IEEE Trans Computers,7,17,530,AGupta
+531,531,SusanneEHambrusch,Optimal Three-Dimensional Layouts of Complete Binary Trees ,Inf Process Lett,7,18,531,AGupta
+532,532,ElisedeDoncker KyleRathbun PatriciaEaly,Development of a parallel and distributed integration package - PART ,HPCN European International Conference High Performance Computing and Networking Europe,7,1,532,AGupta
+533,533,ElisedeDoncker PatriciaEaly,Two Methods for Load Balanced Distributed Adaptive Integration ,HPCN European International Conference High Performance Computing and Networking Europe,7,2,533,AGupta
+534,534,DonaldNelson HongWang,Efficient embeddings of ternary trees into hypercubes ,J Parallel Distrib Comput,7,19,534,AGupta
+535,535,ElisedeDoncker,Multivariate Integration on Hypercubic and Mesh Networks ,Parallel Computing,7,3,535,AGupta
+536,536,ElisedeDoncker,Coarse Grain Preconditioned Conjugate Gradient Solver for Large Sparse Systems ,PPSC SIAM Conference Parallel Processing for Scientific Computing,7,4,536,AGupta
+537,537,AlanGenz ElisedeDoncker JBall PatriciaEaly,ParInt: A Software Package for Parallel Integration ,International Conference Supercomputing,7,5,537,AGupta
+538,538,StevenCBruell SukumarGhosh,Mutual Exclusion on a Hypercube ,J Parallel Distrib Comput,7,6,538,AGupta
+539,539,GarrisonWGreenwood KellyMcSweeney,Scheduling Tasks in Multiprocessor Systems Using Evolutionary Strategies ,International Conference Evolutionary Computation,7,7,539,AGupta
+540,540,HongWang,Generalized Compressed Tree Machines ,IPPS International Parallel Processing Symposium,7,8,540,AGupta
+541,541,WolfgangMaass,Efficient Design of Boltzmann Machines ,NIPS Neural Information Processing Systems,7,9,541,AGupta
+542,542,SusanneEHambrusch,Multiple Network Embedding into Hypercubes ,J Parallel Distrib Comput,7,20,542,AGupta
+543,543,DaliaMotzkin,Parallel organization and performance of an information system ,SAC Selected Areas Cryptography,7,21,543,AGupta
+544,544,PranavAshar SharadMalik,Using complete- -distinguishability for FSM equivalence checking ,ACM Trans Design Autom Electr Syst,8,4,544,AGupta
+545,545,PranavAshar SharadMalik,Toward Formalizing a Validation Methodology Using Simulation Coverage ,DAC Design Automation Conference,8,5,545,AGupta
+546,546,AllanLFisher,Flexible Parallel Polygon Rendering ,ICPP International Conference Parallel Processing,8,6,546,AGupta
+547,547,AllanLFisher,Parametric Circuit Representation Using Inductive Boolean Functions ,CAV Computer Aided Verification,8,7,547,AGupta
+548,548,AllanLFisher,Tradeoffs in Canonical Sequential Function Representations ,ICCD International Conference Computer Design,8,8,548,AGupta
+549,549,AnubhavGupta PranavAshar ZijiangYang,Dynamic Detection and Removal of Inactive Clauses in SAT with Application in Image Computation ,DAC Design Automation Conference,8,9,549,AGupta
+550,550,ALFisher,Parametric circuit representation using inductive Boolean functions ,Proceedings of the Conference Computer Aided Verification of Lecture Notes Computer Science Springer Verlag,8,10,550,AGupta
+551,551,ALFisher,Representation and symbolic manipulation of linearly inductive Boolean functions ,Proceedings of the IEEE International Conference Computer Aided Design,8,11,551,AGupta
+552,552,AnubhavGupta PranavAshar ZijiangYang,SAT-Based Image Computation with Application in Reachability Analysis ,FMCAD Formal Methods Computer Aided Design,8,12,552,AGupta
+553,553,ALFisher,Tradeoffs in canonical sequential function representations ,Proceedings of the International Conference Computer Design,8,13,553,AGupta
+554,554,AGupta,Formal hardware verification methods: A survey ,Formal Methods System Design Nos Kluwer Academic Publishers,8,14,554,AGupta
+555,555,AkiraMukaiyama AlbertECasavant KazutoshiWakabayashi PranavAshar SLiu,Property-specific witness graph generation for guided simulation ,DATE Design Automation and Test Europe,8,15,555,AGupta
+556,556,AkiraMukaiyama AlbertECasavant KazutoshiWakabayashi PranavAshar XGLiu,Property-Specific Testbench Generation for Guided Simulation ,VLSI Very Large Scale Integration Design,8,16,556,AGupta
+557,557,AnandRaghunathan PranavAshar SubhrajitBhattacharya,Verification of Scheduling in the Presence of Loops Using Uninterpreted Symbolic Simulation ,ICCD International Conference Computer Design,8,17,557,AGupta
+558,558,ChaoWang MalayKGanai PranavAshar ZijiangYang,Abstraction and BDDs Complement SAT-Based BMC in DiVer ,CAV Computer Aided Verification,8,18,558,AGupta
+559,559,ChaoWang MalayKGanai PranavAshar ZijiangYang,Learning from BDDs in SAT-based bounded model checking ,DAC Design Automation Conference,8,19,559,AGupta
+560,560,LintaoZhang MalayKGanai PranavAshar SharadMalik,Combining strengths of circuit-based and CNF-based algorithms for a high-performance SAT solver ,DAC Design Automation Conference,8,20,560,AGupta
+561,561,LintaoZhang PranavAshar SharadMalik ZijiangYang,Partition-Based Decision Heuristics for Image Computation Using SAT and BDDs ,ICCAD International Conference Computer Aided Design,8,21,561,AGupta
+562,562,,Formal Hardware Verification Methods: A Survey ,Formal Methods System Design,8,1,562,AGupta
+563,563,PranavAshar SharadMalik,Exploiting Retiming in a Guided Simulation Based Validation Methodology ,CHARME Conference Correct Hardware Design and Verification Methods,8,2,563,AGupta
+564,564,PranavAshar SharadMalik,Using complete- -distinguishability for FSM equivalence checking ,ICCAD International Conference Computer Aided Design,8,3,564,AGupta
+565,565,MPReddy MichaelSiegel,Towards an Active Schema Integration Architecture for Heterogeneous Database Systems ,RIDE Research Issues Data Engineering IMS Interoperability Multidatabase Systems,9,10,565,AGupta
+566,566,BEPrasad MPReddy,Formulating Global Integrity Constraints During Derivation of Global Schema ,Data Knowl Eng,9,11,566,AGupta
+567,567,BEPrasad MPReddy PGReddy,A Methodology for Integration of Heterogeneous Databases ,IEEE Trans Knowl Data Eng,9,12,567,AGupta
+568,568,StuartEMadnick,A Taxonomy for Classifying Commercial Approaches to Information Integration in Heterogeneous Environments ,IEEE Data Eng Bull,9,13,568,AGupta
+569,569,FenioskyPe ntilde a Mora JasonYeung SanjeevVadhavkar,An Integrated Framework to Support Distributed CAD over the Internet ,WETICE Workshop Enabling Technologies Infrastructure for Collaborative Enterprises,9,1,569,AGupta
+570,570,BhavaniMThuraisingham ChrisClifton ElenaFerrari ElisaBertino,Directions for Web and E-Commerce Applications Security ,WETICE Workshop Enabling Technologies Infrastructure for Collaborative Enterprises,9,2,570,AGupta
+571,571,KantiBansal SanjeevVadhavkar,Brief Application Description Neural Networks Based Forecasting Techniques for Inventory Control Applications ,Data Mining and Knowledge Discovery,9,3,571,AGupta
+572,572,AnjaliDhond SanjeevVadhavkar,Data mining techniques for optimizing inventories for electronic commerce ,KDD Knowledge Discovery and Data Mining,9,4,572,AGupta
+573,573,JoostNKok PetervanderPutten,"Why the Information Explosion Can Be Bad for Data Mining, and How Data Fusion Provides a Way Out ",SDM SIAM International Conference Data Mining,9,5,573,AGupta
+574,574,MichaelButler MichaelFeng PaulHuck,A self-configuring and self-administering name system with dynamic address assignment ,ACM Trans Internet Techn,9,6,574,AGupta
+575,575,ArunAgarwal KarimHussein LenGranowetter PatrickShen PeiWang,Detection of courtesy amount block on bank checks ,ICDAR International Conference Document Analysis,9,7,575,AGupta
+576,576,ALiu MVNagendraprasad PatrickShen PeiWang SAyyadurai,An Integrated Architecture for Recognition of Totally Unconstrained Handwritten Numerals ,IJPRAI International Journal of Pattern Recognition and Artificial Intelligence,9,8,576,AGupta
+577,577,ArunAgarwal LikMui PatrickShen PeiWang,An Adaptive Modular Neural Network with Application to Unconstrained Character Recognition ,IJPRAI International Journal of Pattern Recognition and Artificial Intelligence,9,9,577,AGupta

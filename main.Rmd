@@ -78,7 +78,7 @@ get_feature<-function(data, condition="combine"){
   
 }
 
-my.dir<-"C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/Coauthor_No_Space"
+my.dir<-"C:/Users/sh355/Desktop/columbia/2nd Semester/Applied Data Science/Spr2017-proj4-team12/output/Coauthor_No_Space_Author"
 files<-list.files(my.dir)
 path<-file.path(my.dir, files)
 n<-length(path)
