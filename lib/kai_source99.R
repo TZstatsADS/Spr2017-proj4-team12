@@ -5,8 +5,8 @@
 source("../lib/feature_paper5.R")
 source("../lib/text_vectorize.R")
 source("../lib/evaluation_measures.R")
-################### Function part ############################
 
+################### Function part ############################
 
 
 one_step_5 <- function(file_names){
@@ -237,12 +237,6 @@ Give_you_better3 <- function(True_labels, Test_label_previous, bigmatrices_id){
       xi <- which(i == bigmatrices_id) ## position in the matrix
       yi <- which(merge_cluster == bigmatrices_id)
       return(c(xi, yi))
-      # merge <- c(i,(T_cluster[new_point_tf])[1])
-      # 
-      # # find the cluster merge belong to
-      # x1 <- which(bigmatrices_id == Test_label_previous[merge[1]])
-      # x2 <- which(bigmatrices_id == Test_label_previous[merge[2]])
-      # return(c(x1,x2)) # cluster
     }
   }  
   return(F)
@@ -277,39 +271,15 @@ one_step_cluster <- function(pf5, paras1, label){
     score_matrix <- score_matrix + paras1[sumi] * bigmatrix[[sumi]]
   }
   position <- find_max_in_the_matrix(score_matrix)$LOCATION # find our est_label of cluster
-#  recommended_cluster <- cluster_2id[position] 
-  # a length-2 vector, indicating which 2 clusters should be merged.
-  # return the names of clusters
   return(position)
-  # label := current label, which can determine the dim of each feature
-  # raw_data := record1, record2 ...
-  # label = (1,2,1,2,2,3) 
-  # features <- sapply(raw_data, chenyunfunction, merge = label) # we get three matrix
-  # result_matrix <- 0
-  # for (j in 1:length(paras)){
-  #   result_matrix <- result_matrix + raw_data[[j]] * paras[j]
-  # }
-  # Choice <- find_max_in_the_matrix(result_matrix)$LOCATION
-  # return(Choice)
-  # unique_label <- unique(label)
-  # a1 <- rep(unique_label, length(unique_label))
-  # a2 <- rep(unique_label, each = length(unique_label))
-  # delete <- (a1 >= a2)
-  # a1 <- a1[!delete]
-  # a2 <- a2[!delete]
-  # order1 <- cbind(a1,a2)
-  # matrix_labels <- apply(order1, 1, change_label, label = label)
-  # # column: labels
-  # scores <- apply(matrix_labels, 2, compute_all_score, features = features, paras = paras)
-  # best_est_label <- change_label(label, order1[which.max(scores),])
-#  return(best_est_label)
+
 }
 
 ################### Function part ############################
 
 
 algorithm_paper_5 <- function(raw_data, True_labels, 
-                              max.iter = 100, stepsize = 0.1,
+                              max.iter = 30, stepsize = 0.1,
                               epi = 0.03){
   
   # True_labels should be author.id
@@ -355,26 +325,12 @@ algorithm_paper_5 <- function(raw_data, True_labels,
     #  sb<- rbind(sb, m_labels)
       new_labels <- change_label(label = old_labels, CLUSTER.ID = m_labels)
       
-#      cat('\ni.ter=', i.ter)
+      cat('\ni.ter=', i.ter)
 #      cat('\n new_labels', new_labels)
       
       
       if (!no_error(True_labels, new_labels)){ ##  deny
-        # Find a better [position] in the matrix
-        # Awhatever <- T
-        # while (Awhatever){
-        #   better_position_in_matrix <- Give_you_better3(True_labels = True_labels,
-        #                                     Test_label_previous =  old_labels, 
-        #                                     bigmatrices_id = pf5$CLUSTER.ID) # loca
-        #   ###  the position in the matrix
-        #   
-        #   ### we should let this better choice at least one entry better than estimate
-        #   if (sum(update_para(Recom_merge = better_position_in_matrix, Est_merge = m_position, 
-        #                   paras1 = 0, threebigmatrix = pf5[[2]],
-        #                   stepsize = 1, scale1 = F)>0) > 0)
-        #     Awhatever <- F
-        #   
-        # }
+
         better_labels <- Give_you_better3(True_labels = True_labels,
                                           Test_label_previous =  old_labels, 
                                           bigmatrices_id = pf5$CLUSTER.ID)
@@ -391,7 +347,7 @@ algorithm_paper_5 <- function(raw_data, True_labels,
         paras <- rbind(paras, paras0)
         t <- t + 1
         paras_t1 <- colMeans(paras)
-    #    cat('\n paras:=',paras[t+1,])
+        cat('\n paras:=',paras[t+1,])
         
         #cat("better: ", better_labels, ";ours: ",m_labels, "paras: ", paras[t+1,],"\n")
         break
@@ -433,54 +389,30 @@ test_comeon_iamlazy <- function(raw_data2, paras2, K){
   return(labels)
 }
 
+################## test ##########################
+
+# library(parallel) 
+
+# Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiler","SLee","Ychen")
+# files <- paste0("../output/Coauthor_No_Space/",Filesname,".csv")
+# no_cores <- detectCores() - 1
+# cl1 <- makeCluster(no_cores, type="FORK")
+# performance <- parSapply(cl1, files[1:4], one_step_5)
+# stopCluster(cl1)
 
 
+time1 <- system.time(perform1 <- one_step_5(file[1]))
+time2 <- system.time(perform2 <- one_step_5(file[2]))
+time3 <- system.time(perform3 <- one_step_5(file[3]))
+time4 <- system.time(perform4 <- one_step_5(file[4]))
+time5 <- system.time(perform5 <- one_step_5(file[5]))
+time6 <- system.time(perform6 <- one_step_5(file[6]))
+time7 <- system.time(perform7 <- one_step_5(file[7]))
+time8 <- system.time(perform8 <- one_step_5(file[8]))
+time9 <- system.time(perform9 <- one_step_5(file[9]))
+time10 <- system.time(perform10 <- one_step_5(file[10]))
+time11 <- system.time(perform11 <- one_step_5(file[11]))
+time12 <- system.time(perform12 <- one_step_5(file[12]))
+time13 <- system.time(perform13 <- one_step_5(file[13]))
+time14 <- system.time(perform14 <- one_step_5(file[14]))
 
-## let's test
-
-# 
-# #AKumar <- read.csv("../output/AKumar.csv")
-# AKumar <- read.csv("../lib/AKumar_test.csv", as.is = T)
-# AKumar <- AKumar[ifelse(rowSums(AKumar == "") > 0, F, T), ]
-# 
-# AKumar_raw <- data.frame(Coauthor = AKumar$Coauthor,Paper = AKumar$Paper, Journal = AKumar$Journal)
-# # colnames(AKumar_raw) <- c("Coauthor","Paper","Journal")
-# True_labels <- AKumar$AuthorID
-# 
-# setmember <- nrow(AKumar)
-# 
-# ### training
-# trainingnumber <- ceiling(setmember * 0.5)
-# train.id <- sample(1:setmember, trainingnumber)
-# training_akumar <- AKumar_raw[train.id,]
-# test_akumar <- AKumar_raw[-train.id,]
-# dim(training_akumar)
-# dim(test_akumar)
-# 
-# raw_data <- training_akumar
-# True_labels_train <- AKumar$AuthorID[train.id]
-# 
-# ag5_akumar <- algorithm_paper_5(raw_data = training_akumar, True_labels = True_labels_train)
-# 
-# # sb <- NULL
-# 
-# 
-# test_akumar <- AKumar_raw[-train.id,]
-# test_true_label <- AKumar$AuthorID[-train.id]
-# KK <- length(unique(test_true_label))
-# 
-# test_our_label <- test_comeon_iamlazy(test_akumar, c(0.16,0.71,0.13), KK)
-# performance_statistics(matching_matrix(test_true_label, test_our_label))
-# 
-# #test_our_label2 <- test_comeon_iamlazy(test_akumar, c(0.1,0.766, 0.298, -0.015, 0.022, -0.1477, -0.0144, 0.0272, -0.01,-0.03,0.004,-0.006), KK)
-# 
-
-
-library(parallel) 
-
-Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiler","SLee","Ychen")
-files <- paste0("../output/Coauthor_No_Space/",Filesname,".csv")
-no_cores <- detectCores() - 1
-cl1 <- makeCluster(no_cores, type="FORK")
-performance <- parSapply(cl1, files, one_step_5)
-stopCluster(cl1)
