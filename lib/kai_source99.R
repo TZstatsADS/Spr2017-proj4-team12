@@ -401,6 +401,8 @@ test_comeon_iamlazy <- function(raw_data2, paras2, K){
 # stopCluster(cl1)
 
 
+Filesname <- c("AGupta","AKumar","CChen","DJohnson","JLee","JMartin","JRobinson","JSmith","KTanaka","MBrown","MJones","MMiler","SLee","Ychen")
+files <- paste0("../output/Coauthor_No_Space/",Filesname,".csv")
 time1 <- system.time(perform1 <- one_step_5(files[1]))
 time2 <- system.time(perform2 <- one_step_5(files[2]))
 time3 <- system.time(perform3 <- one_step_5(files[3]))
