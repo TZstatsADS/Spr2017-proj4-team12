@@ -1,7 +1,7 @@
 
 ### Author: Kai Chen
 ### Time: April 8, 2017
-setwd("~/Desktop/5243 ADS/Spr2017-proj4-team12/doc")
+# setwd("~/Desktop/5243 ADS/Spr2017-proj4-team12/doc")
 source("../lib/feature_paper5.R")
 source("../lib/text_vectorize.R")
 source("../lib/evaluation_measures.R")
@@ -269,13 +269,13 @@ one_step_cluster <- function(pf5, paras1, label){
 
 
 algorithm_paper_5 <- function(raw_data, True_labels, 
-                              max.iter = 500, stepsize = 0.02,
-                              epi = 0.01){
+                              max.iter = 30, stepsize = 0.1,
+                              epi = 0.03){
   
   # True_labels should be author.id
   # raw data := list of 3 matices
   n_obs <- nrow(raw_data)
-  n_features <- 12 # This number is decided by our selection of features
+  n_features <- 3 # This number is decided by our selection of features
   
   # Initial assignment
   paras <- rep(0, n_features)
@@ -286,7 +286,7 @@ algorithm_paper_5 <- function(raw_data, True_labels,
   t <- 1  # iter control
   
   # iteration
-  while((t <= max.iter) & (compute_distance(paras[t+1,], paras[t,]) > epi)){
+  while((t <= max.iter) & (compute_distance(paras[t+1,], colMeans(paras)) > epi)){
     
     # initial assignment
     old_labels <- 1:n_obs
@@ -305,8 +305,8 @@ algorithm_paper_5 <- function(raw_data, True_labels,
       ## additional 9 features
      # raw_data_list <- list(Coauthor = raw_data$Coauthor, Paper = raw_data$Paper, Journal = raw_data$Journal)
    #   pfnew5_ <- text_feature(text_matrix_function(cluster_merge(raw_data_list, old_labels)))
-       pfnew5 <- text_feature(text_matrix_function(merge_results1)) ## ju zhen yue xiao yue hao
-       pf5 <- old_become_new_pf5(pf5, pfnew5)
+   #    pfnew5 <- text_feature(text_matrix_function(merge_results1)) ## ju zhen yue xiao yue hao
+  #     pf5 <- old_become_new_pf5(pf5, pfnew5)
       
       # for each step, we merge only two clusters
       m_position <- one_step_cluster(pf5, paras1 = paras[t+1,], old_labels) # est cluster position
@@ -382,9 +382,9 @@ test_comeon_iamlazy <- function(raw_data2, paras2, K){
     
     ## additional 9 features
     # raw_data_list <- list(Coauthor = raw_data$Coauthor, Paper = raw_data$Paper, Journal = raw_data$Journal)
-     pfnew5 <- text_feature(text_matrix_function(cluster_merge(raw_data2, labels)))
+  #   pfnew5 <- text_feature(text_matrix_function(cluster_merge(raw_data2, labels)))
      
-     pf53 <- old_become_new_pf5(pf53, pfnew5)
+   #  pf53 <- old_become_new_pf5(pf53, pfnew5)
      
     new_position <- one_step_cluster(pf53, paras2, labels)
     labels <- change_label(labels, pf53$CLUSTER.ID[new_position])
@@ -432,4 +432,4 @@ test_our_label <- test_comeon_iamlazy(test_akumar, ag5_akumar$best[nrow(ag5_akum
 test_our_label2 <- test_comeon_iamlazy(test_akumar, c(0.1,0.766, 0.298, -0.015, 0.022, -0.1477, -0.0144, 0.0272, -0.01,-0.03,0.004,-0.006), KK)
 
 
-performance_statistics(matching_matrix(test_our_label2, test_true_label))
+performance_statistics(matching_matrix(test_true_label, test_our_label2))

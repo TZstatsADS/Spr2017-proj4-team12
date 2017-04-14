@@ -6,7 +6,8 @@ source("../lib/feature_paper5.R")
 ################### Function part ############################
 
 
-
+source("../lib/text_vectorize.R")
+source("../lib/evaluation_measures.R")
 
 find_max_in_the_matrix <- function(A){
   dim_A <- dim(A)[1]
@@ -340,9 +341,7 @@ test_akumar <- raw_data[-train.id,]
 dim(training_akumar)
 dim(test_akumar)
 
-ag5_akumar <- algorithm_paper_5(training_akumar, True_labels[train.id])
-ag5_akumar <- algorithm_paper_5(raw_data = AKumar_raw[1:30,], True_labels = AKumar$AuthorID[1:30])
-# sb <- NULL
+
 
 
 # test_comemon_iamlazy(raw_data, paras, K)
@@ -359,6 +358,10 @@ test_comeon_iamlazy <- function(raw_data2, paras2, K){
   return(labels)
 }
 
+
+ag5_akumar <- algorithm_paper_5(training_akumar, True_labels[train.id])
+ag5_akumar <- algorithm_paper_5(raw_data = AKumar_raw[1:30,], True_labels = AKumar$AuthorID[1:30])
+# sb <- NULL
 test_true_label <- True_labels[-train.id]
 test_our_label <- test_comeon_iamlazy(test_akumar, ag5_akumar$best, 10)
 
