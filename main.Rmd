@@ -103,7 +103,15 @@ feature_combine<-lapply(Data, get_feature)
 feature_coauthor[is.na(feature_coauthor)]<-0
 feature_combine[is.na(feature_combine)]<-0
 ```
-
+```{r}
+entity<-function(data){
+  en<-nrow(data)/length(unique(data$AuthorID))
+  return(en)
+}
+```
+```{r}
+mean_entity<-lapply(Data, entity)
+```
 # 1.2 Linear SVM
 To understand the basic idea of svm, please visit:
 http://www.cs.columbia.edu/~kathy/cs4701/documents/jason_svm_tutorial.pdf
