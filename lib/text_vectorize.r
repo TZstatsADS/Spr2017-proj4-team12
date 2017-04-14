@@ -39,7 +39,7 @@ text_matrix_function <- function(data){
     
     tcm <- create_tcm(it_train, vectorizer)
     glove <- GlobalVectors$new(word_vectors_size = 50, vocabulary = vocab, x_max = 10)
-    fit(tcm, glove, n_iter = 20)
+    suppressMessages(fit(tcm, glove, n_iter = 20))
     word_vectors <- glove$get_word_vectors()
   
     text_matrix_min <- matrix(NA, nrow = nrow(raw_data), ncol = 50)
